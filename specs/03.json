@@ -1,0 +1,163 @@
+{
+ "audio": "specs/voix_03.mp3",
+ "segments": [
+  {
+   "key": "POURQUOI BLEU ?",
+   "icon": "none",
+   "hl": [
+    "bleu."
+   ],
+   "chunks": [
+    [
+     "Le ciel n'a aucune raison d'être bleu.",
+     0.0,
+     2.19
+    ],
+    [
+     "Et pourtant.",
+     2.62,
+     3.22
+    ]
+   ]
+  },
+  {
+   "key": "TOUTES LES COULEURS",
+   "icon": "none",
+   "hl": [
+    "couleurs."
+   ],
+   "chunks": [
+    [
+     "La lumière du soleil contient toutes les couleurs.",
+     3.86,
+     6.1
+    ]
+   ]
+  },
+  {
+   "key": "DES MOLÉCULES",
+   "icon": "none",
+   "hl": [
+    "molécules"
+   ],
+   "chunks": [
+    [
+     "En traversant l'air, elle percute des molécules minuscules.",
+     6.65,
+     10.02
+    ]
+   ]
+  },
+  {
+   "key": "BLEU > ROUGE",
+   "icon": "none",
+   "hl": [
+    "bleu",
+    "rouge."
+   ],
+   "chunks": [
+    [
+     "Et ces molécules dispersent beaucoup plus le bleu que le rouge.",
+     10.42,
+     13.52
+    ]
+   ]
+  },
+  {
+   "key": "DU BLEU PARTOUT",
+   "icon": "none",
+   "hl": [
+    "partout"
+   ],
+   "chunks": [
+    [
+     "Résultat :",
+     13.99,
+     14.54
+    ],
+    [
+     "du bleu nous arrive de partout dans le ciel.",
+     14.94,
+     17.12
+    ]
+   ]
+  },
+  {
+   "key": "ET LE VIOLET ?",
+   "icon": "question",
+   "hl": [
+    "violet"
+   ],
+   "chunks": [
+    [
+     "Mais alors, pourquoi pas violet ?",
+     17.67,
+     19.23
+    ]
+   ]
+  },
+  {
+   "key": "NOS YEUX",
+   "icon": "none",
+   "hl": [
+    "yeux"
+   ],
+   "chunks": [
+    [
+     "Le soleil en émet moins, et nos yeux y sont peu sensibles.",
+     19.65,
+     22.59
+    ]
+   ]
+  },
+  {
+   "key": "LE SOIR",
+   "icon": "none",
+   "hl": [
+    "soir,"
+   ],
+   "chunks": [
+    [
+     "Et le soir, la lumière traverse beaucoup plus d'air.",
+     23.03,
+     25.84
+    ]
+   ]
+  },
+  {
+   "key": "ORANGE ET ROUGE",
+   "icon": "none",
+   "hl": [
+    "orange",
+    "rouge."
+   ],
+   "chunks": [
+    [
+     "Le bleu est dispersé en route…",
+     26.26,
+     27.71
+    ],
+    [
+     "il ne reste que l'orange et le rouge.",
+     28.21,
+     30.13
+    ]
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "midi",
+    "coucher"
+   ],
+   "chunks": [
+    [
+     "Tu préfères le ciel de midi ou le coucher de soleil ?",
+     30.6,
+     33.35
+    ]
+   ]
+  }
+ ]
+}
