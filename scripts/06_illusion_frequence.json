@@ -1,0 +1,93 @@
+{
+ "sujet": "L'illusion de fréquence",
+ "legende": "Tu apprends un mot… et tu le croises partout. Ce n'est pas le hasard. 🔴🚗 #psychologie #biaiscognitifs #cerveau #lesaviezvous #cerveauminute",
+ "tts": "Tu achètes une voiture rouge. Et d'un coup, tu en vois partout. Il n'y en a pas plus qu'avant. C'est ton cerveau qui a changé de filtre. Il reçoit des milliers d'informations par seconde et en ignore presque toutes. Dès qu'une chose devient importante pour toi, il la laisse passer. Et chaque fois que tu la revois, tu te dis « encore ! », ce qui renforce l'impression. On l'appelle l'illusion de fréquence, ou phénomène Baader-Meinhof. Et maintenant que tu connais le mot… tu vas le croiser partout. Raconte-moi ton dernier exemple.",
+ "segments": [
+  {
+   "key": "",
+   "icon": "none",
+   "hl": [
+    "rouge.",
+    "partout."
+   ],
+   "chunks": [
+    "Tu achètes une voiture rouge.",
+    "Et d'un coup, tu en vois partout."
+   ]
+  },
+  {
+   "key": "PAS PLUS QU'AVANT",
+   "icon": "none",
+   "hl": [
+    "filtre."
+   ],
+   "chunks": [
+    "Il n'y en a pas plus qu'avant.",
+    "C'est ton cerveau qui a changé de filtre."
+   ]
+  },
+  {
+   "key": "UN FILTRE",
+   "icon": "none",
+   "hl": [
+    "ignore"
+   ],
+   "chunks": [
+    "Il reçoit des milliers d'informations par seconde et en ignore presque toutes."
+   ]
+  },
+  {
+   "key": "IMPORTANT = VISIBLE",
+   "icon": "none",
+   "hl": [
+    "importante"
+   ],
+   "chunks": [
+    "Dès qu'une chose devient importante pour toi, il la laisse passer."
+   ]
+  },
+  {
+   "key": "« ENCORE ! »",
+   "icon": "none",
+   "hl": [
+    "encore"
+   ],
+   "chunks": [
+    "Et chaque fois que tu la revois, tu te dis « encore ! »,",
+    "ce qui renforce l'impression."
+   ]
+  },
+  {
+   "key": "BAADER-MEINHOF",
+   "icon": "none",
+   "hl": [
+    "fréquence,",
+    "Baader-Meinhof."
+   ],
+   "chunks": [
+    "On l'appelle l'illusion de fréquence, ou phénomène Baader-Meinhof."
+   ]
+  },
+  {
+   "key": "ATTENTION…",
+   "icon": "none",
+   "hl": [
+    "partout."
+   ],
+   "chunks": [
+    "Et maintenant que tu connais le mot…",
+    "tu vas le croiser partout."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "exemple."
+   ],
+   "chunks": [
+    "Raconte-moi ton dernier exemple."
+   ]
+  }
+ ]
+}

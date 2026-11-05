@@ -1,0 +1,89 @@
+{
+ "sujet": "L'effet IKEA",
+ "legende": "Pourquoi ton meuble un peu bancal te paraît plus beau ? 🔧 (Norton, Mochon & Ariely, 2012) #psychologie #biaiscognitifs #lesaviezvous #culturegenerale #cerveauminute",
+ "tts": "Pourquoi ton meuble IKEA un peu bancal te semble plus beau que celui du magasin ? C'est l'effet IKEA, étudié par des chercheurs de Harvard, Yale et Duke. Des participants ont monté des boîtes de rangement ou plié des origamis. Ils étaient ensuite prêts à payer nettement plus pour leur création que pour la même chose déjà faite. L'effort crée de l'attachement. Mais attention : ça ne marche que si on finit. Un meuble abandonné à moitié ne fait plus cet effet. C'est quoi l'objet dont tu es le plus fier d'avoir fabriqué ?",
+ "segments": [
+  {
+   "key": "",
+   "icon": "none",
+   "hl": [
+    "bancal",
+    "beau"
+   ],
+   "chunks": [
+    "Pourquoi ton meuble IKEA un peu bancal te semble plus beau que celui du magasin ?"
+   ]
+  },
+  {
+   "key": "L'EFFET IKEA",
+   "icon": "none",
+   "hl": [
+    "IKEA,"
+   ],
+   "chunks": [
+    "C'est l'effet IKEA, étudié par des chercheurs de Harvard, Yale et Duke."
+   ]
+  },
+  {
+   "key": "L'EXPÉRIENCE",
+   "icon": "none",
+   "hl": [
+    "origamis."
+   ],
+   "chunks": [
+    "Des participants ont monté des boîtes de rangement ou plié des origamis."
+   ]
+  },
+  {
+   "key": "PRÊTS À PAYER +",
+   "icon": "coin",
+   "hl": [
+    "plus"
+   ],
+   "chunks": [
+    "Ils étaient ensuite prêts à payer nettement plus pour leur création que pour la même chose déjà faite."
+   ]
+  },
+  {
+   "key": "EFFORT = AMOUR",
+   "icon": "none",
+   "hl": [
+    "attachement."
+   ],
+   "chunks": [
+    "L'effort crée de l'attachement."
+   ]
+  },
+  {
+   "key": "SI ON FINIT",
+   "icon": "none",
+   "hl": [
+    "finit."
+   ],
+   "chunks": [
+    "Mais attention :",
+    "ça ne marche que si on finit."
+   ]
+  },
+  {
+   "key": "À MOITIÉ = RIEN",
+   "icon": "none",
+   "hl": [
+    "moitié"
+   ],
+   "chunks": [
+    "Un meuble abandonné à moitié ne fait plus cet effet."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "fier"
+   ],
+   "chunks": [
+    "C'est quoi l'objet dont tu es le plus fier d'avoir fabriqué ?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "sujet": "L'effet leurre",
+ "legende": "Ce popcorn moyen n'est pas là pour être vendu. 🍿 Il est là pour te faire acheter le grand. #psychologie #marketing #biaiscognitifs #lesaviezvous #cerveauminute",
+ "tts": "Ce popcorn moyen n'est pas là pour être vendu. Petit : trois euros. Grand : sept euros. Tu hésites. Ajoute un moyen à six euros cinquante. Soudain, le grand paraît une affaire : « pour cinquante centimes de plus ! ». Le moyen est un leurre. Presque personne ne le prend, mais il sert de point de comparaison. Ton cerveau juge rarement un prix seul. Il compare. Les cinémas, les abonnements et les menus utilisent cette technique partout. La prochaine fois, demande-toi : est-ce que j'aurais pris le grand s'il n'y avait que le petit ? Tu l'avais déjà remarqué ?",
+ "segments": [
+  {
+   "key": "",
+   "icon": "ticket",
+   "hl": [
+    "moyen",
+    "vendu."
+   ],
+   "chunks": [
+    "Ce popcorn moyen n'est pas là pour être vendu."
+   ]
+  },
+  {
+   "key": "3 € / 7 €",
+   "icon": "coin",
+   "hl": [
+    "3",
+    "7"
+   ],
+   "chunks": [
+    "Petit : 3 euros.",
+    "Grand : 7 euros.",
+    "Tu hésites."
+   ]
+  },
+  {
+   "key": "+ UN MOYEN À 6,50 €",
+   "icon": "none",
+   "hl": [
+    "moyen"
+   ],
+   "chunks": [
+    "Ajoute un moyen à 6,50 euros."
+   ]
+  },
+  {
+   "key": "« UNE AFFAIRE »",
+   "icon": "none",
+   "hl": [
+    "affaire"
+   ],
+   "chunks": [
+    "Soudain, le grand paraît une affaire :",
+    "« pour 50 centimes de plus ! »."
+   ]
+  },
+  {
+   "key": "UN LEURRE",
+   "icon": "none",
+   "hl": [
+    "leurre."
+   ],
+   "chunks": [
+    "Le moyen est un leurre."
+   ]
+  },
+  {
+   "key": "UN REPÈRE",
+   "icon": "none",
+   "hl": [
+    "comparaison."
+   ],
+   "chunks": [
+    "Presque personne ne le prend, mais il sert de point de comparaison."
+   ]
+  },
+  {
+   "key": "IL COMPARE",
+   "icon": "none",
+   "hl": [
+    "compare."
+   ],
+   "chunks": [
+    "Ton cerveau juge rarement un prix seul.",
+    "Il compare."
+   ]
+  },
+  {
+   "key": "PARTOUT",
+   "icon": "none",
+   "hl": [
+    "partout."
+   ],
+   "chunks": [
+    "Les cinémas, les abonnements et les menus utilisent cette technique partout."
+   ]
+  },
+  {
+   "key": "LA BONNE QUESTION",
+   "icon": "none",
+   "hl": [
+    "petit"
+   ],
+   "chunks": [
+    "La prochaine fois, demande-toi :",
+    "est-ce que j'aurais pris le grand s'il n'y avait que le petit ?"
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "remarqué"
+   ],
+   "chunks": [
+    "Tu l'avais déjà remarqué ?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "audio": "/home/claude/audio_in/voix2.mp3",
+  "segments": [
+    {"key": "", "icon": "ticket", "hl": ["nul", "payé"], "chunks": [["Pourquoi tu finis un film nul juste parce que tu as payé ta place ?", 0.05, 3.39]]},
+    {"key": "COÛTS IRRÉCUPÉRABLES", "icon": "none", "hl": ["coûts", "irrécupérables."], "chunks": [["C'est le biais des coûts irrécupérables.", 3.89, 5.73]]},
+    {"key": "DÉJÀ DÉPENSÉ", "icon": "coin", "hl": ["dépensé,"], "chunks": [["L'argent est déjà dépensé,", 6.19, 7.72], ["quoi que tu fasses.", 7.97, 8.81]]},
+    {"key": "« GASPILLÉ »", "icon": "none", "hl": ["gaspillé"], "chunks": [["Mais ton cerveau déteste l'idée de l'avoir « gaspillé ».", 9.22, 12.15]]},
+    {"key": "+ TON TEMPS", "icon": "none", "hl": ["temps."], "chunks": [["Alors tu continues,", 12.60, 13.50], ["et tu perds en plus ton temps.", 13.81, 15.26]]},
+    {"key": "MÊME LES ÉTATS", "icon": "none", "hl": ["piège"], "chunks": [["Des gouvernements sont tombés dans le piège :", 15.66, 17.40]]},
+    {"key": "LE CONCORDE", "icon": "plane", "hl": ["Concorde", "rentable."], "chunks": [["le Concorde a continué à recevoir de l'argent alors qu'on le savait non rentable.", 17.87, 21.87]]},
+    {"key": "L'ERREUR DU CONCORDE", "icon": "none", "hl": ["erreur", "Concorde"], "chunks": [["On parle même d'« erreur du Concorde ».", 22.25, 24.35]]},
+    {"key": "LA MAUVAISE QUESTION", "icon": "none", "hl": ["déjà"], "chunks": [["La bonne question n'est pas :", 24.79, 25.93], ["combien j'ai déjà mis ?", 26.19, 27.24]]},
+    {"key": "LA BONNE QUESTION", "icon": "none", "hl": ["maintenant"], "chunks": [["Mais :", 27.58, 27.91], ["est-ce que ça vaut encore le coup, à partir de maintenant ?", 28.20, 30.71]]},
+    {"key": "", "icon": "question", "hl": ["bout"], "chunks": [["C'est quoi ton dernier film nul fini jusqu'au bout ?", 31.27, 33.84]]}
+  ]
+}

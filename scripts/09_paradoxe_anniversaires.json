@@ -1,0 +1,102 @@
+{
+ "sujet": "Le paradoxe des anniversaires",
+ "legende": "23 personnes suffisent pour avoir plus d'une chance sur deux d'un anniversaire en commun. 🎂 Teste-le ! #maths #probabilites #science #lesaviezvous #cerveauminute",
+ "tts": "Il suffit de vingt-trois personnes pour avoir plus d'une chance sur deux que deux d'entre elles aient le même anniversaire. Ça paraît faux : il y a trois cent soixante-cinq jours. Mais on ne cherche pas quelqu'un né le même jour que toi. On cherche n'importe quelle paire. Et avec vingt-trois personnes, il y a deux cent cinquante-trois paires possibles. Chacune est une chance de coïncidence. Avec soixante-dix personnes, on dépasse quatre-vingt-dix-neuf virgule neuf pour cent. Ton intuition compte les gens. Les maths comptent les paires. Teste dans ta classe ou ton bureau et dis-moi le résultat.",
+ "segments": [
+  {
+   "key": "23 PERSONNES",
+   "icon": "none",
+   "hl": [
+    "23",
+    "anniversaire."
+   ],
+   "chunks": [
+    "Il suffit de 23 personnes pour avoir plus d'une chance sur deux que deux d'entre elles aient le même anniversaire."
+   ]
+  },
+  {
+   "key": "365 JOURS",
+   "icon": "none",
+   "hl": [
+    "faux"
+   ],
+   "chunks": [
+    "Ça paraît faux :",
+    "il y a 365 jours."
+   ]
+  },
+  {
+   "key": "PAS TOI",
+   "icon": "none",
+   "hl": [
+    "toi."
+   ],
+   "chunks": [
+    "Mais on ne cherche pas quelqu'un né le même jour que toi."
+   ]
+  },
+  {
+   "key": "UNE PAIRE",
+   "icon": "none",
+   "hl": [
+    "paire."
+   ],
+   "chunks": [
+    "On cherche n'importe quelle paire."
+   ]
+  },
+  {
+   "key": "253 PAIRES",
+   "icon": "none",
+   "hl": [
+    "253"
+   ],
+   "chunks": [
+    "Et avec 23 personnes, il y a 253 paires possibles."
+   ]
+  },
+  {
+   "key": "COÏNCIDENCES",
+   "icon": "none",
+   "hl": [
+    "coïncidence."
+   ],
+   "chunks": [
+    "Chacune est une chance de coïncidence."
+   ]
+  },
+  {
+   "key": "70 → 99,9 %",
+   "icon": "none",
+   "hl": [
+    "70",
+    "99,9"
+   ],
+   "chunks": [
+    "Avec 70 personnes, on dépasse 99,9 %."
+   ]
+  },
+  {
+   "key": "GENS VS PAIRES",
+   "icon": "none",
+   "hl": [
+    "gens.",
+    "paires."
+   ],
+   "chunks": [
+    "Ton intuition compte les gens.",
+    "Les maths comptent les paires."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "Teste"
+   ],
+   "chunks": [
+    "Teste dans ta classe ou ton bureau et dis-moi le résultat."
+   ]
+  }
+ ]
+}

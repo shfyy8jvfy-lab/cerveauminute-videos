@@ -1,0 +1,113 @@
+{
+ "sujet": "Pourquoi le ciel est bleu",
+ "legende": "Le ciel n'a aucune raison d'être bleu… et pourtant. 🌤️ La faute à des molécules minuscules. #science #physique #lesaviezvous #culturegenerale #cerveauminute",
+ "tts": "Le ciel n'a aucune raison d'être bleu. Et pourtant. La lumière du soleil contient toutes les couleurs. En traversant l'air, elle percute des molécules minuscules. Et ces molécules dispersent beaucoup plus le bleu que le rouge. Résultat : du bleu nous arrive de partout dans le ciel. Mais alors, pourquoi pas violet ? Le soleil en émet moins, et nos yeux y sont peu sensibles. Et le soir, la lumière traverse beaucoup plus d'air. Le bleu est dispersé en route… il ne reste que l'orange et le rouge. Tu préfères le ciel de midi ou le coucher de soleil ?",
+ "segments": [
+  {
+   "key": "POURQUOI BLEU ?",
+   "icon": "none",
+   "hl": [
+    "bleu."
+   ],
+   "chunks": [
+    "Le ciel n'a aucune raison d'être bleu.",
+    "Et pourtant."
+   ]
+  },
+  {
+   "key": "TOUTES LES COULEURS",
+   "icon": "none",
+   "hl": [
+    "couleurs."
+   ],
+   "chunks": [
+    "La lumière du soleil contient toutes les couleurs."
+   ]
+  },
+  {
+   "key": "DES MOLÉCULES",
+   "icon": "none",
+   "hl": [
+    "molécules"
+   ],
+   "chunks": [
+    "En traversant l'air, elle percute des molécules minuscules."
+   ]
+  },
+  {
+   "key": "BLEU > ROUGE",
+   "icon": "none",
+   "hl": [
+    "bleu",
+    "rouge."
+   ],
+   "chunks": [
+    "Et ces molécules dispersent beaucoup plus le bleu que le rouge."
+   ]
+  },
+  {
+   "key": "DU BLEU PARTOUT",
+   "icon": "none",
+   "hl": [
+    "partout"
+   ],
+   "chunks": [
+    "Résultat :",
+    "du bleu nous arrive de partout dans le ciel."
+   ]
+  },
+  {
+   "key": "ET LE VIOLET ?",
+   "icon": "question",
+   "hl": [
+    "violet"
+   ],
+   "chunks": [
+    "Mais alors, pourquoi pas violet ?"
+   ]
+  },
+  {
+   "key": "NOS YEUX",
+   "icon": "none",
+   "hl": [
+    "yeux"
+   ],
+   "chunks": [
+    "Le soleil en émet moins, et nos yeux y sont peu sensibles."
+   ]
+  },
+  {
+   "key": "LE SOIR",
+   "icon": "none",
+   "hl": [
+    "soir,"
+   ],
+   "chunks": [
+    "Et le soir, la lumière traverse beaucoup plus d'air."
+   ]
+  },
+  {
+   "key": "ORANGE ET ROUGE",
+   "icon": "none",
+   "hl": [
+    "orange",
+    "rouge."
+   ],
+   "chunks": [
+    "Le bleu est dispersé en route…",
+    "il ne reste que l'orange et le rouge."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "midi",
+    "coucher"
+   ],
+   "chunks": [
+    "Tu préfères le ciel de midi ou le coucher de soleil ?"
+   ]
+  }
+ ]
+}

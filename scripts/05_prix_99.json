@@ -1,0 +1,101 @@
+{
+ "sujet": "Pourquoi les prix finissent par 99",
+ "legende": "9,99 € ce n'est pas 10 €… pour ton cerveau, c'est 9. 🧠 #psychologie #marketing #biaiscognitifs #lesaviezvous #cerveauminute",
+ "tts": "Neuf euros quatre-vingt-dix-neuf, ce n'est pas dix euros. Pour ton cerveau, c'est neuf. On lit de gauche à droite. Le premier chiffre fait presque tout le travail. Ton cerveau voit « neuf », et classe le prix dans la catégorie « moins de dix ». Un centime de différence, mais une impression de prix bien plus bas. Les chercheurs appellent ça l'effet du chiffre de gauche. Il marche aussi sur les voitures d'occasion : un compteur à soixante-dix-neuf mille neuf cents kilomètres se vend mieux qu'à quatre-vingt mille cent. Astuce : arrondis toujours au-dessus dans ta tête. Tu te fais avoir souvent ?",
+ "segments": [
+  {
+   "key": "9,99 €",
+   "icon": "coin",
+   "hl": [
+    "9,99",
+    "9."
+   ],
+   "chunks": [
+    "9,99 euros, ce n'est pas 10 euros.",
+    "Pour ton cerveau, c'est 9."
+   ]
+  },
+  {
+   "key": "GAUCHE → DROITE",
+   "icon": "none",
+   "hl": [
+    "gauche"
+   ],
+   "chunks": [
+    "On lit de gauche à droite."
+   ]
+  },
+  {
+   "key": "LE 1ER CHIFFRE",
+   "icon": "none",
+   "hl": [
+    "premier"
+   ],
+   "chunks": [
+    "Le premier chiffre fait presque tout le travail."
+   ]
+  },
+  {
+   "key": "« MOINS DE 10 »",
+   "icon": "none",
+   "hl": [
+    "10"
+   ],
+   "chunks": [
+    "Ton cerveau voit « 9 », et classe le prix dans la catégorie « moins de 10 »."
+   ]
+  },
+  {
+   "key": "1 CENTIME",
+   "icon": "none",
+   "hl": [
+    "centime"
+   ],
+   "chunks": [
+    "Un centime de différence, mais une impression de prix bien plus bas."
+   ]
+  },
+  {
+   "key": "CHIFFRE DE GAUCHE",
+   "icon": "none",
+   "hl": [
+    "gauche."
+   ],
+   "chunks": [
+    "Les chercheurs appellent ça l'effet du chiffre de gauche."
+   ]
+  },
+  {
+   "key": "79 900 KM",
+   "icon": "none",
+   "hl": [
+    "79 900"
+   ],
+   "chunks": [
+    "Il marche aussi sur les voitures d'occasion :",
+    "un compteur à 79 900 kilomètres se vend mieux qu'à 80 100."
+   ]
+  },
+  {
+   "key": "ARRONDIS AU-DESSUS",
+   "icon": "none",
+   "hl": [
+    "au-dessus"
+   ],
+   "chunks": [
+    "Astuce :",
+    "arrondis toujours au-dessus dans ta tête."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "avoir"
+   ],
+   "chunks": [
+    "Tu te fais avoir souvent ?"
+   ]
+  }
+ ]
+}

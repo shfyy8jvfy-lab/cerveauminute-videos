@@ -1,0 +1,92 @@
+{
+ "sujet": "La chair de poule",
+ "legende": "Ta chair de poule est un souvenir de tes ancêtres poilus. 🐈 #science #corpshumain #evolution #lesaviezvous #cerveauminute",
+ "tts": "Ta chair de poule est un souvenir de l'époque où tes ancêtres avaient des poils partout. Sous chaque poil, il y a un muscle minuscule. Quand tu as froid ou peur, il se contracte et redresse le poil. Chez un animal poilu, ça gonfle la fourrure : elle garde mieux la chaleur, et l'animal paraît plus gros face à un prédateur. Regarde un chat effrayé. Nous, on a perdu la fourrure, mais pas le réflexe. Il ne reste que les petits boutons sur la peau. Et toi, quelle musique te donne la chair de poule ?",
+ "segments": [
+  {
+   "key": "CHAIR DE POULE",
+   "icon": "none",
+   "hl": [
+    "souvenir",
+    "poils"
+   ],
+   "chunks": [
+    "Ta chair de poule est un souvenir de l'époque où tes ancêtres avaient des poils partout."
+   ]
+  },
+  {
+   "key": "UN MUSCLE",
+   "icon": "none",
+   "hl": [
+    "muscle"
+   ],
+   "chunks": [
+    "Sous chaque poil, il y a un muscle minuscule."
+   ]
+  },
+  {
+   "key": "FROID OU PEUR",
+   "icon": "none",
+   "hl": [
+    "froid",
+    "peur,"
+   ],
+   "chunks": [
+    "Quand tu as froid ou peur, il se contracte et redresse le poil."
+   ]
+  },
+  {
+   "key": "LA FOURRURE",
+   "icon": "none",
+   "hl": [
+    "chaleur,",
+    "gros"
+   ],
+   "chunks": [
+    "Chez un animal poilu, ça gonfle la fourrure :",
+    "elle garde mieux la chaleur,",
+    "et l'animal paraît plus gros face à un prédateur."
+   ]
+  },
+  {
+   "key": "LE CHAT",
+   "icon": "none",
+   "hl": [
+    "chat"
+   ],
+   "chunks": [
+    "Regarde un chat effrayé."
+   ]
+  },
+  {
+   "key": "LE RÉFLEXE",
+   "icon": "none",
+   "hl": [
+    "réflexe."
+   ],
+   "chunks": [
+    "Nous, on a perdu la fourrure, mais pas le réflexe."
+   ]
+  },
+  {
+   "key": "LES BOUTONS",
+   "icon": "none",
+   "hl": [
+    "boutons"
+   ],
+   "chunks": [
+    "Il ne reste que les petits boutons sur la peau."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "musique"
+   ],
+   "chunks": [
+    "Et toi, quelle musique te donne la chair de poule ?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "sujet": "La loi de Parkinson",
+ "legende": "Une semaine pour un travail d'une heure ? Il te prendra une semaine. ⏳ (C. N. Parkinson, The Economist, 1955) #productivite #psychologie #travail #lesaviezvous #cerveauminute",
+ "tts": "Si tu as une semaine pour faire un travail d'une heure, il te prendra une semaine. C'est la loi de Parkinson, décrite en mille neuf cent cinquante-cinq par l'historien Cyril Northcote Parkinson. Le travail s'étale pour remplir le temps disponible. Avec une échéance lointaine, on hésite, on peaufine, on complique. Avec une échéance proche, on va à l'essentiel. La parade : fixe-toi des délais plus courts que ceux qu'on te donne. Par exemple, vingt-cinq minutes chrono pour un mail que tu repousses depuis trois jours. Tu as un exemple qui traîne en ce moment ?",
+ "segments": [
+  {
+   "key": "1 SEMAINE",
+   "icon": "none",
+   "hl": [
+    "semaine."
+   ],
+   "chunks": [
+    "Si tu as une semaine pour faire un travail d'une heure, il te prendra une semaine."
+   ]
+  },
+  {
+   "key": "LOI DE PARKINSON",
+   "icon": "none",
+   "hl": [
+    "Parkinson,",
+    "1955"
+   ],
+   "chunks": [
+    "C'est la loi de Parkinson, décrite en 1955 par l'historien Cyril Northcote Parkinson."
+   ]
+  },
+  {
+   "key": "ÇA S'ÉTALE",
+   "icon": "none",
+   "hl": [
+    "s'étale"
+   ],
+   "chunks": [
+    "Le travail s'étale pour remplir le temps disponible."
+   ]
+  },
+  {
+   "key": "LOIN = FLOU",
+   "icon": "none",
+   "hl": [
+    "lointaine,"
+   ],
+   "chunks": [
+    "Avec une échéance lointaine, on hésite, on peaufine, on complique."
+   ]
+  },
+  {
+   "key": "PROCHE = NET",
+   "icon": "none",
+   "hl": [
+    "proche,",
+    "l'essentiel."
+   ],
+   "chunks": [
+    "Avec une échéance proche, on va à l'essentiel."
+   ]
+  },
+  {
+   "key": "LA PARADE",
+   "icon": "none",
+   "hl": [
+    "courts"
+   ],
+   "chunks": [
+    "La parade :",
+    "fixe-toi des délais plus courts que ceux qu'on te donne."
+   ]
+  },
+  {
+   "key": "25 MIN CHRONO",
+   "icon": "none",
+   "hl": [
+    "25"
+   ],
+   "chunks": [
+    "Par exemple, 25 minutes chrono pour un mail que tu repousses depuis 3 jours."
+   ]
+  },
+  {
+   "key": "",
+   "icon": "question",
+   "hl": [
+    "traîne"
+   ],
+   "chunks": [
+    "Tu as un exemple qui traîne en ce moment ?"
+   ]
+  }
+ ]
+}

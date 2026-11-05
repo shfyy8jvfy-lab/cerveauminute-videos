@@ -1,0 +1,48 @@
+{
+  "compte": "@cerveauminute",
+  "voix": {
+    "nom": "Anatole - Convincing, Dynamic and Clear",
+    "voice_id": "Jrq4GqCKqYpigdQsZRkP",
+    "modele": "eleven_v4"
+  },
+  "publiees": [
+    {
+      "n": 1,
+      "sujet": "L'effet de porte",
+      "fichier": "cerveau_minute_01_effet_de_porte_voix.mp4",
+      "date": "2026-11-05",
+      "via": "manuel"
+    },
+    {
+      "n": 2,
+      "sujet": "Le piège des coûts irrécupérables",
+      "fichier": "videos/cerveau_minute_02_couts_irrecuperables.mp4",
+      "date": "2026-11-05",
+      "via": "navigateur"
+    }
+  ],
+  "depot": "shfyy8jvfy-lab/cerveauminute-videos",
+  "file_attente": [
+    "03_ciel_bleu",
+    "04_effet_leurre",
+    "05_prix_99",
+    "06_illusion_frequence",
+    "07_chair_de_poule",
+    "08_loi_parkinson",
+    "09_paradoxe_anniversaires",
+    "10_effet_ikea"
+  ],
+  "banque_sujets": [
+    "L'effet de halo",
+    "Le biais du survivant",
+    "Pourquoi la mer est salée",
+    "L'effet placebo",
+    "Pourquoi les chats ronronnent",
+    "Pourquoi on bâille",
+    "L'inflation expliquée avec une pizza",
+    "Pourquoi l'avion vole",
+    "L'effet Zeigarnik",
+    "La règle des 5 secondes : vraie ou fausse ?"
+  ],
+  "dernier_echec": null
+}
