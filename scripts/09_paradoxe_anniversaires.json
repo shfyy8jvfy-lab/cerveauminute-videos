@@ -12,7 +12,11 @@
    ],
    "chunks": [
     "Il suffit de 23 personnes pour avoir plus d'une chance sur deux que deux d'entre elles aient le même anniversaire."
-   ]
+   ],
+   "dessin": {
+    "nom": "groupe",
+    "n": 7
+   }
   },
   {
    "key": "365 JOURS",
@@ -23,7 +27,8 @@
    "chunks": [
     "Ça paraît faux :",
     "il y a 365 jours."
-   ]
+   ],
+   "dessin": "gateau"
   },
   {
    "key": "PAS TOI",
@@ -33,7 +38,10 @@
    ],
    "chunks": [
     "Mais on ne cherche pas quelqu'un né le même jour que toi."
-   ]
+   ],
+   "dessin": {
+    "nom": "croix"
+   }
   },
   {
    "key": "UNE PAIRE",
@@ -43,7 +51,8 @@
    ],
    "chunks": [
     "On cherche n'importe quelle paire."
-   ]
+   ],
+   "dessin": "paires"
   },
   {
    "key": "253 PAIRES",
@@ -53,7 +62,8 @@
    ],
    "chunks": [
     "Et avec 23 personnes, il y a 253 paires possibles."
-   ]
+   ],
+   "dessin": "paires"
   },
   {
    "key": "COÏNCIDENCES",
@@ -63,7 +73,8 @@
    ],
    "chunks": [
     "Chacune est une chance de coïncidence."
-   ]
+   ],
+   "dessin": "de"
   },
   {
    "key": "70 → 99,9 %",
@@ -74,7 +85,11 @@
    ],
    "chunks": [
     "Avec 70 personnes, on dépasse 99,9 %."
-   ]
+   ],
+   "dessin": {
+    "nom": "pourcent",
+    "texte": "99,9 %"
+   }
   },
   {
    "key": "GENS VS PAIRES",
@@ -86,17 +101,19 @@
    "chunks": [
     "Ton intuition compte les gens.",
     "Les maths comptent les paires."
-   ]
+   ],
+   "dessin": "cerveau"
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "Teste"
    ],
    "chunks": [
     "Teste dans ta classe ou ton bureau et dis-moi le résultat."
-   ]
+   ],
+   "dessin": "question"
   }
  ]
 }

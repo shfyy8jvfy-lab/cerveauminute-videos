@@ -12,7 +12,8 @@
    ],
    "chunks": [
     "Pourquoi ton meuble IKEA un peu bancal te semble plus beau que celui du magasin ?"
-   ]
+   ],
+   "dessin": "meuble"
   },
   {
    "key": "L'EFFET IKEA",
@@ -22,7 +23,8 @@
    ],
    "chunks": [
     "C'est l'effet IKEA, étudié par des chercheurs de Harvard, Yale et Duke."
-   ]
+   ],
+   "dessin": "ampoule"
   },
   {
    "key": "L'EXPÉRIENCE",
@@ -32,17 +34,19 @@
    ],
    "chunks": [
     "Des participants ont monté des boîtes de rangement ou plié des origamis."
-   ]
+   ],
+   "dessin": "origami"
   },
   {
    "key": "PRÊTS À PAYER +",
-   "icon": "coin",
+   "icon": "none",
    "hl": [
     "plus"
    ],
    "chunks": [
     "Ils étaient ensuite prêts à payer nettement plus pour leur création que pour la même chose déjà faite."
-   ]
+   ],
+   "dessin": "euros"
   },
   {
    "key": "EFFORT = AMOUR",
@@ -52,7 +56,8 @@
    ],
    "chunks": [
     "L'effort crée de l'attachement."
-   ]
+   ],
+   "dessin": "coeur"
   },
   {
    "key": "SI ON FINIT",
@@ -63,7 +68,8 @@
    "chunks": [
     "Mais attention :",
     "ça ne marche que si on finit."
-   ]
+   ],
+   "dessin": "check"
   },
   {
    "key": "À MOITIÉ = RIEN",
@@ -73,17 +79,19 @@
    ],
    "chunks": [
     "Un meuble abandonné à moitié ne fait plus cet effet."
-   ]
+   ],
+   "dessin": "moitie"
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "fier"
    ],
    "chunks": [
     "C'est quoi l'objet dont tu es le plus fier d'avoir fabriqué ?"
-   ]
+   ],
+   "dessin": "question"
   }
  ]
 }

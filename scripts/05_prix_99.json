@@ -5,7 +5,7 @@
  "segments": [
   {
    "key": "9,99 €",
-   "icon": "coin",
+   "icon": "none",
    "hl": [
     "9,99",
     "9."
@@ -13,7 +13,11 @@
    "chunks": [
     "9,99 euros, ce n'est pas 10 euros.",
     "Pour ton cerveau, c'est 9."
-   ]
+   ],
+   "dessin": {
+    "nom": "etiquette",
+    "texte": "9,99 €"
+   }
   },
   {
    "key": "GAUCHE → DROITE",
@@ -23,7 +27,11 @@
    ],
    "chunks": [
     "On lit de gauche à droite."
-   ]
+   ],
+   "dessin": {
+    "nom": "fleche",
+    "texte": "gauche → droite"
+   }
   },
   {
    "key": "LE 1ER CHIFFRE",
@@ -33,7 +41,11 @@
    ],
    "chunks": [
     "Le premier chiffre fait presque tout le travail."
-   ]
+   ],
+   "dessin": {
+    "nom": "texte",
+    "texte": "9,99"
+   }
   },
   {
    "key": "« MOINS DE 10 »",
@@ -43,7 +55,11 @@
    ],
    "chunks": [
     "Ton cerveau voit « 9 », et classe le prix dans la catégorie « moins de 10 »."
-   ]
+   ],
+   "dessin": {
+    "nom": "etiquette",
+    "texte": "< 10 €"
+   }
   },
   {
    "key": "1 CENTIME",
@@ -53,7 +69,8 @@
    ],
    "chunks": [
     "Un centime de différence, mais une impression de prix bien plus bas."
-   ]
+   ],
+   "dessin": "euros"
   },
   {
    "key": "CHIFFRE DE GAUCHE",
@@ -63,7 +80,8 @@
    ],
    "chunks": [
     "Les chercheurs appellent ça l'effet du chiffre de gauche."
-   ]
+   ],
+   "dessin": "cerveau"
   },
   {
    "key": "79 900 KM",
@@ -74,7 +92,11 @@
    "chunks": [
     "Il marche aussi sur les voitures d'occasion :",
     "un compteur à 79 900 kilomètres se vend mieux qu'à 80 100."
-   ]
+   ],
+   "dessin": {
+    "nom": "compteur",
+    "texte": "79 900"
+   }
   },
   {
    "key": "ARRONDIS AU-DESSUS",
@@ -85,17 +107,19 @@
    "chunks": [
     "Astuce :",
     "arrondis toujours au-dessus dans ta tête."
-   ]
+   ],
+   "dessin": "graphique"
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "avoir"
    ],
    "chunks": [
     "Tu te fais avoir souvent ?"
-   ]
+   ],
+   "dessin": "question"
   }
  ]
 }

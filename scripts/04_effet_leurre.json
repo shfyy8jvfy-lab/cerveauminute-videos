@@ -5,18 +5,22 @@
  "segments": [
   {
    "key": "",
-   "icon": "ticket",
+   "icon": "none",
    "hl": [
     "moyen",
     "vendu."
    ],
    "chunks": [
     "Ce popcorn moyen n'est pas là pour être vendu."
-   ]
+   ],
+   "dessin": {
+    "nom": "popcorn",
+    "taille": "un"
+   }
   },
   {
    "key": "3 € / 7 €",
-   "icon": "coin",
+   "icon": "none",
    "hl": [
     "3",
     "7"
@@ -25,7 +29,11 @@
     "Petit : 3 euros.",
     "Grand : 7 euros.",
     "Tu hésites."
-   ]
+   ],
+   "dessin": {
+    "nom": "popcorn",
+    "taille": "deux"
+   }
   },
   {
    "key": "+ UN MOYEN À 6,50 €",
@@ -35,7 +43,8 @@
    ],
    "chunks": [
     "Ajoute un moyen à 6,50 euros."
-   ]
+   ],
+   "dessin": "popcorn"
   },
   {
    "key": "« UNE AFFAIRE »",
@@ -46,7 +55,11 @@
    "chunks": [
     "Soudain, le grand paraît une affaire :",
     "« pour 50 centimes de plus ! »."
-   ]
+   ],
+   "dessin": {
+    "nom": "bulle",
+    "texte": "+ 50 centimes !"
+   }
   },
   {
    "key": "UN LEURRE",
@@ -56,7 +69,8 @@
    ],
    "chunks": [
     "Le moyen est un leurre."
-   ]
+   ],
+   "dessin": "cible"
   },
   {
    "key": "UN REPÈRE",
@@ -66,7 +80,8 @@
    ],
    "chunks": [
     "Presque personne ne le prend, mais il sert de point de comparaison."
-   ]
+   ],
+   "dessin": "balance"
   },
   {
    "key": "IL COMPARE",
@@ -77,7 +92,8 @@
    "chunks": [
     "Ton cerveau juge rarement un prix seul.",
     "Il compare."
-   ]
+   ],
+   "dessin": "cerveau"
   },
   {
    "key": "PARTOUT",
@@ -87,7 +103,10 @@
    ],
    "chunks": [
     "Les cinémas, les abonnements et les menus utilisent cette technique partout."
-   ]
+   ],
+   "dessin": {
+    "nom": "ticket"
+   }
   },
   {
    "key": "LA BONNE QUESTION",
@@ -98,17 +117,19 @@
    "chunks": [
     "La prochaine fois, demande-toi :",
     "est-ce que j'aurais pris le grand s'il n'y avait que le petit ?"
-   ]
+   ],
+   "dessin": "loupe"
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "remarqué"
    ],
    "chunks": [
     "Tu l'avais déjà remarqué ?"
-   ]
+   ],
+   "dessin": "question"
   }
  ]
 }

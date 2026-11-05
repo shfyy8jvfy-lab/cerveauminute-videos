@@ -88,7 +88,7 @@ if times is None:
 i = 0
 spec = {"audio": audio, "segments": []}
 for s in script["segments"]:
-    seg = {k: s[k] for k in ("key", "icon", "hl")}
+    seg = {k: s[k] for k in ("key", "icon", "hl", "dessin") if k in s}
     seg["chunks"] = []
     for c in s["chunks"]:
         a, b = times[i]

@@ -13,7 +13,10 @@
    "chunks": [
     "Tu achètes une voiture rouge.",
     "Et d'un coup, tu en vois partout."
-   ]
+   ],
+   "dessin": {
+    "nom": "voiture"
+   }
   },
   {
    "key": "PAS PLUS QU'AVANT",
@@ -24,7 +27,8 @@
    "chunks": [
     "Il n'y en a pas plus qu'avant.",
     "C'est ton cerveau qui a changé de filtre."
-   ]
+   ],
+   "dessin": "oeil"
   },
   {
    "key": "UN FILTRE",
@@ -34,7 +38,8 @@
    ],
    "chunks": [
     "Il reçoit des milliers d'informations par seconde et en ignore presque toutes."
-   ]
+   ],
+   "dessin": "entonnoir"
   },
   {
    "key": "IMPORTANT = VISIBLE",
@@ -44,7 +49,8 @@
    ],
    "chunks": [
     "Dès qu'une chose devient importante pour toi, il la laisse passer."
-   ]
+   ],
+   "dessin": "ampoule"
   },
   {
    "key": "« ENCORE ! »",
@@ -55,7 +61,11 @@
    "chunks": [
     "Et chaque fois que tu la revois, tu te dis « encore ! »,",
     "ce qui renforce l'impression."
-   ]
+   ],
+   "dessin": {
+    "nom": "bulle",
+    "texte": "Encore !"
+   }
   },
   {
    "key": "BAADER-MEINHOF",
@@ -66,7 +76,8 @@
    ],
    "chunks": [
     "On l'appelle l'illusion de fréquence, ou phénomène Baader-Meinhof."
-   ]
+   ],
+   "dessin": "cerveau"
   },
   {
    "key": "ATTENTION…",
@@ -77,17 +88,19 @@
    "chunks": [
     "Et maintenant que tu connais le mot…",
     "tu vas le croiser partout."
-   ]
+   ],
+   "dessin": "loupe"
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "exemple."
    ],
    "chunks": [
     "Raconte-moi ton dernier exemple."
-   ]
+   ],
+   "dessin": "question"
   }
  ]
 }

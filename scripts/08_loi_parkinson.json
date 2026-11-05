@@ -11,7 +11,11 @@
    ],
    "chunks": [
     "Si tu as une semaine pour faire un travail d'une heure, il te prendra une semaine."
-   ]
+   ],
+   "dessin": {
+    "nom": "calendrier",
+    "texte": "1 semaine"
+   }
   },
   {
    "key": "LOI DE PARKINSON",
@@ -22,7 +26,8 @@
    ],
    "chunks": [
     "C'est la loi de Parkinson, décrite en 1955 par l'historien Cyril Northcote Parkinson."
-   ]
+   ],
+   "dessin": "horloge"
   },
   {
    "key": "ÇA S'ÉTALE",
@@ -32,7 +37,8 @@
    ],
    "chunks": [
     "Le travail s'étale pour remplir le temps disponible."
-   ]
+   ],
+   "dessin": "verre"
   },
   {
    "key": "LOIN = FLOU",
@@ -42,7 +48,8 @@
    ],
    "chunks": [
     "Avec une échéance lointaine, on hésite, on peaufine, on complique."
-   ]
+   ],
+   "dessin": "brouillard"
   },
   {
    "key": "PROCHE = NET",
@@ -53,7 +60,8 @@
    ],
    "chunks": [
     "Avec une échéance proche, on va à l'essentiel."
-   ]
+   ],
+   "dessin": "cible"
   },
   {
    "key": "LA PARADE",
@@ -64,7 +72,8 @@
    "chunks": [
     "La parade :",
     "fixe-toi des délais plus courts que ceux qu'on te donne."
-   ]
+   ],
+   "dessin": "sablier"
   },
   {
    "key": "25 MIN CHRONO",
@@ -74,17 +83,22 @@
    ],
    "chunks": [
     "Par exemple, 25 minutes chrono pour un mail que tu repousses depuis 3 jours."
-   ]
+   ],
+   "dessin": {
+    "nom": "chrono",
+    "texte": "25 min"
+   }
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "traîne"
    ],
    "chunks": [
     "Tu as un exemple qui traîne en ce moment ?"
-   ]
+   ],
+   "dessin": "question"
   }
  ]
 }

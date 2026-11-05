@@ -12,7 +12,8 @@
    ],
    "chunks": [
     "Ta chair de poule est un souvenir de l'époque où tes ancêtres avaient des poils partout."
-   ]
+   ],
+   "dessin": "frisson"
   },
   {
    "key": "UN MUSCLE",
@@ -22,7 +23,8 @@
    ],
    "chunks": [
     "Sous chaque poil, il y a un muscle minuscule."
-   ]
+   ],
+   "dessin": "poils"
   },
   {
    "key": "FROID OU PEUR",
@@ -33,7 +35,8 @@
    ],
    "chunks": [
     "Quand tu as froid ou peur, il se contracte et redresse le poil."
-   ]
+   ],
+   "dessin": "flocon"
   },
   {
    "key": "LA FOURRURE",
@@ -46,7 +49,8 @@
     "Chez un animal poilu, ça gonfle la fourrure :",
     "elle garde mieux la chaleur,",
     "et l'animal paraît plus gros face à un prédateur."
-   ]
+   ],
+   "dessin": "poils"
   },
   {
    "key": "LE CHAT",
@@ -56,7 +60,8 @@
    ],
    "chunks": [
     "Regarde un chat effrayé."
-   ]
+   ],
+   "dessin": "chat"
   },
   {
    "key": "LE RÉFLEXE",
@@ -66,7 +71,8 @@
    ],
    "chunks": [
     "Nous, on a perdu la fourrure, mais pas le réflexe."
-   ]
+   ],
+   "dessin": "cerveau"
   },
   {
    "key": "LES BOUTONS",
@@ -76,17 +82,19 @@
    ],
    "chunks": [
     "Il ne reste que les petits boutons sur la peau."
-   ]
+   ],
+   "dessin": "frisson"
   },
   {
    "key": "",
-   "icon": "question",
+   "icon": "none",
    "hl": [
     "musique"
    ],
    "chunks": [
     "Et toi, quelle musique te donne la chair de poule ?"
-   ]
+   ],
+   "dessin": "note"
   }
  ]
 }
