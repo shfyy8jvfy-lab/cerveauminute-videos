@@ -1,0 +1,30 @@
+{
+  "compte": "on.va.tous.disparaitre",
+  "publiees": [
+    {"numero": 1, "sujet": "Le faux vide (désintégration du vide)", "fichier": "videos/ep01_faux_vide.mp4", "date": "2026-11-05", "media_id": "18079397210444794"},
+    {"numero": 2, "sujet": "Les bactéries miroir", "fichier": "videos/ep02_bacteries_miroir.mp4", "date": "2026-11-05", "media_id": "18109745198294042"}
+  ],
+  "banque_sujets": [
+    "L'astéroïde tueur (et la mission DART qui a dévié un astéroïde en 2022)",
+    "Le super-volcan (Yellowstone, Toba il y a 74 000 ans)",
+    "L'hiver nucléaire",
+    "L'IA hors de contrôle (problème de l'alignement)",
+    "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
+    "Mythe : la planète Nibiru",
+    "La tempête solaire géante (événement de Carrington, 1859)",
+    "La gelée grise (nanorobots auto-répliquants)",
+    "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
+    "Mythe : le LHC qui crée un trou noir",
+    "La pandémie de laboratoire",
+    "Le Big Rip (l'univers qui se déchire)",
+    "Une planète errante qui traverse le système solaire",
+    "Mythe : l'inversion des pôles magnétiques qui nous tue",
+    "L'effet de serre emballé (devenir comme Vénus)",
+    "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
+    "La disparition des pollinisateurs",
+    "La collision avec Andromède (spoiler : pas dangereuse)",
+    "L'hypothèse de la simulation qu'on éteint",
+    "Un trou noir errant qui passe près de nous"
+  ],
+  "dernier_echec": null
+}
