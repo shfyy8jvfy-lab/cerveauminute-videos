@@ -19,11 +19,18 @@
       "fichier": "videos/cerveau_minute_02_couts_irrecuperables.mp4",
       "date": "2026-11-05",
       "via": "navigateur"
+    },
+    {
+      "n": 3,
+      "sujet": "Pourquoi le ciel est bleu",
+      "fichier": "videos/cerveau_minute_03_ciel_bleu.mp4",
+      "date": "2026-11-05",
+      "via": "windsor",
+      "media_id": "18182420551445859"
     }
   ],
   "depot": "shfyy8jvfy-lab/cerveauminute-videos",
   "file_attente": [
-    "03_ciel_bleu",
     "04_effet_leurre",
     "05_prix_99",
     "06_illusion_frequence",
