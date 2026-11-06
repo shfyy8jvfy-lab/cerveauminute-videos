@@ -63,10 +63,16 @@
       "fichier": "videos/ep09_tempete_solaire.mp4",
       "date": "2026-11-06",
       "media_id": "17887501623625608"
+    },
+    {
+      "numero": 10,
+      "sujet": "La gelée grise (nanorobots auto-répliquants)",
+      "fichier": "videos/ep10_gelee_grise.mp4",
+      "date": "2026-11-06",
+      "media_id": "18114629912518877"
     }
   ],
   "banque_sujets": [
-    "La gelée grise (nanorobots auto-répliquants)",
     "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
     "Mythe : le LHC qui crée un trou noir",
     "La pandémie de laboratoire",
