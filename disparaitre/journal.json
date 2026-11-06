@@ -1,11 +1,29 @@
 {
   "compte": "on.va.tous.disparaitre",
   "publiees": [
-    {"numero": 1, "sujet": "Le faux vide (désintégration du vide)", "fichier": "videos/ep01_faux_vide.mp4", "date": "2026-11-05", "media_id": "18079397210444794"},
-    {"numero": 2, "sujet": "Les bactéries miroir", "fichier": "videos/ep02_bacteries_miroir.mp4", "date": "2026-11-05", "media_id": "18109745198294042"}
+    {
+      "numero": 1,
+      "sujet": "Le faux vide (désintégration du vide)",
+      "fichier": "videos/ep01_faux_vide.mp4",
+      "date": "2026-11-05",
+      "media_id": "18079397210444794"
+    },
+    {
+      "numero": 2,
+      "sujet": "Les bactéries miroir",
+      "fichier": "videos/ep02_bacteries_miroir.mp4",
+      "date": "2026-11-05",
+      "media_id": "18109745198294042"
+    },
+    {
+      "numero": 3,
+      "sujet": "L'astéroïde tueur (et la mission DART qui a dévié un astéroïde en 2022)",
+      "fichier": "videos/ep03_asteroide.mp4",
+      "date": "2026-11-06",
+      "media_id": "18498427882109114"
+    }
   ],
   "banque_sujets": [
-    "L'astéroïde tueur (et la mission DART qui a dévié un astéroïde en 2022)",
     "Le super-volcan (Yellowstone, Toba il y a 74 000 ans)",
     "L'hiver nucléaire",
     "L'IA hors de contrôle (problème de l'alignement)",
