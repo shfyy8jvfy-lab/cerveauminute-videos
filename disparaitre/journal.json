@@ -49,10 +49,16 @@
       "fichier": "videos/ep07_sursaut_gamma.mp4",
       "date": "2026-11-06",
       "media_id": "17881092351558978"
+    },
+    {
+      "numero": 8,
+      "sujet": "Mythe : la planète Nibiru",
+      "fichier": "videos/ep08_nibiru.mp4",
+      "date": "2026-11-06",
+      "media_id": "18126186713484383"
     }
   ],
   "banque_sujets": [
-    "Mythe : la planète Nibiru",
     "La tempête solaire géante (événement de Carrington, 1859)",
     "La gelée grise (nanorobots auto-répliquants)",
     "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
