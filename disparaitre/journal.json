@@ -28,10 +28,16 @@
       "fichier": "videos/ep04_super_volcan.mp4",
       "date": "2026-11-06",
       "media_id": "18112555580350022"
+    },
+    {
+      "numero": 5,
+      "sujet": "L'hiver nucléaire",
+      "fichier": "videos/ep05_hiver_nucleaire.mp4",
+      "date": "2026-11-06",
+      "media_id": "18121801129993144"
     }
   ],
   "banque_sujets": [
-    "L'hiver nucléaire",
     "L'IA hors de contrôle (problème de l'alignement)",
     "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
     "Mythe : la planète Nibiru",
