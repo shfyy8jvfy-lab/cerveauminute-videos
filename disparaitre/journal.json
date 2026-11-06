@@ -42,10 +42,16 @@
       "fichier": "videos/ep06_ia_hors_controle.mp4",
       "date": "2026-11-06",
       "media_id": "17915104737550987"
+    },
+    {
+      "numero": 7,
+      "sujet": "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
+      "fichier": "videos/ep07_sursaut_gamma.mp4",
+      "date": "2026-11-06",
+      "media_id": "17881092351558978"
     }
   ],
   "banque_sujets": [
-    "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
     "Mythe : la planète Nibiru",
     "La tempête solaire géante (événement de Carrington, 1859)",
     "La gelée grise (nanorobots auto-répliquants)",
