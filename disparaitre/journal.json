@@ -21,10 +21,16 @@
       "fichier": "videos/ep03_asteroide.mp4",
       "date": "2026-11-06",
       "media_id": "18498427882109114"
+    },
+    {
+      "numero": 4,
+      "sujet": "Le super-volcan (Yellowstone, Toba il y a 74 000 ans)",
+      "fichier": "videos/ep04_super_volcan.mp4",
+      "date": "2026-11-06",
+      "media_id": "18112555580350022"
     }
   ],
   "banque_sujets": [
-    "Le super-volcan (Yellowstone, Toba il y a 74 000 ans)",
     "L'hiver nucléaire",
     "L'IA hors de contrôle (problème de l'alignement)",
     "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
