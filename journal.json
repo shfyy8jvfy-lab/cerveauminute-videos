@@ -52,10 +52,10 @@
     "La règle des 5 secondes : vraie ou fausse ?"
   ],
   "dernier_echec": {
-    "date": "2026-11-05T16:55Z",
+    "date": "2026-11-06T18:39Z",
     "script": "04_effet_leurre",
     "etape": "voix off ElevenLabs",
-    "erreur": "Free generations are busy right now: this take did not start. Nothing was charged. (3 essais à ~2 min d'intervalle)",
-    "note": "Rien publié ; le script reste en tête de file. La publication Windsor via raw.githubusercontent.com a fonctionné pour le 03 (media 18182420551445859)."
+    "erreur": "Essai 1 : « Free generations are busy ». Essai 2 : génération démarrée puis échouée : « Unusual activity has been detected on your account, so Free Tier access has been disabled. [...] Please upgrade to a paid subscription to continue. »",
+    "note": "Accès gratuit ElevenLabs désactivé : blocage du compte, pas une saturation, donc pas de 3e essai. Rien publié ; le script reste en tête de file. Il faut une action d'Arno (offre payante ou déblocage du compte)."
   }
 }
