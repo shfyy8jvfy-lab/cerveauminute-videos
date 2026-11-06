@@ -56,10 +56,16 @@
       "fichier": "videos/ep08_nibiru.mp4",
       "date": "2026-11-06",
       "media_id": "18126186713484383"
+    },
+    {
+      "numero": 9,
+      "sujet": "La tempête solaire géante (événement de Carrington, 1859)",
+      "fichier": "videos/ep09_tempete_solaire.mp4",
+      "date": "2026-11-06",
+      "media_id": "17887501623625608"
     }
   ],
   "banque_sujets": [
-    "La tempête solaire géante (événement de Carrington, 1859)",
     "La gelée grise (nanorobots auto-répliquants)",
     "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
     "Mythe : le LHC qui crée un trou noir",
