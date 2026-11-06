@@ -35,10 +35,16 @@
       "fichier": "videos/ep05_hiver_nucleaire.mp4",
       "date": "2026-11-06",
       "media_id": "18121801129993144"
+    },
+    {
+      "numero": 6,
+      "sujet": "L'IA hors de contrôle (problème de l'alignement)",
+      "fichier": "videos/ep06_ia_hors_controle.mp4",
+      "date": "2026-11-06",
+      "media_id": "17915104737550987"
     }
   ],
   "banque_sujets": [
-    "L'IA hors de contrôle (problème de l'alignement)",
     "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
     "Mythe : la planète Nibiru",
     "La tempête solaire géante (événement de Carrington, 1859)",
