@@ -77,10 +77,16 @@
       "fichier": "videos/ep11_geante_rouge.mp4",
       "date": "2026-11-07",
       "media_id": "17878595895651217"
+    },
+    {
+      "numero": 12,
+      "sujet": "Mythe : le LHC qui crée un trou noir",
+      "fichier": "videos/ep12_lhc_trou_noir.mp4",
+      "date": "2026-11-07",
+      "media_id": "18126308161715453"
     }
   ],
   "banque_sujets": [
-    "Mythe : le LHC qui crée un trou noir",
     "La pandémie de laboratoire",
     "Le Big Rip (l'univers qui se déchire)",
     "Une planète errante qui traverse le système solaire",
