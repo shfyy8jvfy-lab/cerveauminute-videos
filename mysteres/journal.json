@@ -13,15 +13,18 @@
   "flow_id": "1etQVP5O9lEQcDAGVgzu"
  },
  "debut": "2026-11-08",
- "a_publier": [
+ "a_publier": [],
+ "publiees": [
   {
    "n": 1,
    "dossier": "episodes/ep01_grand_vide",
    "fichier": "videos/ep01_grand_vide.mp4",
-   "sujet": "Le grand vide de la pyramide de Khéops"
+   "sujet": "Le grand vide de la pyramide de Khéops",
+   "date": "2026-11-07",
+   "media_id": "18028466231878974",
+   "via": "windsor (manuel, à la demande d'Arno)"
   }
  ],
- "publiees": [],
  "sujets_traites": [
   "Grande Pyramide : Big Void, outils en cuivre, journal de Merer, bras d'Ahramat"
  ],
