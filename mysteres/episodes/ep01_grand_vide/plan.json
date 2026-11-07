@@ -1,0 +1,174 @@
+{
+ "sentences": [
+  {
+   "text": "Au cœur de la Grande Pyramide d'Égypte, il y a un vide de trente mètres. Personne ne l'a jamais vu de ses propres yeux.",
+   "shots": [
+    [
+     "hook_void",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≥ 30 M · JAMAIS VU",
+     0.55
+    ]
+   ]
+  },
+  {
+   "text": "Pour comprendre ce mystère, il faut remonter quatre mille cinq cents ans en arrière, sur le chantier du pharaon Khéops.",
+   "shots": [
+    [
+     "pyramid_reveal",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 2 600 AV. J.-C.",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Ses ouvriers taillaient avec des outils en cuivre. Un métal plus tendre que le granit qu'ils devaient travailler.",
+   "shots": [
+    [
+     "chisel_granite",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "CUIVRE  <  GRANIT",
+     0.45
+    ]
+   ]
+  },
+  {
+   "text": "Alors ils sciaient avec du sable : c'est lui qui mordait la pierre, pendant que la lame de cuivre s'usait, centimètre après centimètre.",
+   "shots": [
+    [
+     "saw_cut",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Le chantier en a tant consommé que le sol de l'ancien port de Khéops en porte encore la trace : jusqu'à six fois plus de cuivre que la normale.",
+   "shots": [
+    [
+     "harbor_core",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "CUIVRE ×6",
+     0.65
+    ]
+   ]
+  },
+  {
+   "text": "En 2017, des physiciens ont radiographié la pyramide grâce à des particules venues de l'espace.",
+   "shots": [
+    [
+     "muons",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "MUONS COSMIQUES",
+     0.35
+    ]
+   ]
+  },
+  {
+   "text": "C'est là qu'il est apparu : au-dessus de la Grande Galerie, scellé depuis l'origine. On ignore toujours à quoi il servait.",
+   "shots": [
+    [
+     "big_void",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "« BIG VOID »",
+     0.15
+    ]
+   ]
+  },
+  {
+   "text": "En 2023, une caméra plus fine qu'un crayon, glissée entre deux blocs, filme un autre couloir caché : neuf mètres, intact.",
+   "shots": [
+    [
+     "corridor",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ENDOSCOPE 5 MM",
+     0.25
+    ],
+    [
+     "COULOIR : 9 M",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "Et pour savoir comment ils ont fait, il a fallu un papyrus : le journal de Merer, chef d'une équipe d'une quarantaine d'hommes. Le plus vieux papyrus écrit jamais retrouvé.",
+   "shots": [
+    [
+     "papyrus",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "JOURNAL DE MERER",
+     0.15
+    ]
+   ]
+  },
+  {
+   "text": "Il y raconte le transport des blocs par bateau. Et en 2024, des satellites ont retrouvé, enfoui sous le sable, le bras du Nil qui longeait les pyramides.",
+   "shots": [
+    [
+     "boat",
+     0.45
+    ],
+    [
+     "river_map",
+     0.55
+    ]
+   ],
+   "callouts": [
+    [
+     "BRAS D'AHRAMAT : 64 KM",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Mais à l'intérieur… le grand vide attend toujours qu'on l'ouvre.",
+   "shots": [
+    [
+     "final_void",
+     1.0
+    ]
+   ]
+  }
+ ],
+ "sources": [
+  "Morishima et al., Nature 552 (2017) — Big Void, muons cosmiques",
+  "Procureur, Morishima et al., Nature Communications (2023) — couloir de la face nord",
+  "Archaeology Magazine, juil.-août 2022 — outils en cuivre, papyrus de Ouadi el-Jarf",
+  "Live Science / Geology — pollution au cuivre du port de Khéops (5 à 6× le niveau naturel)",
+  "Guinness World Records — journal de Merer, plus ancien papyrus",
+  "Ghoneim et al., Communications Earth & Environment (2024) — bras d'Ahramat du Nil"
+ ],
+ "legende": "Un vide de 30 mètres dort au cœur de la Grande Pyramide… et personne ne l'a jamais vu. 🔺\n\nSources : Nature (2017), Nature Communications (2023), Geology, Communications Earth & Environment (2024).\n🎙️ Voix générée par IA.\n\n#cerveauminute #pyramide #egypte #mystere #science"
+}

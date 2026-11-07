@@ -1,1 +1,7 @@
 __pycache__/
+mysteres/episodes/*/visual.mp4
+mysteres/episodes/*/final*.mp4
+mysteres/episodes/*/music.wav
+mysteres/episodes/*/previews/
+mysteres/episodes/*/dl/
+mysteres/episodes/*/subs.ass
