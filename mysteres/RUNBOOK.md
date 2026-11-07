@@ -7,7 +7,7 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
 ## Constantes
 - Dépôt : `shfyy8jvfy-lab/cerveauminute-videos` (public, branche `main`)
 - URL publique d'une vidéo : `https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/<fichier>`
-- Voix ElevenLabs : **Kevan - Narrateur Cinématique**, `voice_id = AYfOkr1hDQYbhigmRZ16`, modèle `eleven_multilingual_v2`, `generations_count = 1`, flow à réutiliser `1etQVP5O9lEQcDAGVgzu`. Offre payante (Creator) : pas de saturation attendue.
+- Voix ElevenLabs : **Zion Aquila - Deep, Aged, Warm**, `voice_id = t2969wgUwHbBoVCZNHRU`, modèle `eleven_v4` (indications de jeu entre crochets), `generations_count = 1`, flow à réutiliser `1etQVP5O9lEQcDAGVgzu`. Traitement obligatoire après téléchargement : `sh ../../moteur/voix.sh dl/voice_raw.mp3 voice.mp3` (≈ 2 demi-tons plus grave + coffre).
 - Windsor.ai : NE PLUS PUBLIER par Windsor (mode semi-automatique). Compte `17841472152672061` (nox.science) pour mémoire.
 - Moteur : `mysteres/moteur/` (`timing.py`, `render.py`, `music.py`, `assemble.py`). Dépendances : `numpy`, `opencv-python`, `scipy`, `ffmpeg` (sinon `pip install --break-system-packages numpy opencv-python-headless scipy`). Police des sous-titres : Inter (`fc-list | grep -i inter`) ; à défaut libass prend une police par défaut, ce n'est pas bloquant.
 
@@ -32,11 +32,12 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
    `python3 ../../moteur/timing.py && python3 ../../moteur/render.py x --preview`
    puis assembler les PNG de `previews/` en planche contact et **la regarder** (Read). Corriger les plans vides, trop petits, hors cadre ou illisibles. Supprimer `previews/` ensuite.
 7. **Voix off** :
-   - `creative_generate_speech` : `prompt` = tous les `text` des phrases mis bout à bout (séparés par un espace), `voice_id`, `model_id`, `flow_id` et `generations_count = 1` comme ci-dessus.
+   - Dans `plan.json`, chaque phrase peut avoir un champ `jeu` (indication de jeu en anglais, ex. `"slow, commanding, deep voice"`, `"lower, mysterious"`, `"intense"`, `"slow, solemn"`, `"dramatic pause, low"`). En mettre sur l'accroche, la révélation et la fin (4 à 6 au total) pour une voix charismatique, lente et imposante.
+   - `creative_generate_speech` : `prompt` = pour chaque phrase `[jeu] text` (ou juste `text` sans jeu), mis bout à bout avec un espace ; `voice_id`, `model_id = eleven_v4`, `flow_id` et `generations_count = 1` comme ci-dessus. Les crochets ne vont QUE dans le prompt, jamais dans `text`.
    - Attendre ~20 s, puis `creative_get_flow_run_status` (flow_id + session_ids) jusqu'à `all_completed` ; `curl -sSf -o dl/voice_raw.mp3 "<content_url>"`.
    - `creative_add_flow_asset_node` (flow_id, `generation_id` de la prise, `modality = audio`), puis `creative_transcribe_audio` (flow_id, `connect_from = [node_id]`, `model_id = eleven_scribe_v1`). Attendre ~15 s, `creative_get_flow_run_status` → `curl -sSf -o words.json "<words_download_url>"`.
    - Si ElevenLabs échoue : réessayer au plus 2 fois, à 2 minutes d'intervalle (`sleep 120`), jamais deux appels dans la même minute. Sinon, échec (étape 11).
-   - Voix plus grave : `ffmpeg -y -i dl/voice_raw.mp3 -af "asetrate=44100*0.94,aresample=44100,atempo=1/0.94,bass=g=3:f=110" -b:a 192k voice.mp3`
+   - Traitement de la voix : `sh ../../moteur/voix.sh dl/voice_raw.mp3 voice.mp3`
 8. **Montage** (dans le dossier de l'épisode) :
    ```
    python3 ../../moteur/timing.py voice.mp3 words.json

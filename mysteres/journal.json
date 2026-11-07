@@ -8,10 +8,11 @@
   "note": "Plus utilisé pour publier en mode semi-automatique."
  },
  "voix": {
-  "nom": "Kevan - Narrateur Cinématique",
-  "voice_id": "AYfOkr1hDQYbhigmRZ16",
-  "modele": "eleven_multilingual_v2",
-  "flow_id": "1etQVP5O9lEQcDAGVgzu"
+  "nom": "Zion Aquila - Deep, Aged, Warm",
+  "voice_id": "t2969wgUwHbBoVCZNHRU",
+  "modele": "eleven_v4",
+  "flow_id": "1etQVP5O9lEQcDAGVgzu",
+  "traitement": "moteur/voix.sh"
  },
  "debut": "2026-11-08",
  "publiees": [
@@ -26,10 +27,10 @@
   }
  ],
  "sujets_traites": [
-  "Grande Pyramide : Big Void, outils en cuivre, journal de Merer, bras d'Ahramat"
+  "Grande Pyramide : Big Void, outils en cuivre, journal de Merer, bras d'Ahramat",
+  "Mécanisme d'Anticythère"
  ],
  "banque_sujets": [
-  "Le mécanisme d'Anticythère : un « ordinateur » grec de plus de 2 000 ans",
   "Le tombeau du premier empereur de Chine, jamais ouvert (et les rivières de mercure décrites par Sima Qian)",
   "Göbekli Tepe : un temple plus vieux que l'agriculture",
   "Le béton romain qui se répare tout seul (étude MIT 2023)",
@@ -54,5 +55,15 @@
  ],
  "dernier_echec": null,
  "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
- "prets": []
+ "prets": [
+  {
+   "n": 2,
+   "sujet": "Le mécanisme d'Anticythère",
+   "dossier": "episodes/ep02_anticythere",
+   "date": "2026-11-07",
+   "video_sans_musique": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep02_anticythere_sans_musique.mp4",
+   "video_orgue": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep02_anticythere_orgue.mp4",
+   "legende": "Ils ont repêché un ordinateur de plus de 2 000 ans au fond de la mer. ⚙️\n\nSources : Nature (2008), Scientific Reports (2021), Musée national d'archéologie d'Athènes.\n🎙️ Voix générée par IA.\n\n#noxscience #anticythere #archeologie #mystere #science"
+  }
+ ]
 }

@@ -1,0 +1,164 @@
+{
+ "sentences": [
+  {
+   "text": "Au fond de la mer, au large de la Grèce, on a retrouvé un ordinateur. Il a plus de deux mille ans.",
+   "shots": [
+    [
+     "hook_mechanism",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "> 2 000 ANS",
+     0.6
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "En 1900, des pêcheurs d'éponges s'abritent d'une tempête près de l'île grecque d'Anticythère. À quarante-cinq mètres de fond, ils découvrent l'épave d'un navire romain.",
+   "shots": [
+    [
+     "sea_wreck",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "−45 M",
+     0.7
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Parmi les statues, un bloc de bronze rongé par la mer. Personne n'y prête attention… jusqu'à ce qu'un archéologue y remarque une roue dentée.",
+   "shots": [
+    [
+     "bronze_lump",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "En 2005, un scanner à rayons X de huit tonnes révèle l'intérieur : au moins trente engrenages de bronze, taillés à la main.",
+   "shots": [
+    [
+     "xray_scan",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "SCANNER : 8 TONNES",
+     0.15
+    ],
+    [
+     "≥ 30 ENGRENAGES",
+     0.7
+    ]
+   ]
+  },
+  {
+   "text": "Et des milliers de caractères gravés, invisibles depuis deux mille ans : une sorte de mode d'emploi de la machine.",
+   "shots": [
+    [
+     "inscriptions",
+     1.0
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "On tourne une manivelle, et la machine calcule la position du Soleil et de la Lune, ses phases… et elle prédit les éclipses.",
+   "shots": [
+    [
+     "crank_dials",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Une de ses roues compte deux cent vingt-trois dents : le nombre exact de mois lunaires du cycle des éclipses.",
+   "shots": [
+    [
+     "gear_223",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "223 DENTS",
+     0.25
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Elle affichait même la date des Jeux olympiques.",
+   "shots": [
+    [
+     "olympiad_dial",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "« OLYMPIA »",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "En 2021, une équipe de Londres reconstitue sa face avant : les cinq planètes connues des Grecs, en orbite autour de la Terre.",
+   "shots": [
+    [
+     "cosmos",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "5 PLANÈTES",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Il faudra attendre près de mille quatre cents ans pour revoir une machine aussi complexe.",
+   "shots": [
+    [
+     "timeline_gap",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 1 400 ANS D'ÉCART",
+     0.4
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Alors, qui l'a construite ? Et combien d'autres dorment encore au fond de la mer ?",
+   "shots": [
+    [
+     "final_mechanism",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "Wikipedia, « Antikythera mechanism » (découverte 1900-1901, épave à 45 m, 82 fragments, 30 engrenages conservés, datation)",
+  "UCL News, 12 mars 2021 — Freeth et al., Scientific Reports (2021) : modèle du Cosmos, cycles de Vénus et Saturne",
+  "ScienceDaily (2021) : 30 engrenages, prédiction des éclipses, dates des Jeux olympiques, milliers de caractères révélés par les rayons X de 2005",
+  "Freeth et al., Nature (2008) : cadran olympique et prédiction des éclipses",
+  "PLOS ONE (2018) : scanner X-Tek Bladerunner 450 kV apporté à Athènes en 2005",
+  "CBS News (2008) : machine de tomographie de 8 tonnes"
+ ],
+ "legende": "Ils ont repêché un ordinateur de plus de 2 000 ans au fond de la mer. ⚙️\n\nSources : Nature (2008), Scientific Reports (2021), Musée national d'archéologie d'Athènes.\n🎙️ Voix générée par IA.\n\n#noxscience #anticythere #archeologie #mystere #science"
+}

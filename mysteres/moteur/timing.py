@@ -52,7 +52,13 @@ for w, a, p, i in words:
 import os
 if len(sys.argv) > 2 and os.path.exists(sys.argv[2]):
     d = json.load(open(sys.argv[2], encoding="utf-8"))
-    tw = [w for w in (d if isinstance(d, list) else d["words"]) if w.get("type", "word") == "word"]
+    tw0 = [w for w in (d if isinstance(d, list) else d["words"]) if w.get("type", "word") == "word"]
+    tw, inside = [], False  # retire les indications de jeu [....] éventuellement présentes
+    for w in tw0:
+        x = w["text"]
+        if x.startswith("["): inside = True
+        if not inside: tw.append(w)
+        if x.endswith("]"): inside = False
     if len(tw) == len(wt):
         for x, y in zip(wt, tw):
             x["s"] = round(y["start"] + DELAY, 3); x["e"] = round(y["end"] + DELAY, 3)
