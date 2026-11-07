@@ -70,10 +70,16 @@
       "fichier": "videos/ep10_gelee_grise.mp4",
       "date": "2026-11-06",
       "media_id": "18114629912518877"
+    },
+    {
+      "numero": 11,
+      "sujet": "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
+      "fichier": "videos/ep11_geante_rouge.mp4",
+      "date": "2026-11-07",
+      "media_id": "17878595895651217"
     }
   ],
   "banque_sujets": [
-    "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
     "Mythe : le LHC qui crée un trou noir",
     "La pandémie de laboratoire",
     "Le Big Rip (l'univers qui se déchire)",
