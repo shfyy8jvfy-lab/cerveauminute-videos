@@ -19,7 +19,7 @@ EPISODE = 13
 BOOM_SCENE = 6
 LEGENDE = """Épisode 13 : la pandémie de laboratoire 🧪🦠
 
-Les accidents de labo, ça existe : en 1978 à Birmingham, la variole s'est échappée d'un laboratoire et a tué une photographe de l'université, la dernière victime de cette maladie. Il existe aujourd'hui 69 labos de sécurité maximale dans le monde (Global BioLabs, 2023), et les experts réclament surtout des règles plus strictes.
+Les accidents de labo, ça existe : en 1978 à Birmingham, la variole s'est échappée d'un laboratoire et a tué une photographe de l'université, la dernière victime de cette maladie. En 2023, on comptait 69 labos de sécurité maximale dans le monde (Global BioLabs), et les experts réclament surtout des règles plus strictes.
 
 On va tous disparaître… mais pas aujourd'hui.
 

@@ -84,10 +84,16 @@
       "fichier": "videos/ep12_lhc_trou_noir.mp4",
       "date": "2026-11-07",
       "media_id": "18126308161715453"
+    },
+    {
+      "numero": 13,
+      "sujet": "La pandémie de laboratoire",
+      "fichier": "videos/ep13_pandemie_labo.mp4",
+      "date": "2026-11-07",
+      "media_id": "18155213752539394"
     }
   ],
   "banque_sujets": [
-    "La pandémie de laboratoire",
     "Le Big Rip (l'univers qui se déchire)",
     "Une planète errante qui traverse le système solaire",
     "Mythe : l'inversion des pôles magnétiques qui nous tue",
