@@ -1,6 +1,6 @@
 # Cerveau Minute — format « Mystères » (publication quotidienne)
 
-Chaque exécution **prépare une seule** vidéo pour Instagram @nox.science (ex-@cerveauminute). **Mode semi-automatique** : la tâche ne publie PAS sur Instagram. Arno publie lui-même depuis l'application pour ajouter un son de la bibliothèque Instagram (« Interstellar slowed »). La tâche lui envoie une notification avec les liens et la légende.
+Chaque exécution **prépare une seule** vidéo pour Instagram @nox.science (ex-@cerveauminute). **Mode semi-automatique** : la tâche ne publie PAS sur Instagram. Arno publie lui-même depuis l'application. La tâche lui envoie une notification avec les liens et la légende.
 Tout ce qui concerne ce format vit dans `mysteres/`. Ne jamais toucher à `disparaitre/` (autre compte).
 Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) appartiennent à l'ancien format et ne servent plus.
 
@@ -9,7 +9,7 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
 - URL publique d'une vidéo : `https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/<fichier>`
 - Voix ElevenLabs : **Zion Aquila - Deep, Aged, Warm**, `voice_id = t2969wgUwHbBoVCZNHRU`, modèle `eleven_v4` (indications de jeu entre crochets), `generations_count = 1`, flow à réutiliser `1etQVP5O9lEQcDAGVgzu`. Traitement obligatoire après téléchargement : `sh ../../moteur/voix.sh dl/voice_raw.mp3 voice.mp3` (≈ 2 demi-tons plus grave + coffre).
 - Windsor.ai : NE PLUS PUBLIER par Windsor (mode semi-automatique). Compte `17841472152672061` (nox.science) pour mémoire.
-- Moteur : `mysteres/moteur/` (`timing.py`, `render.py`, `music.py`, `assemble.py`). Dépendances : `numpy`, `opencv-python`, `scipy`, `ffmpeg` (sinon `pip install --break-system-packages numpy opencv-python-headless scipy`). Police des sous-titres : Inter (`fc-list | grep -i inter`) ; à défaut libass prend une police par défaut, ce n'est pas bloquant.
+- Moteur : `mysteres/moteur/` (`timing.py`, `render.py`, `assemble.py` ; `music.py` ne sert plus). Dépendances : `numpy`, `opencv-python`, `scipy`, `ffmpeg` (sinon `pip install --break-system-packages numpy opencv-python-headless scipy`). Police des sous-titres : Inter (`fc-list | grep -i inter`) ; à défaut libass prend une police par défaut, ce n'est pas bloquant.
 
 ## Déroulé d'une exécution
 0. Lire `mysteres/journal.json`. Si la date du jour (Europe/Brussels) est **avant** `debut` : ne rien faire, terminer.
@@ -42,23 +42,20 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
    ```
    python3 ../../moteur/timing.py voice.mp3 words.json
    python3 ../../moteur/render.py visual.mp4          # ~4-6 min
-   python3 ../../moteur/music.py music.wav
-   python3 ../../moteur/assemble.py visual.mp4 final_sans_musique.mp4 voice.mp3
-   python3 ../../moteur/assemble.py visual.mp4 final_orgue.mp4 voice.mp3 music.wav
-   ffmpeg -y -i final_sans_musique.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a copy -movflags +faststart ../../videos/epNN_<slug>_sans_musique.mp4
-   ffmpeg -y -i final_orgue.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a copy -movflags +faststart ../../videos/epNN_<slug>_orgue.mp4
+   python3 ../../moteur/assemble.py visual.mp4 final.mp4 voice.mp3
+   ffmpeg -y -i final.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a copy -movflags +faststart ../../videos/epNN_<slug>.mp4
    ```
-   La version **sans musique** est celle qu'Arno publie (il ajoute le son dans l'application). La version **orgue** est une solution de secours, avec la musique originale.
+   **AUCUNE musique de fond** (demande d'Arno) : ne jamais lancer `music.py`, ne jamais passer de 4e argument à `assemble.py`. Une seule vidéo par épisode, voix seule ; Arno ajoute lui-même un son dans l'application s'il le souhaite.
    **Contrôle** : extraire 6 images (début, accroche, milieu, révélation, fin) et les regarder ; vérifier la durée (entre 45 et 90 s : les reels publiés par certains outils sont limités à 90 s), que les sous-titres suivent la voix et que le volume est proche de -14 LUFS (`ffmpeg -i ... -af ebur128 -f null -`). Corriger avant de continuer.
-   Ne pas committer `visual.mp4`, `final*.mp4`, `music.wav`, `previews/` (dans le `.gitignore`). Committer `plan.json`, `scenes.py`, `timeline.json`, `words.json`, `voice.mp3` et les deux vidéos finales.
+   Ne pas committer `visual.mp4`, `final*.mp4`, `previews/` (dans le `.gitignore`). Committer `plan.json`, `scenes.py`, `timeline.json`, `words.json`, `voice.mp3` et la vidéo finale.
    Retirer le sujet de `banque_sujets` et l'ajouter à `sujets_traites`.
-9. **Pousser** : `git add` + commit + `git push` (faire `git pull --rebase` avant si besoin). Vérifier `curl -sI` sur les deux URL raw → HTTP 200 (attendre 30 s et réessayer si 404).
-10. **Prévenir Arno (pas de publication Instagram)** : ajouter l'épisode à `prets` dans le journal (n, sujet, dossier, date, `video_sans_musique` et `video_orgue` = URL raw, `legende`), `dernier_echec = null`, commit, push. Puis envoyer une notification push (outil `PushNotification`) **courte** : « Nox #NN prêt : <sujet>. Vidéo : <URL raw sans musique> ». Le message final de l'exécution reprend : le sujet, l'URL de la vidéo sans musique, l'URL de la version orgue, et la légende complète prête à copier-coller.
+9. **Pousser** : `git add` + commit + `git push` (faire `git pull --rebase` avant si besoin). Vérifier `curl -sI` sur l'URL raw → HTTP 200 (attendre 30 s et réessayer si 404).
+10. **Prévenir Arno (pas de publication Instagram)** : ajouter l'épisode à `prets` dans le journal (n, sujet, dossier, date, `video` = URL raw, `legende`), `dernier_echec = null`, commit, push. Puis envoyer une notification push (outil `PushNotification`) **courte** : « Nox #NN prêt : <sujet>. Vidéo : <URL raw> ». Le message final de l'exécution reprend : le sujet, l'URL de la vidéo et la légende complète prête à copier-coller.
     **Ne jamais appeler `create_video_post` ni aucune action de publication Windsor ou Metricool.**
 11. **En cas d'échec** (recherche, rendu, voix, push) : écrire dans `journal.json` → `dernier_echec = {date, episode, etape, erreur}`, commit, push, envoyer une notification push courte qui signale l'échec, et s'arrêter.
 
 ## Règles
 - Un seul épisode préparé par exécution, jamais deux fois le même sujet.
 - Si `banque_sujets` contient moins de 5 sujets : en ajouter 10 nouveaux (mystères historiques, archéologiques, scientifiques ou d'ingénierie, avec un fait vérifiable et surprenant), sans répéter `sujets_traites`.
-- Pas de musique, d'images ou de voix appartenant à d'autres : la musique est générée par `music.py`, les visuels par `render.py`.
+- Pas de musique de fond du tout. Pas d'images ni de voix appartenant à d'autres : les visuels sont générés par `render.py`.
 - Message final en français : l'épisode prêt (numéro, sujet, liens, légende) ou la raison de l'échec.
