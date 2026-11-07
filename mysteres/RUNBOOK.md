@@ -1,6 +1,6 @@
 # Cerveau Minute — format « Mystères » (publication quotidienne)
 
-Chaque exécution publie **une seule** vidéo sur Instagram @cerveauminute, sans intervention humaine.
+Chaque exécution publie **une seule** vidéo sur Instagram @nox.science (ex-@cerveauminute), sans intervention humaine.
 Tout ce qui concerne ce format vit dans `mysteres/`. Ne jamais toucher à `disparaitre/` (autre compte).
 Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) appartiennent à l'ancien format et ne servent plus.
 
@@ -8,7 +8,7 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
 - Dépôt : `shfyy8jvfy-lab/cerveauminute-videos` (public, branche `main`)
 - URL publique d'une vidéo : `https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/<fichier>`
 - Voix ElevenLabs : **Kevan - Narrateur Cinématique**, `voice_id = AYfOkr1hDQYbhigmRZ16`, modèle `eleven_multilingual_v2`, `generations_count = 1`, flow à réutiliser `1etQVP5O9lEQcDAGVgzu`. Offre payante (Creator) : pas de saturation attendue.
-- Windsor.ai : connecteur `instagram`, compte `17841472152672061` (cerveauminute), action `create_video_post`
+- Windsor.ai : connecteur `instagram`, compte `17841472152672061` (nox.science, ex-cerveauminute), action `create_video_post`
 - Moteur : `mysteres/moteur/` (`timing.py`, `render.py`, `music.py`, `assemble.py`). Dépendances : `numpy`, `opencv-python`, `scipy`, `ffmpeg` (sinon `pip install --break-system-packages numpy opencv-python-headless scipy`). Police des sous-titres : Inter (`fc-list | grep -i inter`) ; à défaut libass prend une police par défaut, ce n'est pas bloquant.
 
 ## Déroulé d'une exécution
@@ -23,7 +23,7 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
    - Ton : sensationnel, mystérieux, phrases courtes et rythmées, mais **aucune information faussée**.
    - Longueur : 200 à 240 mots (≈ 70 à 80 s avec cette voix).
    - `sources` : liste des sources (titre, revue/site, année).
-   - `legende` : 1 phrase d'accroche + 1 emoji, une ligne « Sources : … » (revues/années), la ligne « 🎙️ Voix générée par IA. », puis 4 à 5 hashtags dont toujours `#cerveauminute`.
+   - `legende` : 1 phrase d'accroche + 1 emoji, une ligne « Sources : … » (revues/années), la ligne « 🎙️ Voix générée par IA. », puis 4 à 5 hashtags dont toujours `#noxscience`.
 5. **Plans 3D** : réutiliser les plans du moteur si pertinents (`grep "^def sh_" mysteres/moteur/render.py`), et écrire les plans propres au sujet dans `epNN_<slug>/scenes.py` (fonctions `sh_<nom>(img, u, t, v, T)`, exécutées dans l'espace du moteur : `Scene` avec `box`, `seg`, `add`, `circle`, `pyramid`, `grid_plane` ; `look_at`, `orbit`, `draw`, `stars`, `ease`, `lerp` ; couleurs `GOLD`, `AMBER`, `WHITE`, `COPPER`, ou d'autres définies dans scenes.py, en BGR 0-1). Voir les exemples `sh_chisel_granite`, `sh_muons`, `sh_river_map` dans render.py.
    - Style : fil de fer lumineux sur fond noir, objet principal bien cadré et assez grand au centre de l'écran vertical, caméra qui bouge doucement (orbite ou travelling), un plan par idée.
    - `v` = numéro de l'angle quand un plan long est découpé : prévoir 2 ou 3 cadrages différents selon `v`.
