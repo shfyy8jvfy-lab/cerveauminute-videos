@@ -4,7 +4,8 @@
  "windsor": {
   "connecteur": "instagram",
   "compte_id": "17841472152672061",
-  "action": "create_video_post"
+  "action": "create_video_post",
+  "note": "Plus utilisé pour publier en mode semi-automatique."
  },
  "voix": {
   "nom": "Kevan - Narrateur Cinématique",
@@ -13,7 +14,6 @@
   "flow_id": "1etQVP5O9lEQcDAGVgzu"
  },
  "debut": "2026-11-08",
- "a_publier": [],
  "publiees": [
   {
    "n": 1,
@@ -52,5 +52,7 @@
   "La fosse des Mariannes : la pression à 11 km de fond",
   "La première image d'un trou noir (M87*, 2019)"
  ],
- "dernier_echec": null
+ "dernier_echec": null,
+ "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
+ "prets": []
 }

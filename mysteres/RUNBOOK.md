@@ -1,6 +1,6 @@
 # Cerveau Minute — format « Mystères » (publication quotidienne)
 
-Chaque exécution publie **une seule** vidéo sur Instagram @nox.science (ex-@cerveauminute), sans intervention humaine.
+Chaque exécution **prépare une seule** vidéo pour Instagram @nox.science (ex-@cerveauminute). **Mode semi-automatique** : la tâche ne publie PAS sur Instagram. Arno publie lui-même depuis l'application pour ajouter un son de la bibliothèque Instagram (« Interstellar slowed »). La tâche lui envoie une notification avec les liens et la légende.
 Tout ce qui concerne ce format vit dans `mysteres/`. Ne jamais toucher à `disparaitre/` (autre compte).
 Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) appartiennent à l'ancien format et ne servent plus.
 
@@ -8,14 +8,14 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
 - Dépôt : `shfyy8jvfy-lab/cerveauminute-videos` (public, branche `main`)
 - URL publique d'une vidéo : `https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/<fichier>`
 - Voix ElevenLabs : **Kevan - Narrateur Cinématique**, `voice_id = AYfOkr1hDQYbhigmRZ16`, modèle `eleven_multilingual_v2`, `generations_count = 1`, flow à réutiliser `1etQVP5O9lEQcDAGVgzu`. Offre payante (Creator) : pas de saturation attendue.
-- Windsor.ai : connecteur `instagram`, compte `17841472152672061` (nox.science, ex-cerveauminute), action `create_video_post`
+- Windsor.ai : NE PLUS PUBLIER par Windsor (mode semi-automatique). Compte `17841472152672061` (nox.science) pour mémoire.
 - Moteur : `mysteres/moteur/` (`timing.py`, `render.py`, `music.py`, `assemble.py`). Dépendances : `numpy`, `opencv-python`, `scipy`, `ffmpeg` (sinon `pip install --break-system-packages numpy opencv-python-headless scipy`). Police des sous-titres : Inter (`fc-list | grep -i inter`) ; à défaut libass prend une police par défaut, ce n'est pas bloquant.
 
 ## Déroulé d'une exécution
 0. Lire `mysteres/journal.json`. Si la date du jour (Europe/Brussels) est **avant** `debut` : ne rien faire, terminer.
-   Si un élément de `publiees` a déjà la date du jour : ne rien publier, terminer (une vidéo par jour).
-1. **Si `a_publier` n'est pas vide** : la vidéo est déjà prête → aller directement à l'étape 9 avec le premier élément.
-2. **Sinon, fabriquer un épisode** : prendre le premier sujet de `banque_sujets`. Numéro = dernier numéro (publiées + à publier) + 1. Dossier `mysteres/episodes/epNN_<slug>/`.
+   Si un élément de `prets` a déjà la date du jour : un épisode a déjà été préparé aujourd'hui → renvoyer la notification de l'étape 10 pour cet épisode, puis terminer.
+1. (rien : en mode semi-automatique, on fabrique toujours un nouvel épisode)
+2. **Fabriquer un épisode** : prendre le premier sujet de `banque_sujets`. Numéro = dernier numéro (publiées + prêts) + 1. Dossier `mysteres/episodes/epNN_<slug>/`.
 3. **Recherche** (WebSearch / WebFetch) : chaque chiffre, date ou affirmation doit avoir au moins une source sérieuse (revue scientifique, institution, presse scientifique ou archéologique reconnue). Si un fait n'est pas confirmé : le retirer. Si le sujet ne tient pas : le déplacer en fin de banque et prendre le suivant. Pas de pseudo-science, pas d'extraterrestres « sérieux ».
 4. **Écrire `plan.json`** sur le modèle de `episodes/ep01_grand_vide/plan.json` :
    - `sentences[]` : `text` (ce que la voix dit, nombres en lettres, sauf les années comme « 2017 »), `shots` (liste `[nom_du_plan, fraction]`, fractions qui somment à 1), `callouts` optionnels (`[texte court en MAJUSCULES, position 0-1 dans la phrase]`, un chiffre clé, ≤ 24 caractères).
@@ -42,19 +42,22 @@ Les fichiers à la racine (`RUNBOOK.md`, `journal.json`, `scripts/`, `outil/`) a
    python3 ../../moteur/timing.py voice.mp3 words.json
    python3 ../../moteur/render.py visual.mp4          # ~4-6 min
    python3 ../../moteur/music.py music.wav
-   python3 ../../moteur/assemble.py visual.mp4 final.mp4 voice.mp3 music.wav
-   ffmpeg -y -i final.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a copy -movflags +faststart ../../videos/epNN_<slug>.mp4
+   python3 ../../moteur/assemble.py visual.mp4 final_sans_musique.mp4 voice.mp3
+   python3 ../../moteur/assemble.py visual.mp4 final_orgue.mp4 voice.mp3 music.wav
+   ffmpeg -y -i final_sans_musique.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a copy -movflags +faststart ../../videos/epNN_<slug>_sans_musique.mp4
+   ffmpeg -y -i final_orgue.mp4 -c:v libx264 -preset veryfast -crf 23 -c:a copy -movflags +faststart ../../videos/epNN_<slug>_orgue.mp4
    ```
-   **Contrôle** : extraire 6 images (début, accroche, milieu, révélation, fin) et les regarder ; vérifier la durée (entre 45 et 95 s), que les sous-titres suivent la voix et que le volume est proche de -14 LUFS (`ffmpeg -i ... -af ebur128 -f null -`). Corriger avant de publier.
-   Ne pas committer `visual.mp4`, `final.mp4`, `music.wav`, `previews/` (ajoutés au `.gitignore`). Committer `plan.json`, `scenes.py`, `timeline.json`, `words.json`, `voice.mp3` et la vidéo finale.
-   Ajouter l'épisode à `a_publier` dans le journal, retirer le sujet de `banque_sujets`, l'ajouter à `sujets_traites`.
-9. **Pousser** : `git add` + commit + `git push` (faire `git pull --rebase` avant si besoin). Vérifier `curl -sI <URL raw de la vidéo>` → HTTP 200 (attendre 30 s et réessayer si 404).
-10. **Publier** : `execute_action` Windsor avec `connector = instagram`, `account = 17841472152672061`, `action = create_video_post`, `params = {video_url: <URL raw>, caption: <legende du plan.json>, share_to_feed: true}`.
-    Puis déplacer l'élément de `a_publier` vers `publiees` (n, sujet, fichier, date, media_id si fourni), `dernier_echec = null`, commit, push.
-11. **En cas d'échec** (recherche, rendu, voix, push, publication, ou compte absent de `get_connectors`) : écrire dans `journal.json` → `dernier_echec = {date, episode, etape, erreur}`, commit, push, et s'arrêter **sans rien publier**. Une vidéo déjà prête reste dans `a_publier` et sera publiée à la prochaine exécution.
+   La version **sans musique** est celle qu'Arno publie (il ajoute le son dans l'application). La version **orgue** est une solution de secours, avec la musique originale.
+   **Contrôle** : extraire 6 images (début, accroche, milieu, révélation, fin) et les regarder ; vérifier la durée (entre 45 et 90 s : les reels publiés par certains outils sont limités à 90 s), que les sous-titres suivent la voix et que le volume est proche de -14 LUFS (`ffmpeg -i ... -af ebur128 -f null -`). Corriger avant de continuer.
+   Ne pas committer `visual.mp4`, `final*.mp4`, `music.wav`, `previews/` (dans le `.gitignore`). Committer `plan.json`, `scenes.py`, `timeline.json`, `words.json`, `voice.mp3` et les deux vidéos finales.
+   Retirer le sujet de `banque_sujets` et l'ajouter à `sujets_traites`.
+9. **Pousser** : `git add` + commit + `git push` (faire `git pull --rebase` avant si besoin). Vérifier `curl -sI` sur les deux URL raw → HTTP 200 (attendre 30 s et réessayer si 404).
+10. **Prévenir Arno (pas de publication Instagram)** : ajouter l'épisode à `prets` dans le journal (n, sujet, dossier, date, `video_sans_musique` et `video_orgue` = URL raw, `legende`), `dernier_echec = null`, commit, push. Puis envoyer une notification push (outil `PushNotification`) **courte** : « Nox #NN prêt : <sujet>. Vidéo : <URL raw sans musique> ». Le message final de l'exécution reprend : le sujet, l'URL de la vidéo sans musique, l'URL de la version orgue, et la légende complète prête à copier-coller.
+    **Ne jamais appeler `create_video_post` ni aucune action de publication Windsor ou Metricool.**
+11. **En cas d'échec** (recherche, rendu, voix, push) : écrire dans `journal.json` → `dernier_echec = {date, episode, etape, erreur}`, commit, push, envoyer une notification push courte qui signale l'échec, et s'arrêter.
 
 ## Règles
-- Une seule vidéo publiée par exécution, jamais deux fois le même sujet.
+- Un seul épisode préparé par exécution, jamais deux fois le même sujet.
 - Si `banque_sujets` contient moins de 5 sujets : en ajouter 10 nouveaux (mystères historiques, archéologiques, scientifiques ou d'ingénierie, avec un fait vérifiable et surprenant), sans répéter `sujets_traites`.
 - Pas de musique, d'images ou de voix appartenant à d'autres : la musique est générée par `music.py`, les visuels par `render.py`.
-- Message final très court en français : l'épisode publié (numéro et sujet) ou la raison de l'échec.
+- Message final en français : l'épisode prêt (numéro, sujet, liens, légende) ou la raison de l'échec.
