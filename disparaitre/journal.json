@@ -98,10 +98,16 @@
       "fichier": "videos/ep14_big_rip.mp4",
       "date": "2026-11-08",
       "media_id": "18115731239035344"
+    },
+    {
+      "numero": 15,
+      "sujet": "Une planète errante qui traverse le système solaire",
+      "fichier": "videos/ep15_planete_errante.mp4",
+      "date": "2026-11-08",
+      "media_id": "17972176296193947"
     }
   ],
   "banque_sujets": [
-    "Une planète errante qui traverse le système solaire",
     "Mythe : l'inversion des pôles magnétiques qui nous tue",
     "L'effet de serre emballé (devenir comme Vénus)",
     "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
