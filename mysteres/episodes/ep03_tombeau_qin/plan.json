@@ -1,0 +1,198 @@
+{
+ "sentences": [
+  {
+   "text": "En Chine, sous une colline, dort une tombe fermée depuis plus de deux mille deux cents ans. Et la terre au-dessus est chargée de mercure.",
+   "shots": [
+    [
+     "hook_mound",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "> 2 200 ANS",
+     0.45
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "C'est le tombeau de Qin Shi Huang, premier empereur de Chine, près de Xi'an. Le chantier commence quand il a treize ans.",
+   "shots": [
+    [
+     "context_map",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "QIN SHI HUANG",
+     0.2
+    ],
+    [
+     "13 ANS",
+     0.8
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Selon l'historien Sima Qian, sept cent mille hommes y sont envoyés.",
+   "shots": [
+    [
+     "workers",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "700 000 HOMMES",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "En 1974, des paysans creusant un puits découvrent son armée : plus de huit mille soldats de terre cuite.",
+   "shots": [
+    [
+     "army_pit",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "> 8 000 SOLDATS",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Mais le plus étrange est sous la colline. Selon Sima Qian, le mercure y imite les cent rivières, le fleuve Jaune, le Yangzi et la mer… mis en mouvement par une mécanique.",
+   "shots": [
+    [
+     "mercury_rivers",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "RIVIÈRES DE MERCURE",
+     0.45
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Au plafond, les constellations. Et des arbalètes, réglées pour tirer sur quiconque entrerait.",
+   "shots": [
+    [
+     "ceiling_crossbows",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ARBALÈTES PIÈGES",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Les artisans qui en connaissaient les secrets auraient été enfermés à l'intérieur.",
+   "shots": [
+    [
+     "sealed_gate",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Longtemps, on a cru à une légende. Puis, dans les années 1980, des analyses du sol du tertre révèlent des taux de mercure anormaux.",
+   "shots": [
+    [
+     "soil_probe",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "MERCURE ANORMAL",
+     0.7
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "En 2020, des mesures au laser détectent même des vapeurs de mercure qui semblent s'échapper de la colline.",
+   "shots": [
+    [
+     "lidar",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "LIDAR · 2020",
+     0.2
+    ]
+   ]
+  },
+  {
+   "text": "Les relevés géophysiques situent la chambre funéraire : quatre-vingts mètres sur cinquante, à une trentaine de mètres sous terre.",
+   "shots": [
+    [
+     "chamber_scan",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "80 × 50 M",
+     0.4
+    ],
+    [
+     "≈ −30 M",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Pourquoi ne pas l'ouvrir ? Sur les soldats exhumés, la laque peinte se recroqueville en quinze secondes à l'air, et s'écaille en quatre minutes.",
+   "shots": [
+    [
+     "warrior_paint",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "15 SECONDES",
+     0.5
+    ],
+    [
+     "4 MINUTES",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Alors la colline reste scellée. Et dessous, dans le noir, des rivières de mercure attendent peut-être encore leur empereur.",
+   "shots": [
+    [
+     "final_mound",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "Zhao, Zhang, Duan, Lian, Hou, Li, Zhu & Svanberg, « Mercury as a Geophysical Tracer Gas – Emissions from the Emperor Qin Tomb in Xi'an Studied by Laser Radar », Scientific Reports 10:10414 (2020) — vapeurs de mercure au-dessus du tertre, chambre ≈ 80 × 50 × 15 m, plafond ≈ 30 m sous le sol (relevés radar et gravimétriques)",
+  "Chang Yong & Li Tong, Kaogu (Archaeology), 1983 — mercure dans le sol du tertre (jusqu'à 1 440 ppb, moyenne ≈ 205 ppb)",
+  "Sima Qian, Shiji (Mémoires historiques), Ier siècle av. J.-C. — 700 000 hommes, rivières de mercure, constellations, arbalètes, artisans enfermés",
+  "Wikipedia, « Mausoleum of the First Qin Emperor » — début des travaux en 246 av. J.-C. à 13 ans, dimensions de la chambre",
+  "Wikipedia, « Terracotta Army » — découverte du 29 mars 1974 par des paysans creusant un puits, plus de 8 000 soldats, à environ 1,5 km du tertre, laque qui se recroqueville en 15 s et s'écaille en 4 min"
+ ],
+ "legende": "Une tombe scellée depuis plus de 2 200 ans… et du mercure qui s'échappe de la colline. ⚱️\n\nSources : Scientific Reports (2020), Kaogu (1983), Sima Qian, Mémoires historiques (Ier s. av. J.-C.).\n🎙️ Voix générée par IA.\n\n#noxscience #qinshihuang #archeologie #mystere #histoire"
+}
