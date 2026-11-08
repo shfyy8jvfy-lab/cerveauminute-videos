@@ -91,10 +91,16 @@
       "fichier": "videos/ep13_pandemie_labo.mp4",
       "date": "2026-11-07",
       "media_id": "18155213752539394"
+    },
+    {
+      "numero": 14,
+      "sujet": "Le Big Rip (l'univers qui se déchire)",
+      "fichier": "videos/ep14_big_rip.mp4",
+      "date": "2026-11-08",
+      "media_id": "18115731239035344"
     }
   ],
   "banque_sujets": [
-    "Le Big Rip (l'univers qui se déchire)",
     "Une planète errante qui traverse le système solaire",
     "Mythe : l'inversion des pôles magnétiques qui nous tue",
     "L'effet de serre emballé (devenir comme Vénus)",
