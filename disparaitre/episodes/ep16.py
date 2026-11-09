@@ -187,3 +187,20 @@ SCENES = [
     (sc_weak, 4.4), (sc_boom, 3.8), (sc_joke, 4.6), (sc_myth, 4.4),
     (sc_laschamp, 4.6), (sc_real, 4.4), (sc_last, 5.0), (sc_end, 4.8),
 ]
+
+# ---------- voix off (une entrée par scène, même ordre que SCENES) ----------
+VOIX = [
+    "Et si le nord devenait le sud… et que ça nous tuait tous ?",
+    "Scénario d'extinction numéro seize : les pôles inversés.",
+    "Au cœur de la Terre, du fer liquide tourne. Il crée un champ magnétique : un bouclier invisible.",
+    "Ce bouclier dévie les particules envoyées par le Soleil.",
+    "Parfois, ce champ s'inverse. Le nord magnétique devient le sud. C'est arrivé des centaines de fois.",
+    "Pendant une inversion, le bouclier faiblit. Et il a déjà perdu environ neuf pour cent de sa force en deux cents ans.",
+    "La rumeur : sans bouclier, on serait tous grillés. Fin de la partie ?",
+    "Le seul vrai drame : votre boussole indiquerait le sud… comme votre sens de l'orientation depuis toujours.",
+    "En vrai : aucune extinction de masse n'a jamais coïncidé avec une inversion des pôles. C'est la NASA qui le dit.",
+    "Il y a quarante et un mille ans, le champ a presque disparu. Nos ancêtres ont survécu sans problème.",
+    "Le vrai risque ? Des satellites et des réseaux électriques un peu perturbés. Gênant. Pas mortel.",
+    "Sept cent quatre-vingt mille ans depuis la dernière inversion. Personne ne sait quand viendra la prochaine. Mais elle prendrait des siècles.",
+    "Bref : le nord peut bien changer de place. Votre avis d'imposition, lui, trouvera toujours votre adresse. Abonnez-vous. Tant qu'il y a un demain.",
+]

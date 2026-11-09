@@ -3,10 +3,16 @@
 Usage :
   python3 engine.py episodes/ep02.py videos/ep02.mp4            # rendu complet (vidéo + son)
   python3 engine.py episodes/ep02.py --preview 0:1.5 4:2.0      # PNG d'aperçu dans preview/
+  python3 engine.py episodes/ep02.py --durees                    # durées finales (avec voix) + thumb_offset
 
 Un épisode est un fichier Python qui fait `from engine import *`, définit des fonctions
 de scène `f(img, d, t, D)` et les variables : EPISODE (int), SCENES = [(fonction, durée_s), ...],
-BOOM_SCENE (index de la scène où tombe le « boum » sonore, ou None), LEGENDE (str).
+BOOM_SCENE (index de la scène où tombe le « boum » sonore, ou None), LEGENDE (str),
+et VOIX = ["texte lu pendant la scène 0", ...] (un texte par scène) pour la voix off.
+
+Voix off : si le dossier voix/epNN/ contient s00.mp3, s01.mp3… (générés avec ElevenLabs à partir de VOIX),
+chaque scène est allongée si besoin pour que sa voix tienne dedans (début à VOICE_DELAY, marge VOICE_TAIL),
+et la voix est mixée par-dessus la nappe sonore (baissée).
 """
 import math, random, subprocess, sys, os, wave, importlib.util, shutil
 import numpy as np
@@ -122,7 +128,38 @@ def load_episode(path):
     EPISODE_NUM = mod.EPISODE
     import engine as _E
     _E.EPISODE_NUM = mod.EPISODE
+    attach_voice(mod, path)
     return mod
+
+VOICE_DELAY, VOICE_TAIL, VOICE_SPEED = 0.25, 0.45, 1.12  # voix légèrement accélérée (plus nerveuse)
+
+def audio_duration(f):
+    r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f],
+                       capture_output=True, text=True, check=True)
+    return float(r.stdout.strip())
+
+def attach_voice(mod, path):
+    """Si voix/epNN/sNN.mp3 existent pour toutes les scènes, allonge les scènes trop courtes."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    vdir = os.path.join(here, 'voix', f'ep{mod.EPISODE:02d}')
+    files = [os.path.join(vdir, f's{i:02d}.mp3') for i in range(len(mod.SCENES))]
+    mod.VOIX_FILES = None
+    if not os.path.isdir(vdir):
+        return
+    missing = [f for f in files if not os.path.exists(f)]
+    if missing:
+        raise SystemExit(f'voix incomplète : {len(missing)} fichier(s) manquant(s), ex. {missing[0]}')
+    new = []
+    for (fn, D), f in zip(mod.SCENES, files):
+        need = VOICE_DELAY + audio_duration(f) / VOICE_SPEED + VOICE_TAIL
+        new.append((fn, round(max(D, need), 2)))
+    mod.SCENES = new
+    mod.VOIX_FILES = files
+
+def read_voice(f, sr=44100):
+    r = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-af', f'atempo={VOICE_SPEED}', '-ac', '1', '-ar', str(sr), '-f', 's16le', '-'],
+                       capture_output=True, check=True)
+    return np.frombuffer(r.stdout, dtype=np.int16).astype(np.float64) / 32768
 
 def frame(fn, t, D):
     img = Image.new('RGBA', (W * S, H * S), (0, 0, 0, 255))
@@ -140,7 +177,7 @@ def render_scene(fn, D, out):
     if p.wait() != 0: raise SystemExit(f'échec rendu {out}')
     os.replace(tmp, out)
 
-def make_audio(scenes, boom_scene, path):
+def make_audio(scenes, boom_scene, path, voice_files=None):
     sr = 44100
     total = sum(D for _, D in scenes)
     n = int(total * sr); t = np.arange(n) / sr
@@ -159,7 +196,20 @@ def make_audio(scenes, boom_scene, path):
         out[b:b+L] += 0.8 * np.sin(2*np.pi*(60 - 25*tt)*tt) * np.exp(-tt*2.5)
     fo, fi = int(1.5*sr), int(0.3*sr)
     out[-fo:] *= np.linspace(1, 0, fo); out[:fi] *= np.linspace(0, 1, fi)
-    pcm = (out / np.max(np.abs(out)) * 0.85 * 32767).astype(np.int16)
+    if voice_files:
+        out = out / np.max(np.abs(out)) * 0.30
+        vo = np.zeros(n)
+        for st, f in zip(starts, voice_files):
+            v = read_voice(f, sr)
+            v = v / max(1e-6, np.max(np.abs(v))) * 0.92
+            a = int((st + VOICE_DELAY) * sr); L = min(len(v), n - a)
+            if L > 0: vo[a:a+L] += v[:L]
+        env = np.convolve(np.abs(vo) > 0.02, np.ones(int(0.25 * sr)) / int(0.25 * sr), mode='same')
+        out = out * (1 - 0.45 * np.clip(env * 3, 0, 1)) + vo
+        out = np.clip(out, -0.98, 0.98)
+        pcm = (out * 32767).astype(np.int16)
+    else:
+        pcm = (out / np.max(np.abs(out)) * 0.85 * 32767).astype(np.int16)
     with wave.open(path, 'wb') as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr)
         w.writeframes(np.stack([pcm, pcm], axis=1).tobytes())
@@ -174,6 +224,12 @@ def main():
     path = sys.argv[1]
     mod = load_episode(path)
     here = os.path.dirname(os.path.abspath(__file__))
+    if len(sys.argv) > 2 and sys.argv[2] == '--durees':
+        ds = [D for _, D in mod.SCENES]
+        print('voix :', 'oui' if mod.VOIX_FILES else 'non')
+        print('durées :', ds, '| total : %.1f s' % sum(ds))
+        print('thumb_offset (milieu scène titre, ms) :', int((ds[0] + ds[1] / 2) * 1000))
+        return
     if len(sys.argv) > 2 and sys.argv[2] == '--preview':
         os.makedirs(os.path.join(here, 'preview'), exist_ok=True)
         for a in sys.argv[3:]:
@@ -189,7 +245,7 @@ def main():
         pool.map(_render_one, jobs)
     with open(f'{work}/list.txt', 'w') as fl:
         for _, _, o in jobs: fl.write(f"file '{o}'\n")
-    make_audio(mod.SCENES, getattr(mod, 'BOOM_SCENE', None), f'{work}/audio.wav')
+    make_audio(mod.SCENES, getattr(mod, 'BOOM_SCENE', None), f'{work}/audio.wav', getattr(mod, 'VOIX_FILES', None))
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{work}/list.txt', '-c', 'copy', f'{work}/video.mp4'], check=True)
     tmp = out[:-4] + '.tmp.mp4'
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f'{work}/video.mp4', '-i', f'{work}/audio.wav', '-map', '0:v', '-map', '1:a',
