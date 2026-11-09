@@ -105,10 +105,16 @@
       "fichier": "videos/ep15_planete_errante.mp4",
       "date": "2026-11-08",
       "media_id": "17972176296193947"
+    },
+    {
+      "numero": 16,
+      "sujet": "Mythe : l'inversion des pôles magnétiques qui nous tue",
+      "fichier": "videos/ep16_inversion_poles.mp4",
+      "date": "2026-11-09",
+      "media_id": "18121658167753834"
     }
   ],
   "banque_sujets": [
-    "Mythe : l'inversion des pôles magnétiques qui nous tue",
     "L'effet de serre emballé (devenir comme Vénus)",
     "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
     "La disparition des pollinisateurs",
