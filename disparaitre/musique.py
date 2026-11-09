@@ -88,6 +88,36 @@ def make_music(total_s, boom_t=None, sr=44100):
     return st / (np.abs(st).max() + 1e-9)
 
 
+def load_music_file(path, total_s, boom_t=None, sr=44100, start_s=0.0):
+    """Morceau fourni (sous licence) : bouclé si trop court, volume lissé, coupure d'une demi-seconde
+    au « boum », fondus d'entrée/sortie. Renvoie (n, 2) avec un niveau moyen (RMS) d'environ 0,25."""
+    import subprocess
+    r = subprocess.run(['ffmpeg', '-v', 'error', '-ss', str(start_s), '-i', path, '-ac', '2', '-ar', str(sr),
+                        '-f', 's16le', '-'], capture_output=True, check=True)
+    m = np.frombuffer(r.stdout, dtype=np.int16).astype(np.float64).reshape(-1, 2) / 32768
+    N = int(total_s * sr)
+    if len(m) < N:  # boucle avec fondu enchaîné de 2 s
+        xf = int(2 * sr); out = m.copy()
+        while len(out) < N:
+            k = np.linspace(0, 1, xf)[:, None]
+            out = np.concatenate([out[:-xf], out[-xf:] * (1 - k) + m[:xf] * k, m[xf:]])
+        m = out
+    m = m[:N]
+    # lissage du volume : on rapproche chaque passage d'un niveau cible (gain borné)
+    mono = np.abs(m).mean(1)
+    w = int(1.5 * sr)
+    rms = np.sqrt(np.convolve(mono ** 2, np.ones(w) / w, mode='same')) + 1e-6
+    gain = np.clip(0.12 / rms, 0.5, 2.0)
+    m = m * gain[:, None]
+    t = np.arange(N) / sr
+    if boom_t:
+        gap = 1 - np.clip((t - (boom_t - 0.05)) / 0.05, 0, 1) * np.clip(((boom_t + 0.5) - t) / 0.08, 0, 1)
+        m *= gap[:, None]
+    fade = np.minimum(1, t / 1.0) * np.clip((total_s - t) / 2.5, 0, 1)
+    m *= fade[:, None]
+    return m / (np.sqrt((m ** 2).mean()) + 1e-9) * 0.25
+
+
 if __name__ == '__main__':
     import sys, wave
     out = sys.argv[1] if len(sys.argv) > 1 else 'musique_test.wav'

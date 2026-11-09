@@ -178,7 +178,10 @@ def render_scene(fn, D, out):
     if p.wait() != 0: raise SystemExit(f'échec rendu {out}')
     os.replace(tmp, out)
 
-MUSIC_LEVEL = 0.32  # volume de la musique (musique.py) sous la voix
+MUSIC_LEVEL = 0.32  # volume de la musique sous la voix
+# Musique de fond : fichier sous licence (Artlist « Frozen Lake », slowed & reverb) ; si absent,
+# repli sur la musique originale générée par musique.py.
+MUSIC_FILE = 'musique_fichiers/frozen_lake.mp3'
 
 def make_audio(scenes, boom_scene, path, voice_files=None, music=True):
     sr = 44100
@@ -210,16 +213,20 @@ def make_audio(scenes, boom_scene, path, voice_files=None, music=True):
         env = np.convolve(np.abs(vo) > 0.02, np.ones(int(0.25 * sr)) / int(0.25 * sr), mode='same')
         duck = 1 - 0.45 * np.clip(env * 3, 0, 1)
         if music:
-            from musique import make_music
+            from musique import make_music, load_music_file
             bt = starts[boom_scene] if boom_scene is not None and 0 < boom_scene < len(scenes) else None
-            mus = make_music(total, bt, sr)[:n]
+            mfile = os.path.join(os.path.dirname(os.path.abspath(__file__)), MUSIC_FILE) if MUSIC_FILE else None
+            if mfile and os.path.exists(mfile):
+                mus = load_music_file(mfile, total, bt, sr)[:n]
+            else:
+                mus = make_music(total, bt, sr)[:n]
             out = out * 0.6  # la nappe s'efface un peu derrière la musique
             mono = out * duck + vo
             st = np.stack([mono, mono], 1) + MUSIC_LEVEL * mus * duck[:, None]
         else:
             mono = out * duck + vo
             st = np.stack([mono, mono], 1)
-        st = np.clip(st, -0.98, 0.98)
+        st = np.clip(np.tanh(st * 1.1) / np.tanh(1.1), -0.98, 0.98)  # limiteur doux
         stereo = (st * 32767).astype(np.int16)
     else:
         pcm = (out / np.max(np.abs(out)) * 0.85 * 32767).astype(np.int16)
