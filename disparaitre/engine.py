@@ -13,7 +13,7 @@ et VOIX = ["texte lu pendant la scène 0", ...] (un texte par scène) pour la vo
 Voix off : si le dossier voix/epNN/ contient s00.mp3, s01.mp3… (générés avec ElevenLabs à partir de VOIX),
 chaque scène est allongée si besoin pour que sa voix tienne dedans (début à VOICE_DELAY, marge VOICE_TAIL),
 et la voix est mixée par-dessus la nappe sonore (baissée) et la musique originale de musique.py
-(orgue spatial « slowed », désactivable avec MUSIQUE = False dans l'épisode).
+(orgue spatial « slowed ») — DÉSACTIVÉE par défaut, à activer avec MUSIQUE = True dans l'épisode.
 """
 import math, random, subprocess, sys, os, wave, importlib.util, shutil
 import numpy as np
@@ -181,7 +181,7 @@ def render_scene(fn, D, out):
 MUSIC_LEVEL = 0.32  # volume de la musique sous la voix
 # Musique de fond : fichier sous licence (Artlist « Frozen Lake », slowed & reverb) ; si absent,
 # repli sur la musique originale générée par musique.py.
-MUSIC_FILE = 'musique_fichiers/frozen_lake.mp3'
+MUSIC_FILE = None
 
 def make_audio(scenes, boom_scene, path, voice_files=None, music=True):
     sr = 44100
@@ -266,7 +266,7 @@ def main():
         pool.map(_render_one, jobs)
     with open(f'{work}/list.txt', 'w') as fl:
         for _, _, o in jobs: fl.write(f"file '{o}'\n")
-    make_audio(mod.SCENES, getattr(mod, 'BOOM_SCENE', None), f'{work}/audio.wav', getattr(mod, 'VOIX_FILES', None), getattr(mod, 'MUSIQUE', True))
+    make_audio(mod.SCENES, getattr(mod, 'BOOM_SCENE', None), f'{work}/audio.wav', getattr(mod, 'VOIX_FILES', None), getattr(mod, 'MUSIQUE', False))
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{work}/list.txt', '-c', 'copy', f'{work}/video.mp4'], check=True)
     tmp = out[:-4] + '.tmp.mp4'
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f'{work}/video.mp4', '-i', f'{work}/audio.wav', '-map', '0:v', '-map', '1:a',
