@@ -112,10 +112,16 @@
       "fichier": "videos/ep16_inversion_poles.mp4",
       "date": "2026-11-09",
       "media_id": "18121658167753834"
+    },
+    {
+      "numero": 17,
+      "sujet": "L'effet de serre emballé (devenir comme Vénus)",
+      "fichier": "videos/ep17_serre_emballee.mp4",
+      "date": "2026-11-09",
+      "media_id": "17956194102294641"
     }
   ],
   "banque_sujets": [
-    "L'effet de serre emballé (devenir comme Vénus)",
     "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
     "La disparition des pollinisateurs",
     "La collision avec Andromède (spoiler : pas dangereuse)",
