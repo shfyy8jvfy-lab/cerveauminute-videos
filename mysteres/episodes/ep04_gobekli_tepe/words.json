@@ -1,0 +1,1432 @@
+{
+ "words": [
+  {
+   "text": "[slow,",
+   "type": "word",
+   "start": 0.0,
+   "end": 0.022
+  },
+  {
+   "text": "commanding,",
+   "type": "word",
+   "start": 0.027,
+   "end": 0.045
+  },
+  {
+   "text": "deep",
+   "type": "word",
+   "start": 0.05,
+   "end": 0.056
+  },
+  {
+   "text": "voice]",
+   "type": "word",
+   "start": 0.062,
+   "end": 0.072
+  },
+  {
+   "text": "En",
+   "type": "word",
+   "start": 0.078,
+   "end": 0.155
+  },
+  {
+   "text": "Turquie,",
+   "type": "word",
+   "start": 0.232,
+   "end": 0.886
+  },
+  {
+   "text": "sous",
+   "type": "word",
+   "start": 1.078,
+   "end": 1.232
+  },
+  {
+   "text": "une",
+   "type": "word",
+   "start": 1.309,
+   "end": 1.386
+  },
+  {
+   "text": "colline,",
+   "type": "word",
+   "start": 1.462,
+   "end": 2.116
+  },
+  {
+   "text": "on",
+   "type": "word",
+   "start": 2.386,
+   "end": 2.462
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 2.501,
+   "end": 2.539
+  },
+  {
+   "text": "découvert",
+   "type": "word",
+   "start": 2.616,
+   "end": 3.001
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 3.078,
+   "end": 3.155
+  },
+  {
+   "text": "sanctuaire",
+   "type": "word",
+   "start": 3.232,
+   "end": 3.77
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 3.847,
+   "end": 3.924
+  },
+  {
+   "text": "pierres",
+   "type": "word",
+   "start": 3.963,
+   "end": 4.232
+  },
+  {
+   "text": "géantes,",
+   "type": "word",
+   "start": 4.309,
+   "end": 4.962
+  },
+  {
+   "text": "dressé",
+   "type": "word",
+   "start": 5.078,
+   "end": 5.539
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 5.616,
+   "end": 5.693
+  },
+  {
+   "text": "y",
+   "type": "word",
+   "start": 5.719,
+   "end": 5.744
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 5.77,
+   "end": 5.924
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 6.001,
+   "end": 6.078
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 6.155,
+   "end": 6.309
+  },
+  {
+   "text": "onze",
+   "type": "word",
+   "start": 6.462,
+   "end": 6.616
+  },
+  {
+   "text": "mille",
+   "type": "word",
+   "start": 6.77,
+   "end": 6.924
+  },
+  {
+   "text": "ans.",
+   "type": "word",
+   "start": 7.039,
+   "end": 7.462
+  },
+  {
+   "text": "Avant",
+   "type": "word",
+   "start": 7.77,
+   "end": 8.001
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 8.078,
+   "end": 8.155
+  },
+  {
+   "text": "poterie.",
+   "type": "word",
+   "start": 8.232,
+   "end": 8.886
+  },
+  {
+   "text": "Avant",
+   "type": "word",
+   "start": 9.155,
+   "end": 9.462
+  },
+  {
+   "text": "l'écriture.",
+   "type": "word",
+   "start": 9.539,
+   "end": 10.501
+  },
+  {
+   "text": "[calm,",
+   "type": "word",
+   "start": 10.77,
+   "end": 10.801
+  },
+  {
+   "text": "storytelling]",
+   "type": "word",
+   "start": 10.809,
+   "end": 10.839
+  },
+  {
+   "text": "Son",
+   "type": "word",
+   "start": 10.847,
+   "end": 11.001
+  },
+  {
+   "text": "nom",
+   "type": "word",
+   "start": 11.078,
+   "end": 11.232
+  },
+  {
+   "text": ":",
+   "type": "word",
+   "start": 11.693,
+   "end": 11.732
+  },
+  {
+   "text": "Göbekli",
+   "type": "word",
+   "start": 11.77,
+   "end": 12.232
+  },
+  {
+   "text": "Tepe,",
+   "type": "word",
+   "start": 12.309,
+   "end": 12.847
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 13.078,
+   "end": 13.232
+  },
+  {
+   "text": "«",
+   "type": "word",
+   "start": 13.289,
+   "end": 13.347
+  },
+  {
+   "text": "colline",
+   "type": "word",
+   "start": 13.405,
+   "end": 13.616
+  },
+  {
+   "text": "du",
+   "type": "word",
+   "start": 13.693,
+   "end": 13.77
+  },
+  {
+   "text": "ventre",
+   "type": "word",
+   "start": 13.847,
+   "end": 14.232
+  },
+  {
+   "text": "».",
+   "type": "word",
+   "start": 14.501,
+   "end": 14.77
+  },
+  {
+   "text": "Elle",
+   "type": "word",
+   "start": 14.809,
+   "end": 14.924
+  },
+  {
+   "text": "domine",
+   "type": "word",
+   "start": 15.039,
+   "end": 15.232
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 15.309,
+   "end": 15.386
+  },
+  {
+   "text": "plaine",
+   "type": "word",
+   "start": 15.462,
+   "end": 15.693
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 15.732,
+   "end": 15.77
+  },
+  {
+   "text": "Harran,",
+   "type": "word",
+   "start": 15.847,
+   "end": 16.347
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 16.386,
+   "end": 16.462
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 16.539,
+   "end": 16.616
+  },
+  {
+   "text": "sud-est",
+   "type": "word",
+   "start": 16.655,
+   "end": 17.078
+  },
+  {
+   "text": "du",
+   "type": "word",
+   "start": 17.155,
+   "end": 17.232
+  },
+  {
+   "text": "pays.",
+   "type": "word",
+   "start": 17.27,
+   "end": 18.078
+  },
+  {
+   "text": "Dans",
+   "type": "word",
+   "start": 18.116,
+   "end": 18.155
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 18.232,
+   "end": 18.309
+  },
+  {
+   "text": "années",
+   "type": "word",
+   "start": 18.386,
+   "end": 18.539
+  },
+  {
+   "text": "1960,",
+   "type": "word",
+   "start": 18.616,
+   "end": 19.77
+  },
+  {
+   "text": "des",
+   "type": "word",
+   "start": 19.847,
+   "end": 19.924
+  },
+  {
+   "text": "chercheurs",
+   "type": "word",
+   "start": 20.078,
+   "end": 20.386
+  },
+  {
+   "text": "prennent",
+   "type": "word",
+   "start": 20.412,
+   "end": 20.616
+  },
+  {
+   "text": "ses",
+   "type": "word",
+   "start": 20.693,
+   "end": 20.77
+  },
+  {
+   "text": "pierres",
+   "type": "word",
+   "start": 20.809,
+   "end": 21.001
+  },
+  {
+   "text": "taillées",
+   "type": "word",
+   "start": 21.078,
+   "end": 21.386
+  },
+  {
+   "text": "pour",
+   "type": "word",
+   "start": 21.463,
+   "end": 21.539
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 21.655,
+   "end": 21.77
+  },
+  {
+   "text": "simples",
+   "type": "word",
+   "start": 21.886,
+   "end": 22.155
+  },
+  {
+   "text": "tombes",
+   "type": "word",
+   "start": 22.206,
+   "end": 22.462
+  },
+  {
+   "text": "byzantines.",
+   "type": "word",
+   "start": 22.539,
+   "end": 23.616
+  },
+  {
+   "text": "En",
+   "type": "word",
+   "start": 23.693,
+   "end": 23.77
+  },
+  {
+   "text": "1995,",
+   "type": "word",
+   "start": 23.796,
+   "end": 25.232
+  },
+  {
+   "text": "l'archéologue",
+   "type": "word",
+   "start": 25.309,
+   "end": 25.924
+  },
+  {
+   "text": "Klaus",
+   "type": "word",
+   "start": 26.078,
+   "end": 26.386
+  },
+  {
+   "text": "Schmidt",
+   "type": "word",
+   "start": 26.462,
+   "end": 26.924
+  },
+  {
+   "text": "y",
+   "type": "word",
+   "start": 26.962,
+   "end": 27.001
+  },
+  {
+   "text": "remarque",
+   "type": "word",
+   "start": 27.078,
+   "end": 27.462
+  },
+  {
+   "text": "des",
+   "type": "word",
+   "start": 27.539,
+   "end": 27.616
+  },
+  {
+   "text": "outils",
+   "type": "word",
+   "start": 27.693,
+   "end": 27.924
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 28.001,
+   "end": 28.078
+  },
+  {
+   "text": "silex.",
+   "type": "word",
+   "start": 28.116,
+   "end": 29.078
+  },
+  {
+   "text": "Il",
+   "type": "word",
+   "start": 29.193,
+   "end": 29.309
+  },
+  {
+   "text": "creuse.",
+   "type": "word",
+   "start": 29.386,
+   "end": 30.232
+  },
+  {
+   "text": "Et",
+   "type": "word",
+   "start": 30.27,
+   "end": 30.309
+  },
+  {
+   "text": "découvre",
+   "type": "word",
+   "start": 30.386,
+   "end": 30.847
+  },
+  {
+   "text": "des",
+   "type": "word",
+   "start": 30.962,
+   "end": 31.078
+  },
+  {
+   "text": "cercles",
+   "type": "word",
+   "start": 31.116,
+   "end": 31.462
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 31.501,
+   "end": 31.539
+  },
+  {
+   "text": "piliers.",
+   "type": "word",
+   "start": 31.616,
+   "end": 32.462
+  },
+  {
+   "text": "Au",
+   "type": "word",
+   "start": 32.539,
+   "end": 32.616
+  },
+  {
+   "text": "centre,",
+   "type": "word",
+   "start": 32.693,
+   "end": 33.386
+  },
+  {
+   "text": "deux",
+   "type": "word",
+   "start": 33.424,
+   "end": 33.539
+  },
+  {
+   "text": "piliers",
+   "type": "word",
+   "start": 33.578,
+   "end": 33.924
+  },
+  {
+   "text": "en",
+   "type": "word",
+   "start": 34.001,
+   "end": 34.078
+  },
+  {
+   "text": "forme",
+   "type": "word",
+   "start": 34.193,
+   "end": 34.309
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 34.386,
+   "end": 34.539
+  },
+  {
+   "text": "T",
+   "type": "word",
+   "start": 34.616,
+   "end": 34.847
+  },
+  {
+   "text": "dépassent",
+   "type": "word",
+   "start": 34.924,
+   "end": 35.386
+  },
+  {
+   "text": "cinq",
+   "type": "word",
+   "start": 35.462,
+   "end": 35.693
+  },
+  {
+   "text": "mètres.",
+   "type": "word",
+   "start": 35.77,
+   "end": 36.539
+  },
+  {
+   "text": "Chacun",
+   "type": "word",
+   "start": 36.616,
+   "end": 36.924
+  },
+  {
+   "text": "pèse",
+   "type": "word",
+   "start": 37.001,
+   "end": 37.155
+  },
+  {
+   "text": "environ",
+   "type": "word",
+   "start": 37.232,
+   "end": 37.616
+  },
+  {
+   "text": "dix",
+   "type": "word",
+   "start": 37.693,
+   "end": 37.847
+  },
+  {
+   "text": "tonnes.",
+   "type": "word",
+   "start": 37.924,
+   "end": 38.77
+  },
+  {
+   "text": "Sur",
+   "type": "word",
+   "start": 38.809,
+   "end": 38.847
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 38.924,
+   "end": 39.001
+  },
+  {
+   "text": "pierre,",
+   "type": "word",
+   "start": 39.078,
+   "end": 39.693
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 39.77,
+   "end": 39.924
+  },
+  {
+   "text": "bestiaire",
+   "type": "word",
+   "start": 40.039,
+   "end": 40.386
+  },
+  {
+   "text": "sculpté",
+   "type": "word",
+   "start": 40.462,
+   "end": 40.924
+  },
+  {
+   "text": ":",
+   "type": "word",
+   "start": 41.386,
+   "end": 41.424
+  },
+  {
+   "text": "renards,",
+   "type": "word",
+   "start": 41.462,
+   "end": 42.155
+  },
+  {
+   "text": "serpents,",
+   "type": "word",
+   "start": 42.27,
+   "end": 42.847
+  },
+  {
+   "text": "sangliers,",
+   "type": "word",
+   "start": 42.886,
+   "end": 43.693
+  },
+  {
+   "text": "grues.",
+   "type": "word",
+   "start": 43.77,
+   "end": 44.462
+  },
+  {
+   "text": "Et",
+   "type": "word",
+   "start": 44.539,
+   "end": 44.616
+  },
+  {
+   "text": "sur",
+   "type": "word",
+   "start": 44.693,
+   "end": 44.77
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 44.809,
+   "end": 44.847
+  },
+  {
+   "text": "pilier,",
+   "type": "word",
+   "start": 44.924,
+   "end": 45.616
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 45.693,
+   "end": 45.847
+  },
+  {
+   "text": "immense",
+   "type": "word",
+   "start": 45.924,
+   "end": 46.386
+  },
+  {
+   "text": "vautour",
+   "type": "word",
+   "start": 46.424,
+   "end": 46.924
+  },
+  {
+   "text": "domine",
+   "type": "word",
+   "start": 47.001,
+   "end": 47.309
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 47.386,
+   "end": 47.462
+  },
+  {
+   "text": "autres",
+   "type": "word",
+   "start": 47.539,
+   "end": 47.77
+  },
+  {
+   "text": "créatures.",
+   "type": "word",
+   "start": 47.847,
+   "end": 48.693
+  },
+  {
+   "text": "[lower,",
+   "type": "word",
+   "start": 48.924,
+   "end": 48.975
+  },
+  {
+   "text": "mysterious]",
+   "type": "word",
+   "start": 48.992,
+   "end": 49.043
+  },
+  {
+   "text": "Mais",
+   "type": "word",
+   "start": 49.061,
+   "end": 49.078
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 49.116,
+   "end": 49.155
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 49.232,
+   "end": 49.386
+  },
+  {
+   "text": "étrange,",
+   "type": "word",
+   "start": 49.462,
+   "end": 50.309
+  },
+  {
+   "text": "c'est",
+   "type": "word",
+   "start": 50.36,
+   "end": 50.462
+  },
+  {
+   "text": "ce",
+   "type": "word",
+   "start": 50.501,
+   "end": 50.539
+  },
+  {
+   "text": "qui",
+   "type": "word",
+   "start": 50.616,
+   "end": 50.77
+  },
+  {
+   "text": "manque.",
+   "type": "word",
+   "start": 50.886,
+   "end": 51.539
+  },
+  {
+   "text": "Aucun",
+   "type": "word",
+   "start": 51.847,
+   "end": 52.155
+  },
+  {
+   "text": "foyer.",
+   "type": "word",
+   "start": 52.232,
+   "end": 52.924
+  },
+  {
+   "text": "Aucune",
+   "type": "word",
+   "start": 53.155,
+   "end": 53.539
+  },
+  {
+   "text": "fosse",
+   "type": "word",
+   "start": 53.616,
+   "end": 53.847
+  },
+  {
+   "text": "à",
+   "type": "word",
+   "start": 53.886,
+   "end": 53.924
+  },
+  {
+   "text": "déchets.",
+   "type": "word",
+   "start": 54.039,
+   "end": 54.77
+  },
+  {
+   "text": "Aucune",
+   "type": "word",
+   "start": 54.809,
+   "end": 55.155
+  },
+  {
+   "text": "maison.",
+   "type": "word",
+   "start": 55.232,
+   "end": 55.886
+  },
+  {
+   "text": "Pourtant,",
+   "type": "word",
+   "start": 56.155,
+   "end": 56.847
+  },
+  {
+   "text": "sans",
+   "type": "word",
+   "start": 56.924,
+   "end": 57.001
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 57.078,
+   "end": 57.155
+  },
+  {
+   "text": "moindre",
+   "type": "word",
+   "start": 57.232,
+   "end": 57.539
+  },
+  {
+   "text": "outil",
+   "type": "word",
+   "start": 57.655,
+   "end": 57.77
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 57.809,
+   "end": 57.847
+  },
+  {
+   "text": "métal,",
+   "type": "word",
+   "start": 57.886,
+   "end": 58.616
+  },
+  {
+   "text": "quelqu'un",
+   "type": "word",
+   "start": 58.732,
+   "end": 59.001
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 59.078,
+   "end": 59.155
+  },
+  {
+   "text": "taillé",
+   "type": "word",
+   "start": 59.193,
+   "end": 59.462
+  },
+  {
+   "text": "ces",
+   "type": "word",
+   "start": 59.539,
+   "end": 59.616
+  },
+  {
+   "text": "géants",
+   "type": "word",
+   "start": 59.693,
+   "end": 60.001
+  },
+  {
+   "text": "sur",
+   "type": "word",
+   "start": 60.078,
+   "end": 60.232
+  },
+  {
+   "text": "place,",
+   "type": "word",
+   "start": 60.309,
+   "end": 60.847
+  },
+  {
+   "text": "dans",
+   "type": "word",
+   "start": 60.873,
+   "end": 60.924
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 61.001,
+   "end": 61.078
+  },
+  {
+   "text": "calcaire",
+   "type": "word",
+   "start": 61.155,
+   "end": 61.539
+  },
+  {
+   "text": "du",
+   "type": "word",
+   "start": 61.616,
+   "end": 61.693
+  },
+  {
+   "text": "plateau.",
+   "type": "word",
+   "start": 61.77,
+   "end": 62.155
+  },
+  {
+   "text": "[intense]",
+   "type": "word",
+   "start": 62.539,
+   "end": 62.597
+  },
+  {
+   "text": "Ce",
+   "type": "word",
+   "start": 62.616,
+   "end": 62.693
+  },
+  {
+   "text": "sanctuaire",
+   "type": "word",
+   "start": 62.77,
+   "end": 63.386
+  },
+  {
+   "text": "est",
+   "type": "word",
+   "start": 63.463,
+   "end": 63.539
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 63.616,
+   "end": 63.693
+  },
+  {
+   "text": "vieux",
+   "type": "word",
+   "start": 63.77,
+   "end": 63.924
+  },
+  {
+   "text": "que",
+   "type": "word",
+   "start": 64.001,
+   "end": 64.078
+  },
+  {
+   "text": "Stonehenge",
+   "type": "word",
+   "start": 64.232,
+   "end": 64.693
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 64.809,
+   "end": 64.924
+  },
+  {
+   "text": "six",
+   "type": "word",
+   "start": 65.001,
+   "end": 65.078
+  },
+  {
+   "text": "mille",
+   "type": "word",
+   "start": 65.155,
+   "end": 65.309
+  },
+  {
+   "text": "ans.",
+   "type": "word",
+   "start": 65.386,
+   "end": 65.732
+  },
+  {
+   "text": "Et",
+   "type": "word",
+   "start": 65.924,
+   "end": 66.001
+  },
+  {
+   "text": "ce",
+   "type": "word",
+   "start": 66.039,
+   "end": 66.078
+  },
+  {
+   "text": "n'est",
+   "type": "word",
+   "start": 66.155,
+   "end": 66.232
+  },
+  {
+   "text": "qu'un",
+   "type": "word",
+   "start": 66.309,
+   "end": 66.386
+  },
+  {
+   "text": "début.",
+   "type": "word",
+   "start": 66.462,
+   "end": 67.078
+  },
+  {
+   "text": "Sous",
+   "type": "word",
+   "start": 67.309,
+   "end": 67.386
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 67.463,
+   "end": 67.539
+  },
+  {
+   "text": "colline,",
+   "type": "word",
+   "start": 67.616,
+   "end": 68.232
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 68.27,
+   "end": 68.309
+  },
+  {
+   "text": "géophysique",
+   "type": "word",
+   "start": 68.386,
+   "end": 69.001
+  },
+  {
+   "text": "révèle",
+   "type": "word",
+   "start": 69.078,
+   "end": 69.309
+  },
+  {
+   "text": "au",
+   "type": "word",
+   "start": 69.347,
+   "end": 69.386
+  },
+  {
+   "text": "moins",
+   "type": "word",
+   "start": 69.462,
+   "end": 69.693
+  },
+  {
+   "text": "vingt",
+   "type": "word",
+   "start": 69.77,
+   "end": 70.001
+  },
+  {
+   "text": "enceintes.",
+   "type": "word",
+   "start": 70.078,
+   "end": 70.924
+  },
+  {
+   "text": "Plus",
+   "type": "word",
+   "start": 71.001,
+   "end": 71.078
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 71.155,
+   "end": 71.232
+  },
+  {
+   "text": "deux",
+   "type": "word",
+   "start": 71.386,
+   "end": 71.462
+  },
+  {
+   "text": "cents",
+   "type": "word",
+   "start": 71.616,
+   "end": 71.693
+  },
+  {
+   "text": "piliers,",
+   "type": "word",
+   "start": 71.847,
+   "end": 72.232
+  },
+  {
+   "text": "selon",
+   "type": "word",
+   "start": 72.309,
+   "end": 72.463
+  },
+  {
+   "text": "les",
+   "type": "word",
+   "start": 72.539,
+   "end": 72.616
+  },
+  {
+   "text": "estimations.",
+   "type": "word",
+   "start": 72.732,
+   "end": 73.539
+  },
+  {
+   "text": "[slow,",
+   "type": "word",
+   "start": 73.77,
+   "end": 73.821
+  },
+  {
+   "text": "solemn]",
+   "type": "word",
+   "start": 73.838,
+   "end": 73.889
+  },
+  {
+   "text": "Alors,",
+   "type": "word",
+   "start": 73.907,
+   "end": 74.309
+  },
+  {
+   "text": "qui",
+   "type": "word",
+   "start": 74.693,
+   "end": 74.847
+  },
+  {
+   "text": "étaient",
+   "type": "word",
+   "start": 74.924,
+   "end": 75.232
+  },
+  {
+   "text": "ces",
+   "type": "word",
+   "start": 75.309,
+   "end": 75.386
+  },
+  {
+   "text": "bâtisseurs",
+   "type": "word",
+   "start": 75.462,
+   "end": 76.001
+  },
+  {
+   "text": "sans",
+   "type": "word",
+   "start": 76.078,
+   "end": 76.232
+  },
+  {
+   "text": "maisons",
+   "type": "word",
+   "start": 76.27,
+   "end": 76.616
+  },
+  {
+   "text": "?",
+   "type": "word",
+   "start": 77.078,
+   "end": 77.129
+  },
+  {
+   "text": "Et",
+   "type": "word",
+   "start": 77.181,
+   "end": 77.232
+  },
+  {
+   "text": "pourquoi",
+   "type": "word",
+   "start": 77.309,
+   "end": 77.693
+  },
+  {
+   "text": "ont-ils",
+   "type": "word",
+   "start": 77.809,
+   "end": 78.078
+  },
+  {
+   "text": "dressé",
+   "type": "word",
+   "start": 78.232,
+   "end": 78.462
+  },
+  {
+   "text": "ces",
+   "type": "word",
+   "start": 78.539,
+   "end": 78.616
+  },
+  {
+   "text": "géants",
+   "type": "word",
+   "start": 78.693,
+   "end": 79.001
+  },
+  {
+   "text": "?",
+   "type": "word",
+   "start": 79.539,
+   "end": 79.546
+  },
+  {
+   "text": "[dramatic",
+   "type": "word",
+   "start": 79.552,
+   "end": 79.571
+  },
+  {
+   "text": "pause,",
+   "type": "word",
+   "start": 79.578,
+   "end": 79.59
+  },
+  {
+   "text": "low]",
+   "type": "word",
+   "start": 79.597,
+   "end": 79.61
+  },
+  {
+   "text": "Onze",
+   "type": "word",
+   "start": 79.616,
+   "end": 79.77
+  },
+  {
+   "text": "mille",
+   "type": "word",
+   "start": 79.847,
+   "end": 80.001
+  },
+  {
+   "text": "ans",
+   "type": "word",
+   "start": 80.039,
+   "end": 80.078
+  },
+  {
+   "text": "plus",
+   "type": "word",
+   "start": 80.155,
+   "end": 80.309
+  },
+  {
+   "text": "tard,",
+   "type": "word",
+   "start": 80.437,
+   "end": 81.001
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 81.039,
+   "end": 81.078
+  },
+  {
+   "text": "colline",
+   "type": "word",
+   "start": 81.155,
+   "end": 81.539
+  },
+  {
+   "text": "garde",
+   "type": "word",
+   "start": 81.616,
+   "end": 81.77
+  },
+  {
+   "text": "encore",
+   "type": "word",
+   "start": 81.847,
+   "end": 82.078
+  },
+  {
+   "text": "enfouies",
+   "type": "word",
+   "start": 82.193,
+   "end": 82.462
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 82.539,
+   "end": 82.693
+  },
+  {
+   "text": "plupart",
+   "type": "word",
+   "start": 82.732,
+   "end": 83.078
+  },
+  {
+   "text": "de",
+   "type": "word",
+   "start": 83.155,
+   "end": 83.232
+  },
+  {
+   "text": "ses",
+   "type": "word",
+   "start": 83.309,
+   "end": 83.386
+  },
+  {
+   "text": "enceintes…",
+   "type": "word",
+   "start": 83.539,
+   "end": 84.386
+  },
+  {
+   "text": "et",
+   "type": "word",
+   "start": 84.501,
+   "end": 84.616
+  },
+  {
+   "text": "tout",
+   "type": "word",
+   "start": 84.732,
+   "end": 84.847
+  },
+  {
+   "text": "son",
+   "type": "word",
+   "start": 84.924,
+   "end": 85.001
+  },
+  {
+   "text": "secret.",
+   "type": "word",
+   "start": 85.232,
+   "end": 85.693
+  }
+ ]
+}

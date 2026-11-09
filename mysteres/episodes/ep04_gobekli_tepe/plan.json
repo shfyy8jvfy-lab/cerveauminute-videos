@@ -1,0 +1,190 @@
+{
+ "sentences": [
+  {
+   "text": "En Turquie, sous une colline, on a découvert un sanctuaire de pierres géantes, dressé il y a plus de onze mille ans. Avant la poterie. Avant l'écriture.",
+   "shots": [
+    [
+     "hook_hill",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "> 11 000 ANS",
+     0.5
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Son nom : Göbekli Tepe, la « colline du ventre ». Elle domine la plaine de Harran, dans le sud-est du pays.",
+   "shots": [
+    [
+     "context_plain",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "GÖBEKLI TEPE",
+     0.25
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Dans les années 1960, des chercheurs prennent ses pierres taillées pour de simples tombes byzantines.",
+   "shots": [
+    [
+     "gravestones",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ANNÉES 1960",
+     0.15
+    ]
+   ]
+  },
+  {
+   "text": "En 1995, l'archéologue Klaus Schmidt y remarque des outils en silex. Il creuse. Et découvre des cercles de piliers.",
+   "shots": [
+    [
+     "flint_dig",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1995",
+     0.2
+    ]
+   ]
+  },
+  {
+   "text": "Au centre, deux piliers en forme de T dépassent cinq mètres. Chacun pèse environ dix tonnes.",
+   "shots": [
+    [
+     "giant_pillars",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "> 5 MÈTRES",
+     0.5
+    ],
+    [
+     "≈ 10 TONNES",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Sur la pierre, un bestiaire sculpté : renards, serpents, sangliers, grues. Et sur un pilier, un immense vautour domine les autres créatures.",
+   "shots": [
+    [
+     "bestiary",
+     0.5
+    ],
+    [
+     "vulture_pillar",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "PILIER 43",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "Mais le plus étrange, c'est ce qui manque. Aucun foyer. Aucune fosse à déchets. Aucune maison.",
+   "shots": [
+    [
+     "empty_site",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "AUCUNE MAISON",
+     0.8
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Pourtant, sans le moindre outil de métal, quelqu'un a taillé ces géants sur place, dans le calcaire du plateau.",
+   "shots": [
+    [
+     "quarry",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Ce sanctuaire est plus vieux que Stonehenge de six mille ans.",
+   "shots": [
+    [
+     "timeline",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "+ 6 000 ANS",
+     0.7
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Et ce n'est qu'un début. Sous la colline, la géophysique révèle au moins vingt enceintes. Plus de deux cents piliers, selon les estimations.",
+   "shots": [
+    [
+     "geo_scan",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≥ 20 ENCEINTES",
+     0.45
+    ],
+    [
+     "> 200 PILIERS",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Alors, qui étaient ces bâtisseurs sans maisons ? Et pourquoi ont-ils dressé ces géants ?",
+   "shots": [
+    [
+     "final_ring",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Onze mille ans plus tard, la colline garde encore enfouies la plupart de ses enceintes… et tout son secret.",
+   "shots": [
+    [
+     "final_hill",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "Current World Archaeology, « Göbekli Tepe » (K. Schmidt et al., 2012, mis à jour 2018) — couche III du PPN A, Xe millénaire av. J.-C., avant la poterie ; colline de 15 m de haut, ≈ 300 m de diamètre, au point culminant de la chaîne de Germuş dominant la plaine de Harran ; piliers centraux de plus de 5 m, ≈ 10 tonnes chacun ; calcaire extrait sur le plateau (traces de carrières) ; aucun foyer, aucune fosse à déchets, aucune architecture domestique ; renards, serpents, sangliers, aurochs, grues ; pilier 43 dominé par un grand vautour ; repéré dans les années 1960 et pris pour des tombes byzantines ; silex remarqués par K. Schmidt en 1995 ; nom = « colline du ventre »",
+  "Göbekli Tepe Research Project (Institut archéologique allemand, DAI), « Looking beneath the surface: geophysical surveys at Göbekli Tepe », The Tepe Telegrams (2018) — rapport Schmidt 2003 : au moins 20 enceintes dans le tell, ≈ 12 piliers par enceinte, plus de 200 piliers estimés",
+  "UNESCO, Liste du patrimoine mondial, « Göbekli Tepe » (n° 1572)"
+ ],
+ "legende": "Ce sanctuaire de pierres géantes a plus de 11 000 ans. Avant la poterie, avant l'écriture… et personne n'y vivait. 🗿\n\nSources : Current World Archaeology (2012/2018), Institut archéologique allemand – Tepe Telegrams (2018), UNESCO.\n🎙️ Voix générée par IA.\n\n#noxscience #gobeklitepe #archeologie #mystere #histoire"
+}
