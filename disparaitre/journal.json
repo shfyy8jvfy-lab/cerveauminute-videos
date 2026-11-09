@@ -119,10 +119,16 @@
       "fichier": "videos/ep17_serre_emballee.mp4",
       "date": "2026-11-09",
       "media_id": "17956194102294641"
+    },
+    {
+      "numero": 18,
+      "sujet": "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
+      "fichier": "videos/ep18_grand_filtre.mp4",
+      "date": "2026-11-09",
+      "media_id": "18083264168344304"
     }
   ],
   "banque_sujets": [
-    "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
     "La disparition des pollinisateurs",
     "La collision avec Andromède (spoiler : pas dangereuse)",
     "L'hypothèse de la simulation qu'on éteint",
