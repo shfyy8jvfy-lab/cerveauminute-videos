@@ -12,7 +12,8 @@ et VOIX = ["texte lu pendant la scène 0", ...] (un texte par scène) pour la vo
 
 Voix off : si le dossier voix/epNN/ contient s00.mp3, s01.mp3… (générés avec ElevenLabs à partir de VOIX),
 chaque scène est allongée si besoin pour que sa voix tienne dedans (début à VOICE_DELAY, marge VOICE_TAIL),
-et la voix est mixée par-dessus la nappe sonore (baissée).
+et la voix est mixée par-dessus la nappe sonore (baissée) et la musique originale de musique.py
+(orgue spatial « slowed », désactivable avec MUSIQUE = False dans l'épisode).
 """
 import math, random, subprocess, sys, os, wave, importlib.util, shutil
 import numpy as np
@@ -177,7 +178,9 @@ def render_scene(fn, D, out):
     if p.wait() != 0: raise SystemExit(f'échec rendu {out}')
     os.replace(tmp, out)
 
-def make_audio(scenes, boom_scene, path, voice_files=None):
+MUSIC_LEVEL = 0.32  # volume de la musique (musique.py) sous la voix
+
+def make_audio(scenes, boom_scene, path, voice_files=None, music=True):
     sr = 44100
     total = sum(D for _, D in scenes)
     n = int(total * sr); t = np.arange(n) / sr
@@ -205,14 +208,25 @@ def make_audio(scenes, boom_scene, path, voice_files=None):
             a = int((st + VOICE_DELAY) * sr); L = min(len(v), n - a)
             if L > 0: vo[a:a+L] += v[:L]
         env = np.convolve(np.abs(vo) > 0.02, np.ones(int(0.25 * sr)) / int(0.25 * sr), mode='same')
-        out = out * (1 - 0.45 * np.clip(env * 3, 0, 1)) + vo
-        out = np.clip(out, -0.98, 0.98)
-        pcm = (out * 32767).astype(np.int16)
+        duck = 1 - 0.45 * np.clip(env * 3, 0, 1)
+        if music:
+            from musique import make_music
+            bt = starts[boom_scene] if boom_scene is not None and 0 < boom_scene < len(scenes) else None
+            mus = make_music(total, bt, sr)[:n]
+            out = out * 0.6  # la nappe s'efface un peu derrière la musique
+            mono = out * duck + vo
+            st = np.stack([mono, mono], 1) + MUSIC_LEVEL * mus * duck[:, None]
+        else:
+            mono = out * duck + vo
+            st = np.stack([mono, mono], 1)
+        st = np.clip(st, -0.98, 0.98)
+        stereo = (st * 32767).astype(np.int16)
     else:
         pcm = (out / np.max(np.abs(out)) * 0.85 * 32767).astype(np.int16)
+        stereo = np.stack([pcm, pcm], axis=1)
     with wave.open(path, 'wb') as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr)
-        w.writeframes(np.stack([pcm, pcm], axis=1).tobytes())
+        w.writeframes(stereo.tobytes())
 
 def _render_one(args):
     path, i, out = args
@@ -245,7 +259,7 @@ def main():
         pool.map(_render_one, jobs)
     with open(f'{work}/list.txt', 'w') as fl:
         for _, _, o in jobs: fl.write(f"file '{o}'\n")
-    make_audio(mod.SCENES, getattr(mod, 'BOOM_SCENE', None), f'{work}/audio.wav', getattr(mod, 'VOIX_FILES', None))
+    make_audio(mod.SCENES, getattr(mod, 'BOOM_SCENE', None), f'{work}/audio.wav', getattr(mod, 'VOIX_FILES', None), getattr(mod, 'MUSIQUE', True))
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', f'{work}/list.txt', '-c', 'copy', f'{work}/video.mp4'], check=True)
     tmp = out[:-4] + '.tmp.mp4'
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', f'{work}/video.mp4', '-i', f'{work}/audio.wav', '-map', '0:v', '-map', '1:a',

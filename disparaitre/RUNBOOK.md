@@ -7,7 +7,7 @@ Concept : chaque Reel raconte un scénario (réel, discuté ou farfelu) d'extinc
 - Dépôt : `shfyy8jvfy-lab/cerveauminute-videos` (public, branche `main`), dossier `disparaitre/`
 - Windsor.ai : connecteur `instagram`, compte `17841461678535981` (on.va.tous.disparaitre), action `create_video_post`
 - URL publique d'une vidéo : `https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/disparaitre/videos/<fichier>.mp4`
-- Voix off ElevenLabs (style « badass / bande-annonce ») qui lit tout le texte à l'écran, par-dessus la nappe sonore générée par `engine.py`. Pas de musique.
+- Voix off ElevenLabs (style « badass / bande-annonce ») qui lit tout le texte à l'écran, par-dessus la nappe sonore générée par `engine.py`. Musique de fond originale générée par `musique.py` (orgue spatial lent, « slowed + reverb », grille originale en ré mineur — jamais d'extrait d'une œuvre existante), mixée automatiquement par `engine.py` sous la voix. Désactivable par épisode avec `MUSIQUE = False` ; volume réglé par `MUSIC_LEVEL` dans `engine.py`.
   - Connecteur ElevenLabs, modèle `eleven_v4`, voix `dcbUcEjFfmgpM8W4YTRG` (Roland Lescalde – Epic Narrator), `generations_count = 1`.
   - Préfixe de chaque prompt : `[deep, powerful, cinematic trailer voice] `
   - Coût ≈ 1 800 crédits ElevenLabs par épisode.
