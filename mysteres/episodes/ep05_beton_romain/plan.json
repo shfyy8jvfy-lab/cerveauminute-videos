@@ -1,0 +1,179 @@
+{
+ "sentences": [
+  {
+   "text": "Il y a deux mille ans, les Romains coulaient un béton capable de refermer ses propres fissures. Pendant des siècles, son secret nous a échappé.",
+   "shots": [
+    [
+     "hook_arch",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2 000 ANS",
+     0.2
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "En 2023, des chercheurs du MIT publient la réponse dans la revue Science Advances.",
+   "shots": [
+    [
+     "lab_sample",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "MIT · 2023",
+     0.2
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "L'indice : de minuscules grains blancs, de quelques millimètres, piégés dans un béton antique de Privernum, en Italie.",
+   "shots": [
+    [
+     "lime_clasts",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PRIVERNUM",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Longtemps, on y a vu la trace d'un mélange bâclé.",
+   "shots": [
+    [
+     "sloppy_mix",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Erreur. Les Romains y ajoutaient de la chaux vive, qui chauffe violemment au contact de l'eau. Un mélange à chaud.",
+   "shots": [
+    [
+     "hot_mix",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "CHAUX VIVE",
+     0.4
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Ces grains deviennent des réserves de calcium, cachées au cœur de la pierre.",
+   "shots": [
+    [
+     "calcium_reserve",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Quand une fissure apparaît, l'eau s'y infiltre, dissout ce calcium… qui recristallise en carbonate de calcium et rebouche la fente.",
+   "shots": [
+    [
+     "crack_fill",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "CARBONATE DE CALCIUM",
+     0.8
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "L'équipe a fissuré des échantillons et y a fait couler de l'eau. En deux semaines, les fissures s'étaient refermées. Sans chaux vive, l'eau coulait toujours.",
+   "shots": [
+    [
+     "water_test",
+     0.6
+    ],
+    [
+     "water_test",
+     0.4
+    ]
+   ],
+   "callouts": [
+    [
+     "2 SEMAINES",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Dans les ports romains, l'eau de mer attaque la cendre volcanique… et fait pousser des cristaux rares qui renforcent le béton.",
+   "shots": [
+    [
+     "harbor",
+     0.5
+    ],
+    [
+     "crystals",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "TOBERMORITE",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Pline l'Ancien l'avait écrit : ce béton devient une seule masse de pierre, chaque jour plus solide.",
+   "shots": [
+    [
+     "one_stone",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Nos ouvrages en mer s'abîment en quelques décennies. Le dôme du Panthéon, lui, tient depuis près de dix-neuf siècles, sans armature d'acier.",
+   "shots": [
+    [
+     "pantheon",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "SANS ACIER",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Deux mille ans plus tard, la pierre romaine se répare toujours… et nous commençons à peine à retrouver sa recette.",
+   "shots": [
+    [
+     "final_arch",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "L. M. Seymour, J. Maragh, P. Sabatini, M. Di Tommaso, J. C. Weaver, A. Masic, « Hot mixing: Mechanistic insights into the durability of ancient Roman concrete », Science Advances (6 janvier 2023) ; MIT News, « Riddle solved: Why was Roman concrete so durable? » (2023) — clastes de chaux millimétriques, autrefois attribués à un mélange bâclé ou à des matériaux médiocres ; échantillon de Privernum (Italie) ; mélange à chaud à la chaux vive (réaction exothermique) ; fissures colmatées par recristallisation en carbonate de calcium ; test : fissures refermées en deux semaines, échantillon sans chaux vive jamais réparé ; Panthéon, plus grand dôme en béton non armé, dédié en 128",
+  "M. D. Jackson et al., « Phillipsite and Al-tobermorite mineral cements produced through low-temperature water-rock reactions in Roman marine concrete », American Mineralogist (2017) ; University of Utah News (2017) — l'eau de mer percole et dissout la cendre volcanique, faisant croître Al-tobermorite et phillipsite ; structures modernes en mer qui se dégradent en quelques décennies ; Pline l'Ancien, Histoire naturelle : « une seule masse de pierre, imprenable aux vagues et chaque jour plus solide »"
+ ],
+ "legende": "Ce béton romain répare ses propres fissures… depuis 2 000 ans. 🏛️\n\nSources : Science Advances – MIT (2023), American Mineralogist – Univ. of Utah (2017).\n🎙️ Voix générée par IA.\n\n#noxscience #rome #beton #mystere #histoire"
+}
