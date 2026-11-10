@@ -133,10 +133,16 @@
       "fichier": "videos/ep19_pollinisateurs.mp4",
       "date": "2026-11-10",
       "media_id": "18113331164615873"
+    },
+    {
+      "numero": 20,
+      "sujet": "La collision avec Andromède (spoiler : pas dangereuse)",
+      "fichier": "videos/ep20_andromede.mp4",
+      "date": "2026-11-10",
+      "media_id": "17995992726102710"
     }
   ],
   "banque_sujets": [
-    "La collision avec Andromède (spoiler : pas dangereuse)",
     "L'hypothèse de la simulation qu'on éteint",
     "Un trou noir errant qui passe près de nous"
   ],
