@@ -147,11 +147,11 @@
     "Un trou noir errant qui passe près de nous"
   ],
   "dernier_echec": {
-    "date": "2026-11-11T11:30Z",
+    "date": "2026-11-11T17:24Z",
     "episode": 21,
     "sujet": "L'hypothèse de la simulation qu'on éteint",
     "etape": "voix ElevenLabs",
-    "erreur": "Quota ElevenLabs épuisé (quota 33822, 131 crédits restants) : scènes 9 à 12 non générées. Scènes 0-8 OK et sauvegardées dans voix/ep21/ (ne pas les régénérer). Rien publié.",
-    "reprise": "Après recharge des crédits : générer seulement s09-s12 (≈ 615 crédits), puis rendu et publication."
+    "erreur": "Quota ElevenLabs toujours épuisé (quota 33822, 131 crédits restants) : s09-s12 refusées à nouveau (aucun crédit débité). Scènes 0-8 OK dans voix/ep21/. Rien publié.",
+    "reprise": "Après recharge des crédits ElevenLabs : générer seulement s09-s12 (≈ 615 crédits), puis rendu et publication."
   }
 }
