@@ -1,0 +1,183 @@
+{
+ "sentences": [
+  {
+   "text": "Ce pilier de fer affronte la pluie et le soleil depuis seize siècles. Et pourtant, il n'a presque pas rouillé.",
+   "shots": [
+    [
+     "hook_pillar",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1 600 ANS",
+     0.25
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Il se dresse à Delhi, en Inde, dans le complexe du Qutb Minar. Son inscription évoque un roi nommé Chandra, sans doute Chandragupta deux, vers l'an 400.",
+   "shots": [
+    [
+     "inscription",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "DELHI · INDE",
+     0.15
+    ],
+    [
+     "VERS L'AN 400",
+     0.8
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Plus de sept mètres de haut. Plus de six tonnes de fer.",
+   "shots": [
+    [
+     "pillar_measure",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "7,21 M",
+     0.1
+    ],
+    [
+     "+ 6 TONNES",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Il n'a pas été coulé d'un bloc. Les forgerons ont soudé, à coups de marteau, des morceaux de fer chauffés au rouge.",
+   "shots": [
+    [
+     "forge_weld",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "FORGÉ À LA MAIN",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "L'inscription le présente comme l'étendard du dieu Vishnou, dressé sur une colline. Des siècles plus tard, il a été transporté jusqu'à Delhi.",
+   "shots": [
+    [
+     "journey",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Un boulet de canon le frappe de plein fouet, à quatre mètres de haut, probablement lors de l'invasion de Nadir Shah, en 1739. Le pilier garde la cicatrice… mais ne se brise pas.",
+   "shots": [
+    [
+     "cannonball",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1739",
+     0.75
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Au début des années 2000, un métallurgiste indien de l'IIT de Kanpur perce enfin son secret.",
+   "shots": [
+    [
+     "microscope",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "IIT KANPUR",
+     0.5
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Ce fer est riche en phosphore : au moins cinq fois plus qu'un fer moderne.",
+   "shots": [
+    [
+     "phosphorus",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PHOSPHORE ×5",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Au fil des pluies et des sécheresses, ce phosphore aide à former une fine pellicule de phosphate de fer, qui scelle le métal.",
+   "shots": [
+    [
+     "film",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PHOSPHATE DE FER",
+     0.7
+    ]
+   ]
+  },
+  {
+   "text": "Cette armure a commencé à se former trois ans à peine après sa mise en place. En seize siècles, elle n'a atteint qu'un vingtième de millimètre.",
+   "shots": [
+    [
+     "film_grow",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "3 ANS",
+     0.25
+    ],
+    [
+     "1/20 MM",
+     0.85
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Ces forgerons savaient-ils ce qu'ils avaient créé ? Seize siècles plus tard, le pilier se dresse toujours… presque sans une trace de rouille.",
+   "shots": [
+    [
+     "final_pillar",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "R. Balasubramaniam (IIT Kanpur), « On the corrosion resistance of the Delhi iron pillar », Corrosion Science 42 (2000) 2103–2129 — fer forgé par soudure de morceaux, phosphore élevé (moyenne ≈ 0,25 % contre < 0,05 % pour un fer moderne), couche protectrice de phosphate de fer hydraté et misawite, formée par cycles d'humidification et de séchage",
+  "MRS Bulletin (Cambridge University Press), « Ancient rust-proof iron pillar possibly protected by layer of misawite » (2002)",
+  "Down To Earth, « Iron mask » (31 août 2002) ; The Naked Scientists, « Rust-free iron pillar yields its secret at last » (2002) — couche commencée environ trois ans après l'érection, épaisse d'un vingtième de millimètre après 1 600 ans",
+  "The Tribune (Spectrum), « The iron pillar that won't rust » (19 avril 2009) — 7,21 m de haut, 41 cm de diamètre, fer forgé à la main ; inscription du roi Chandra (Chandragupta II), étendard de Vishnou sur la colline Vishnupada ; déplacé plus tard à Delhi",
+  "Encyclopédie Wikipédia, « Iron pillar of Delhi » (synthèse des sources : plus de six tonnes ; impact de boulet à environ 4 m, attribué probablement à Nadir Shah en 1739)"
+ ],
+ "legende": "Ce pilier de fer est exposé à la pluie depuis 1 600 ans… et il n'a presque pas rouillé. 🔩\n\nSources : Corrosion Science – R. Balasubramaniam, IIT Kanpur (2000), MRS Bulletin (2002), Down To Earth (2002), The Tribune (2009).\n🎙️ Voix générée par IA.\n\n#noxscience #inde #delhi #mystere #histoire"
+}

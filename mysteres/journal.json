@@ -53,7 +53,12 @@
   "La fosse des Mariannes : la pression à 11 km de fond",
   "La première image d'un trou noir (M87*, 2019)"
  ],
- "dernier_echec": null,
+ "dernier_echec": {
+  "date": "2026-11-11",
+  "episode": 6,
+  "etape": "voix off ElevenLabs (étape 7)",
+  "erreur": "Quota ElevenLabs épuisé : 131 crédits restants, 1454 requis (quota 33822). Recherche, plan.json et scenes.py prêts dans episodes/ep06_pilier_delhi ; sujet laissé en tête de banque_sujets. Réessais inutiles (quota)."
+ },
  "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
  "prets": [
   {
