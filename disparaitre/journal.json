@@ -140,18 +140,16 @@
       "fichier": "videos/ep20_andromede.mp4",
       "date": "2026-11-10",
       "media_id": "17995992726102710"
+    },
+    {
+      "numero": 21,
+      "sujet": "L'hypothèse de la simulation qu'on éteint",
+      "fichier": "videos/ep21_simulation.mp4",
+      "date": "2026-11-12",
+      "media_id": "18223993966350180"
     }
   ],
   "banque_sujets": [
-    "L'hypothèse de la simulation qu'on éteint",
     "Un trou noir errant qui passe près de nous"
-  ],
-  "dernier_echec": {
-    "date": "2026-11-11T17:24Z",
-    "episode": 21,
-    "sujet": "L'hypothèse de la simulation qu'on éteint",
-    "etape": "voix ElevenLabs",
-    "erreur": "Quota ElevenLabs toujours épuisé (quota 33822, 131 crédits restants) : s09-s12 refusées à nouveau (aucun crédit débité). Scènes 0-8 OK dans voix/ep21/. Rien publié.",
-    "reprise": "Après recharge des crédits ElevenLabs : générer seulement s09-s12 (≈ 615 crédits), puis rendu et publication."
-  }
+  ]
 }
