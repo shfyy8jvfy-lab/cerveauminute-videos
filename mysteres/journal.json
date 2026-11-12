@@ -31,10 +31,10 @@
   "Mécanisme d'Anticythère",
   "Le tombeau du premier empereur de Chine, jamais ouvert (et les rivières de mercure décrites par Sima Qian)",
   "Göbekli Tepe : un temple plus vieux que l'agriculture",
-  "Le béton romain qui se répare tout seul (étude MIT 2023)"
+  "Le béton romain qui se répare tout seul (étude MIT 2023)",
+  "Le pilier de fer de Delhi qui ne rouille pas depuis 1 600 ans"
  ],
  "banque_sujets": [
-  "Le pilier de fer de Delhi qui ne rouille pas depuis 1 600 ans",
   "Derinkuyu : une ville souterraine pour des milliers de personnes",
   "Le forage de Kola : le trou le plus profond jamais creusé",
   "Le lac Vostok, enfermé sous 4 km de glace",
@@ -53,12 +53,7 @@
   "La fosse des Mariannes : la pression à 11 km de fond",
   "La première image d'un trou noir (M87*, 2019)"
  ],
- "dernier_echec": {
-  "date": "2026-11-11",
-  "episode": 6,
-  "etape": "voix off ElevenLabs (étape 7)",
-  "erreur": "Quota ElevenLabs épuisé : 131 crédits restants, 1454 requis (quota 33822). Recherche, plan.json et scenes.py prêts dans episodes/ep06_pilier_delhi ; sujet laissé en tête de banque_sujets. Réessais inutiles (quota)."
- },
+ "dernier_echec": null,
  "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
  "prets": [
   {
@@ -93,6 +88,14 @@
    "date": "2026-11-10",
    "legende": "Ce béton romain répare ses propres fissures… depuis 2 000 ans. 🏛️\n\nSources : Science Advances – MIT (2023), American Mineralogist – Univ. of Utah (2017).\n🎙️ Voix générée par IA.\n\n#noxscience #rome #beton #mystere #histoire",
    "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep05_beton_romain.mp4"
+  },
+  {
+   "n": 6,
+   "sujet": "Le pilier de fer de Delhi qui ne rouille pas",
+   "dossier": "episodes/ep06_pilier_delhi",
+   "date": "2026-11-12",
+   "legende": "Ce pilier de fer est exposé à la pluie depuis 1 600 ans… et il n'a presque pas rouillé. 🔩\n\nSources : Corrosion Science – R. Balasubramaniam, IIT Kanpur (2000), MRS Bulletin (2002), Down To Earth (2002), The Tribune (2009).\n🎙️ Voix générée par IA.\n\n#noxscience #inde #delhi #mystere #histoire",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep06_pilier_delhi.mp4"
   }
  ],
  "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"
