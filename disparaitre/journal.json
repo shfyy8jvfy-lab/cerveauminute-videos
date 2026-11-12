@@ -147,9 +147,25 @@
       "fichier": "videos/ep21_simulation.mp4",
       "date": "2026-11-12",
       "media_id": "18223993966350180"
+    },
+    {
+      "numero": 22,
+      "sujet": "Un trou noir errant qui passe près de nous",
+      "fichier": "videos/ep22_trou_noir_errant.mp4",
+      "date": "2026-11-12",
+      "media_id": "17914018293591230"
     }
   ],
   "banque_sujets": [
-    "Un trou noir errant qui passe près de nous"
+    "L'effondrement de la circulation océanique (AMOC)",
+    "Mythe : la fin du monde maya de 2012",
+    "Une supernova toute proche",
+    "La chute de fertilité mondiale (et si on arrêtait de faire des bébés ?)",
+    "Les bactéries résistantes à tous les antibiotiques",
+    "Mythe : l'alignement des planètes qui détruit la Terre",
+    "Le dégel du pergélisol et ses virus géants endormis",
+    "Les étrangelets (strangelets) qui transformeraient la Terre",
+    "Une civilisation extraterrestre hostile (forêt sombre)",
+    "La fin de l'oxygène : le Soleil qui chauffe et tue les plantes dans un milliard d'années"
   ]
 }
