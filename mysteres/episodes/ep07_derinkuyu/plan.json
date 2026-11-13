@@ -1,0 +1,33 @@
+{
+ "sentences": [
+  {"text": "En 1963, un homme abat un mur de sa cave… et découvre une ville entière, cachée sous ses pieds.",
+   "shots": [["hook_wall", 0.55], ["hook_reveal", 0.45]], "callouts": [["1963", 0.05]], "jeu": "slow, commanding, deep voice"},
+  {"text": "Nous sommes à Derinkuyu, en Cappadoce, au cœur de la Turquie. Sous la ville moderne, un labyrinthe creusé à la main s'enfonce dans la roche.",
+   "shots": [["cappadoce", 1.0]], "callouts": [["CAPPADOCE · TURQUIE", 0.2]], "jeu": "calm, storytelling"},
+  {"text": "Au moins dix-huit niveaux. Plus de soixante-dix mètres de profondeur.",
+   "shots": [["levels", 1.0]], "callouts": [["18 NIVEAUX", 0.1], ["≈ 76 M", 0.6]]},
+  {"text": "La roche est un tuf volcanique : de la cendre compactée, assez tendre pour être taillée à l'outil, mais assez solide pour tenir sans le moindre étai.",
+   "shots": [["tuff", 1.0]], "callouts": [["TUF VOLCANIQUE", 0.2]]},
+  {"text": "Ici, jusqu'à vingt mille personnes pouvaient vivre sous terre, avec leurs animaux et leurs réserves.",
+   "shots": [["crowd", 1.0]], "callouts": [["20 000", 0.3]], "jeu": "intense"},
+  {"text": "Plus de cinquante puits d'aération apportent l'air frais jusqu'aux niveaux les plus profonds. D'autres puits descendent jusqu'à la nappe d'eau.",
+   "shots": [["shafts", 0.6], ["water", 0.4]], "callouts": [["+ 50 PUITS", 0.15]]},
+  {"text": "On y trouve des étables, des caves à grain et à vin… et même des églises.",
+   "shots": [["rooms", 1.0]]},
+  {"text": "Et pour se défendre, d'énormes portes de pierre, rondes comme des meules, pesant jusqu'à une demi-tonne, que l'on roulait pour sceller les couloirs.",
+   "shots": [["stone_door", 1.0]], "callouts": [["500 KG", 0.5]], "jeu": "lower, mysterious"},
+  {"text": "Ses origines remonteraient peut-être au huitième siècle avant notre ère. Puis, à l'époque byzantine, elle a été agrandie pour fuir les invasions.",
+   "shots": [["history", 1.0]], "callouts": [["VIIIE SIÈCLE AV. J.-C.", 0.25], ["ÉPOQUE BYZANTINE", 0.75]]},
+  {"text": "Aujourd'hui, seuls huit niveaux sont accessibles. Les autres restent fermés.",
+   "shots": [["closed", 1.0]], "callouts": [["8 / 18", 0.35]], "jeu": "slow, solemn"},
+  {"text": "Et plus de trois cent soixante sites souterrains ont déjà été repérés en Cappadoce.",
+   "shots": [["sites", 1.0]], "callouts": [["+ 360 SITES", 0.4]]},
+  {"text": "Combien d'autres villes dorment encore sous nos pieds ? Il a suffi, un jour, d'abattre un simple mur de cave…",
+   "shots": [["final", 1.0]], "jeu": "dramatic pause, low"}
+ ],
+ "sources": [
+  "History.com, « Derinkuyu: The Underground City in Turkey » (2026) — découverte en 1963 en abattant un mur de cave, environ 280 pieds de profondeur, au moins 18 niveaux, jusqu'à 20 000 personnes, plus de 50 puits d'aération, puits de service jusqu'à la nappe, étables, caves, églises, portes de pierre défensives, tuf volcanique sans renfort, origines possibles vers le VIIIe siècle av. J.-C., agrandie jusqu'à l'époque byzantine, plus de 360 sites souterrains géolocalisés en Cappadoce",
+  "EarthDate (Bureau of Economic Geology, University of Texas at Austin), épisode 429, « Derinkuyu » — 76 m, 18 niveaux dont 8 accessibles aujourd'hui, environ 20 000 personnes avec leur bétail et leurs réserves, portes de pierre roulantes pesant jusqu'à une demi-tonne, plus de 50 puits d'aération de 70 à 85 m, grain et vin stockés dans les niveaux bas, agrandissements chrétiens à l'époque byzantine"
+ ],
+ "legende": "En 1963, un homme abat un mur de sa cave… et découvre une ville souterraine de 18 niveaux. 🕳️\n\nSources : History.com (2026), EarthDate – University of Texas at Austin (épisode 429).\n🎙️ Voix générée par IA.\n\n#noxscience #derinkuyu #cappadoce #mystere #histoire"
+}
