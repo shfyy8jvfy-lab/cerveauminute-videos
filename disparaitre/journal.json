@@ -175,10 +175,16 @@
       "fichier": "videos/ep25_supernova.mp4",
       "date": "2026-11-14",
       "media_id": "17943556791395643"
+    },
+    {
+      "numero": 26,
+      "sujet": "La chute de fertilité mondiale (et si on arrêtait de faire des bébés ?)",
+      "fichier": "videos/ep26_fertilite.mp4",
+      "date": "2026-11-14",
+      "media_id": "17981848578131011"
     }
   ],
   "banque_sujets": [
-    "La chute de fertilité mondiale (et si on arrêtait de faire des bébés ?)",
     "Les bactéries résistantes à tous les antibiotiques",
     "Mythe : l'alignement des planètes qui détruit la Terre",
     "Le dégel du pergélisol et ses virus géants endormis",
