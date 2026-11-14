@@ -1,0 +1,35 @@
+{
+ "sentences": [
+  {"text": "Le trou le plus profond jamais creusé par l'homme mesure à peine vingt-trois centimètres de large… et il descend à plus de douze kilomètres.",
+   "shots": [["hook_hole", 0.55], ["hook_depth", 0.45]], "callouts": [["23 CM", 0.3], ["12 262 M", 0.8]], "jeu": "slow, commanding, deep voice"},
+  {"text": "Nous sommes en 1970, à l'extrême nord de l'Union soviétique, sur la péninsule de Kola. Le vingt-quatre mai, les foreurs attaquent la roche.",
+   "shots": [["kola_site", 1.0]], "callouts": [["PÉNINSULE DE KOLA", 0.25], ["24 MAI 1970", 0.75]], "jeu": "calm, storytelling"},
+  {"text": "Leur but : percer la croûte terrestre, le plus loin possible.",
+   "shots": [["crust", 1.0]]},
+  {"text": "Il leur faudra près de vingt ans pour atteindre douze mille deux cent soixante-deux mètres, en 1989. Plus profond que la fosse des Mariannes.",
+   "shots": [["crust", 0.4], ["mariana", 0.6]], "callouts": [["1989", 0.4], ["> FOSSE DES MARIANNES", 0.8]]},
+  {"text": "Mais en bas, rien ne se passe comme prévu.",
+   "shots": [["descent", 1.0]], "jeu": "lower, mysterious"},
+  {"text": "Vers sept kilomètres, les géologues attendaient du basalte. Il n'y en a pas. À la place, un granite fracturé, gorgé d'eau chaude et salée.",
+   "shots": [["basalt", 0.5], ["water", 0.5]], "callouts": [["≈ 7 KM", 0.08], ["PAS DE BASALTE", 0.4]]},
+  {"text": "À plus de six kilomètres, les carottes livrent des fossiles microscopiques de plancton : vingt-quatre espèces, vieilles de deux milliards d'années.",
+   "shots": [["fossils", 1.0]], "callouts": [["24 ESPÈCES", 0.6], ["2 MILLIARDS D'ANNÉES", 0.85]], "jeu": "intense"},
+  {"text": "Du puits, de l'hydrogène remonte en bulles.",
+   "shots": [["hydrogen", 1.0]], "callouts": [["HYDROGÈNE", 0.5]]},
+  {"text": "Et la chaleur explose : cent quatre-vingts degrés au fond, au lieu des cent prévus. La roche se comporte presque comme du plastique.",
+   "shots": [["heat", 1.0]], "callouts": [["180 °C", 0.25], ["100 °C PRÉVUS", 0.45]]},
+  {"text": "En 1992, le forage s'arrête. En 2008, le site est abandonné, et le puits disparaît sous un couvercle d'acier.",
+   "shots": [["cap", 1.0]], "callouts": [["1992", 0.08], ["2008", 0.45]], "jeu": "slow, solemn"},
+  {"text": "Ce record n'a traversé qu'un tiers de la croûte. À peine zéro virgule dix-neuf pour cent du chemin vers le centre de la Terre.",
+   "shots": [["earth", 1.0]], "callouts": [["1/3 DE LA CROÛTE", 0.25], ["0,19 %", 0.75]]},
+  {"text": "Douze kilomètres de roche, un trou de vingt-trois centimètres… et tout ce qu'il y a en dessous, personne ne l'a jamais vu.",
+   "shots": [["final", 1.0]], "jeu": "dramatic pause, low"}
+ ],
+ "sources": [
+  "EarthDate (Bureau of Economic Geology, University of Texas at Austin), épisode 216, « Kola Superdeep » (2021) — début en mai 1970, diamètre 23 cm, profondeur finale atteinte en 1989 par SG-3, plus profond que le Challenger Deep (fosse des Mariannes), 180 °C au lieu des 100 °C attendus, discontinuité de Conrad (granite/basalte) attendue vers 7 km et non trouvée, roche fracturée remplie d'eau chaude minéralisée, 24 espèces de microfossiles de 2 milliards d'années vers 6,7 km, hydrogène remonté du puits, granites de 2,7 milliards d'années, un tiers de la croûte, 0,19 % du chemin vers le centre de la Terre, site abandonné en 2008",
+  "Scientific American (Everyday Einstein), « How Deep Is the Deepest Hole in the World? » — 12 262 m, environ 20 ans de forage, 23 cm de diamètre, environ 180 °C, roche se comportant « plus comme du plastique », arrêt en 1992, puits soudé",
+  "Nautilus, Charles Digges, « The Soviets Drilled the Deepest Hole Ever » (2026) — début formel le 24 mai 1970, eau salée circulant dans les fractures, plancton fossile (deux douzaines d'espèces), hydrogène, arrêt en 1992, site mis sous cocon en 2008, couvercle d'acier d'environ 23 cm",
+  "IFLScience, « What's at the bottom of the deepest hole on Earth? » (2018) — 12 262 m, 23 cm, 180 °C au lieu de 100 °C, 0,19 % du chemin vers le centre"
+ ],
+ "legende": "Le trou le plus profond jamais creusé fait 23 cm de large… et plus de 12 km de profondeur. 🕳️\n\nSources : EarthDate – University of Texas at Austin (épisode 216, 2021), Scientific American, Nautilus (2026), IFLScience (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #kola #geologie #mystere #science"
+}
