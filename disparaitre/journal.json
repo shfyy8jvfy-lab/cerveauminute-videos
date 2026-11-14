@@ -168,10 +168,16 @@
       "fichier": "videos/ep24_maya_2012.mp4",
       "date": "2026-11-13",
       "media_id": "18107345309570883"
+    },
+    {
+      "numero": 25,
+      "sujet": "Une supernova toute proche",
+      "fichier": "videos/ep25_supernova.mp4",
+      "date": "2026-11-14",
+      "media_id": "17943556791395643"
     }
   ],
   "banque_sujets": [
-    "Une supernova toute proche",
     "La chute de fertilité mondiale (et si on arrêtait de faire des bébés ?)",
     "Les bactéries résistantes à tous les antibiotiques",
     "Mythe : l'alignement des planètes qui détruit la Terre",
