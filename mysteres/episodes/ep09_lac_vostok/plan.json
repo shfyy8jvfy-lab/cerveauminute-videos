@@ -1,0 +1,34 @@
+{
+ "sentences": [
+  {"text": "Sous l'Antarctique, sous près de quatre kilomètres de glace, un lac immense est resté enfermé dans le noir… depuis environ quinze millions d'années.",
+   "shots": [["hook_ice", 0.55], ["hook_lake", 0.45]], "callouts": [["≈ 4 KM DE GLACE", 0.3], ["15 MILLIONS D'ANNÉES", 0.85]], "jeu": "slow, commanding, deep voice"},
+  {"text": "Il s'appelle Vostok, comme la base russe installée au-dessus, au cœur du continent. C'est là qu'en 1983, on a relevé moins quatre-vingt-neuf degrés : l'air le plus froid jamais mesuré sur Terre.",
+   "shots": [["base", 0.5], ["thermo", 0.5]], "callouts": [["BASE VOSTOK", 0.2], ["−89 °C", 0.7]], "jeu": "calm, storytelling"},
+  {"text": "Et pourtant, tout en bas, l'eau est restée liquide.",
+   "shots": [["liquid", 1.0]], "jeu": "lower, mysterious"},
+  {"text": "Le lac mesure deux cent cinquante kilomètres de long, cinquante de large, et des centaines de mètres de profondeur.",
+   "shots": [["lake_map", 1.0]], "callouts": [["250 KM", 0.35], ["50 KM", 0.6]]},
+  {"text": "Son eau est à moins trois degrés. Elle ne gèle pas, écrasée par une pression d'environ trois cent quarante-cinq bars.",
+   "shots": [["pressure", 1.0]], "callouts": [["−3 °C", 0.2], ["≈ 345 BARS", 0.85]]},
+  {"text": "Elle serait saturée d'oxygène et d'azote : environ cinquante fois plus de gaz qu'un lac ordinaire.",
+   "shots": [["gas", 1.0]], "callouts": [["× 50", 0.7]]},
+  {"text": "Le lac a même des marées : sous l'effet de la Lune et du Soleil, sa surface monte et descend d'environ douze millimètres.",
+   "shots": [["tides", 1.0]], "callouts": [["12 MM", 0.85]]},
+  {"text": "En février 2012, après des années de forage, des foreurs russes l'atteignent enfin, à trois mille sept cent soixante-neuf mètres.",
+   "shots": [["drill", 1.0]], "callouts": [["FÉVRIER 2012", 0.15], ["3 769 M", 0.85]], "jeu": "intense"},
+  {"text": "Alors, sous la pression, l'eau jaillit dans le trou… puis gèle, comme pour refermer la porte.",
+   "shots": [["gush", 1.0]], "jeu": "lower, mysterious"},
+  {"text": "Dans la glace formée par le lac, une équipe a identifié plus de trois mille cinq cents séquences d'ADN. D'autres chercheurs soupçonnent une contamination.",
+   "shots": [["dna", 1.0]], "callouts": [["3 507 SÉQUENCES", 0.4], ["CONTAMINATION ?", 0.85]]},
+  {"text": "Quinze millions d'années dans le noir, sous près de quatre kilomètres de glace… et ce qui vit peut-être là-dessous, personne ne le sait encore.",
+   "shots": [["final", 1.0]], "jeu": "dramatic pause, low"}
+ ],
+ "sources": [
+  "Kapitsa, Ridley, Robin, Siegert, Zotikov, « A large deep freshwater lake beneath the ice of central East Antarctica », Nature (1996) — découverte et description du lac",
+  "Lamont-Doherty Earth Observatory (Columbia University), « Scientists Drill 2 Miles Down to Ancient Lake Vostok » (2012) — lac atteint à 3 769 m, eau sous pression remontée dans le trou puis gelée, isolement estimé à 15-20 millions d'années",
+  "Live Science, « Lake Vostok: The 15 million-year-old lake buried miles beneath Antarctica's ice » (2025) — eau à environ −3 °C, isolé depuis au moins 15 millions d'années, ADN de plus de 3 500 organismes dans la glace d'accrétion",
+  "Shtarkman et al., « Subglacial Lake Vostok (Antarctica) accretion ice contains a diverse set of sequences from aquatic, marine and sediment-inhabiting bacteria and eukarya », PLoS ONE (2013) — 3 507 séquences uniques ; critiques sur la contamination (D. Pearce, S. Bulat)",
+  "Wikipedia, « Lake Vostok » (synthèse des sources primaires) — 250 × 50 km, 12 500 km², pression ≈ 345 bars, gaz ≈ 50 fois plus qu'un lac ordinaire (estimation), marées ≈ 12 mm (Dietrich et al. 2001), −89 °C à la station Vostok le 21 juillet 1983"
+ ],
+ "legende": "Sous 4 km de glace, un lac est resté enfermé dans le noir depuis environ 15 millions d'années. 🧊\n\nSources : Nature (1996), Lamont-Doherty Earth Observatory – Columbia University (2012), PLoS ONE (2013), Live Science (2025).\n🎙️ Voix générée par IA.\n\n#noxscience #lacvostok #antarctique #mystere #science"
+}
