@@ -182,10 +182,16 @@
       "fichier": "videos/ep26_fertilite.mp4",
       "date": "2026-11-14",
       "media_id": "17981848578131011"
+    },
+    {
+      "numero": 27,
+      "sujet": "Les bactéries résistantes à tous les antibiotiques",
+      "fichier": "videos/ep27_superbacteries.mp4",
+      "date": "2026-11-15",
+      "media_id": "18118847519325489"
     }
   ],
   "banque_sujets": [
-    "Les bactéries résistantes à tous les antibiotiques",
     "Mythe : l'alignement des planètes qui détruit la Terre",
     "Le dégel du pergélisol et ses virus géants endormis",
     "Les étrangelets (strangelets) qui transformeraient la Terre",
