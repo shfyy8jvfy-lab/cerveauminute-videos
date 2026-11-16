@@ -1,0 +1,33 @@
+{
+ "sentences": [
+  {"text": "Le quinze août 1977, un radiotélescope capte, venu des étoiles, un signal si étrange qu'un astronome griffonne un seul mot à côté : « Wow ! »",
+   "shots": [["hook_sky", 0.55], ["hook_print", 0.45]], "callouts": [["15 AOÛT 1977", 0.12], ["WOW!", 0.92]], "jeu": "slow, commanding, deep voice"},
+  {"text": "Ce télescope, c'est Big Ear, la « Grande Oreille » de l'université d'État de l'Ohio, qui écoutait le ciel à la recherche d'extraterrestres.",
+   "shots": [["big_ear", 1.0]], "callouts": [["BIG EAR · OHIO", 0.3]], "jeu": "calm, storytelling"},
+  {"text": "Cette nuit-là, pendant soixante-douze secondes, quelque chose surgit, trente fois plus fort que le bruit de fond.",
+   "shots": [["spike", 1.0]], "callouts": [["72 SECONDES", 0.35], ["× 30", 0.85]]},
+  {"text": "Soixante-douze secondes : le temps que met la rotation de la Terre pour faire défiler un point du ciel devant l'antenne.",
+   "shots": [["scan", 1.0]]},
+  {"text": "Quelques jours plus tard, le chercheur Jerry Ehman relit les impressions. À l'encre rouge, il entoure six caractères : six, E, Q, U, J, cinq.",
+   "shots": [["printout", 1.0]], "callouts": [["6EQUJ5", 0.88]]},
+  {"text": "Ce n'est pas un code : c'est l'intensité du signal, qui monte, culmine… puis retombe.",
+   "shots": [["intensity", 1.0]]},
+  {"text": "Le plus troublant, c'est sa fréquence : environ mille quatre cent vingt mégahertz. Celle de l'hydrogène, l'élément le plus abondant de l'univers.",
+   "shots": [["hydrogen", 1.0]], "callouts": [["≈ 1 420 MHZ", 0.35], ["HYDROGÈNE", 0.8]], "jeu": "lower, mysterious"},
+  {"text": "Il venait de la direction du Sagittaire. Big Ear a réécouté, puis d'autres télescopes. Rien. Le signal n'est jamais revenu.",
+   "shots": [["sagittarius", 0.45], ["search", 0.55]], "callouts": [["SAGITTAIRE", 0.12], ["JAMAIS REVU", 0.9]], "jeu": "intense"},
+  {"text": "En 2024, une équipe propose une piste naturelle : un nuage d'hydrogène froid, brutalement illuminé par l'éruption d'une étoile morte, un magnétar.",
+   "shots": [["magnetar", 1.0]], "callouts": [["2024", 0.1], ["MAGNÉTAR ?", 0.9]]},
+  {"text": "Et la Grande Oreille, elle, n'écoutera plus jamais : elle a été démontée en 1998.",
+   "shots": [["demolish", 1.0]], "callouts": [["1998", 0.85]]},
+  {"text": "Soixante-douze secondes, un seul mot à l'encre rouge… et près de cinquante ans plus tard, personne ne sait vraiment ce qui a parlé cette nuit-là.",
+   "shots": [["final", 1.0]], "jeu": "dramatic pause, low"}
+ ],
+ "sources": [
+  "BBC Sky at Night Magazine, « The Wow! signal: a message from an extra-terrestrial civilisation? » (J. Winder) — 15 août 1977 à 02:16 UTC, Big Ear (Ohio State University), 72 s dues à la rotation de la Terre, ≈ 30 fois le bruit de fond, 6EQUJ5 = intensité notée toutes les 12 s, entouré par Jerry Ehman trois jours plus tard, région du Sagittaire, recherches ultérieures (Big Ear, META, VLA) infructueuses",
+  "National Geographic, « This mysterious radio signal has puzzled astronomers for nearly 50 years » (2026) — 1 420 MHz, raie de l'hydrogène neutre, 30 fois plus puissant que le bruit, entouré à l'encre rouge, observé une seule fois, Big Ear démonté en 1998",
+  "Méndez, Ortiz Ceballos, Zuluaga, « Arecibo Wow! I: An Astrophysical Explanation for the Wow! Signal », arXiv:2408.08513 (2024, soumis à The Astrophysical Journal) — nuage d'hydrogène froid brièvement illuminé par une source transitoire (éruption de magnétar ou SGR)",
+  "Universe Today, « The Wow! Signal Deciphered: It Was Hydrogen All Along » (2024)"
+ ],
+ "legende": "En 1977, un télescope a capté 72 secondes d'un signal venu du ciel… et on ne l'a plus jamais entendu. 📡\n\nSources : BBC Sky at Night Magazine, National Geographic (2026), Méndez et al., arXiv (2024), Universe Today (2024).\n🎙️ Voix générée par IA.\n\n#noxscience #signalwow #espace #mystere #astronomie"
+}
