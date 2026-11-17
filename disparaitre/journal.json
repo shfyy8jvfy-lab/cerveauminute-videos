@@ -224,7 +224,24 @@
       "fichier": "videos/ep32_fin_oxygene.mp4",
       "date": "2026-11-17",
       "media_id": "17977624812071236"
+    },
+    {
+      "numero": 33,
+      "sujet": "Mythe : la Terre qui arrête de tourner",
+      "fichier": "videos/ep33_terre_arret.mp4",
+      "date": "2026-11-17",
+      "media_id": "17919366855549320"
     }
   ],
-  "banque_sujets": []
+  "banque_sujets": [
+    "Les trapps de Sibérie : la « Grande Mort » du Permien (volcanisme géant)",
+    "Mythe : la queue de la comète de Halley en 1910 (les pilules anti-comète)",
+    "Le syndrome de Kessler (débris spatiaux en cascade)",
+    "La mort thermique de l'univers (Big Freeze)",
+    "Le fusil à clathrates (le méthane des fonds marins)",
+    "Mythe : le champignon zombie Cordyceps qui contamine les humains",
+    "Mythe : l'astéroïde Apophis qui nous percute en 2029",
+    "Mythe : le noyau de la Terre qui s'arrête",
+    "Les océans sans oxygène (anoxie océanique et zones mortes)"
+  ]
 }
