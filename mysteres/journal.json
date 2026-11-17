@@ -36,10 +36,10 @@
   "Derinkuyu : ville souterraine de 18 niveaux découverte en 1963",
   "Le forage de Kola : le trou le plus profond jamais creusé",
   "Le lac Vostok, enfermé sous 4 km de glace",
-  "Le signal « Wow! » de 1977 (Big Ear, 72 secondes, jamais revu)"
+  "Le signal « Wow! » de 1977 (Big Ear, 72 secondes, jamais revu)",
+  "'Oumuamua, le premier objet interstellaire observé"
  ],
  "banque_sujets": [
-  "'Oumuamua, le premier objet interstellaire observé",
   "Le « pied d'éléphant » de Tchernobyl",
   "Le tunnel sous le temple du Serpent à plumes de Teotihuacan (et son mercure liquide)",
   "Stonehenge : la pierre d'autel venue d'Écosse (étude Nature 2024)",
@@ -128,6 +128,14 @@
    "date": "2026-11-16",
    "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep10_signal_wow.mp4",
    "legende": "En 1977, un télescope a capté 72 secondes d'un signal venu du ciel… et on ne l'a plus jamais entendu. 📡\n\nSources : BBC Sky at Night Magazine, National Geographic (2026), Méndez et al., arXiv (2024), Universe Today (2024).\n🎙️ Voix générée par IA.\n\n#noxscience #signalwow #espace #mystere #astronomie"
+  },
+  {
+   "n": 11,
+   "sujet": "'Oumuamua, le premier objet interstellaire observé",
+   "dossier": "episodes/ep11_oumuamua",
+   "date": "2026-11-17",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep11_oumuamua.mp4",
+   "legende": "En 2017, un objet venu d'une autre étoile a traversé notre système solaire… et il a accéléré en repartant. 🌌\n\nSources : ESO (2017), Nature (2017, 2018, 2023), ESA/Hubble (2018), Nature Astronomy (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #oumuamua #espace #mystere #astronomie"
   }
  ],
  "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"

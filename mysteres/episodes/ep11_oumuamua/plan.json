@@ -1,0 +1,230 @@
+{
+ "sentences": [
+  {
+   "text": "En 2017, un objet venu d'une autre étoile a traversé notre système solaire… et en repartant, il a accéléré, sans que personne ne comprenne pourquoi.",
+   "shots": [
+    [
+     "hook_flyby",
+     0.6
+    ],
+    [
+     "hook_push",
+     0.4
+    ]
+   ],
+   "callouts": [
+    [
+     "VENU D'AILLEURS",
+     0.3
+    ],
+    [
+     "IL ACCÉLÈRE",
+     0.85
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Le dix-neuf octobre 2017, à Hawaï, un télescope repère un minuscule point de lumière qui file entre les étoiles.",
+   "shots": [
+    [
+     "telescope",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "19 OCTOBRE 2017",
+     0.15
+    ],
+    [
+     "PAN-STARRS · HAWAÏ",
+     0.45
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Sa trajectoire est beaucoup trop ouverte pour un objet d'ici : c'est le premier visiteur interstellaire jamais observé.",
+   "shots": [
+    [
+     "hyperbola",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1ER OBJET INTERSTELLAIRE",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Il semble venir de la direction de Véga, dans la Lyre. On le baptise Oumuamua : « l'éclaireur », en hawaïen.",
+   "shots": [
+    [
+     "vega",
+     0.55
+    ],
+    [
+     "name",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "VÉGA · LYRE",
+     0.25
+    ],
+    [
+     "« L'ÉCLAIREUR »",
+     0.88
+    ]
+   ]
+  },
+  {
+   "text": "Il est déjà passé au plus près du Soleil et file vers la sortie, à environ quatre-vingt-quinze mille kilomètres heure.",
+   "shots": [
+    [
+     "leaving",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 95 000 KM/H",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Sa lumière varie d'un facteur dix toutes les sept heures environ : il serait très allongé, peut-être dix fois plus long que large.",
+   "shots": [
+    [
+     "lightcurve",
+     0.55
+    ],
+    [
+     "cigar",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "× 10",
+     0.2
+    ],
+    [
+     "≈ 7 H",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "Au moins quatre cents mètres de long, rouge sombre… et il ne tourne pas proprement : il culbute.",
+   "shots": [
+    [
+     "tumble",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≥ 400 M",
+     0.2
+    ],
+    [
+     "IL CULBUTE",
+     0.9
+    ]
+   ]
+  },
+  {
+   "text": "En 2018, une étude publiée dans Nature révèle l'impensable : en s'éloignant, il accélérait. La gravité seule ne suffisait pas.",
+   "shots": [
+    [
+     "accel",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2018 · NATURE",
+     0.15
+    ],
+    [
+     "ACCÉLÉRATION",
+     0.7
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Une comète, poussée par ses jets de gaz ? Mais aucune queue, aucun nuage de poussière n'a été vu.",
+   "shots": [
+    [
+     "nocoma",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "AUCUNE QUEUE",
+     0.8
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "En 2023, une piste : de l'hydrogène piégé dans sa glace, libéré par la chaleur du Soleil, l'aurait poussé.",
+   "shots": [
+    [
+     "hydrogen",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2023",
+     0.08
+    ],
+    [
+     "HYDROGÈNE ?",
+     0.45
+    ]
+   ]
+  },
+  {
+   "text": "Impossible de vérifier : quelques semaines plus tard, il était déjà trop faible pour les plus grands télescopes.",
+   "shots": [
+    [
+     "fading",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "HORS DE VUE",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Un éclaireur venu d'une autre étoile, qui accélère en repartant… et emporte son secret, pour toujours, dans le noir.",
+   "shots": [
+    [
+     "final",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "ESO, communiqué eso1737 « Le premier visiteur interstellaire dévoile un visage inhabituel » (20 novembre 2017) — découvert le 19 octobre 2017 par Pan-STARRS 1 à Hawaï, déjà passé au plus près du Soleil, venu de la direction de Véga (Lyre), ≈ 95 000 km/h, au moins 400 m de long, environ dix fois plus long que large, luminosité variant d'un facteur dix, rotation en 7,3 h, couleur rouge sombre ; Meech et al., Nature (2017)",
+  "ESA/Hubble, heic1813 « Hubble sees 'Oumuamua getting a boost » (27 juin 2018) ; Micheli et al., « Non-gravitational acceleration in the trajectory of 1I/2017 U1 ('Oumuamua) », Nature 559 (2018) — accélération non gravitationnelle, aucune coma ni queue détectée",
+  "Bergner & Seligman, « Acceleration of 1I/'Oumuamua from radiolytically produced H2 in H2O ice », Nature 615 (2023) — hydrogène piégé dans la glace, libéré par le réchauffement",
+  "Fraser et al., Nature Astronomy (2018) — rotation en culbute (non principale) ; Wikipedia 1I/ʻOumuamua (nom hawaïen « éclaireur », trop faible pour être observé dès mi-décembre 2017)"
+ ],
+ "legende": "En 2017, un objet venu d'une autre étoile a traversé notre système solaire… et il a accéléré en repartant. 🌌\n\nSources : ESO (2017), Nature (2017, 2018, 2023), ESA/Hubble (2018), Nature Astronomy (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #oumuamua #espace #mystere #astronomie"
+}
