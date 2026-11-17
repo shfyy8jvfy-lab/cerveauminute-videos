@@ -217,9 +217,14 @@
       "fichier": "videos/ep31_foret_sombre.mp4",
       "date": "2026-11-16",
       "media_id": "17882466339632148"
+    },
+    {
+      "numero": 32,
+      "sujet": "La fin de l'oxygène : le Soleil qui chauffe et tue les plantes dans un milliard d'années",
+      "fichier": "videos/ep32_fin_oxygene.mp4",
+      "date": "2026-11-17",
+      "media_id": "17977624812071236"
     }
   ],
-  "banque_sujets": [
-    "La fin de l'oxygène : le Soleil qui chauffe et tue les plantes dans un milliard d'années"
-  ]
+  "banque_sujets": []
 }
