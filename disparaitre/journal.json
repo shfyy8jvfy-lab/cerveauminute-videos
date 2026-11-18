@@ -231,10 +231,16 @@
       "fichier": "videos/ep33_terre_arret.mp4",
       "date": "2026-11-17",
       "media_id": "17919366855549320"
+    },
+    {
+      "numero": 34,
+      "sujet": "Les trapps de Sibérie : la « Grande Mort » du Permien (volcanisme géant)",
+      "fichier": "videos/ep34_grande_mort.mp4",
+      "date": "2026-11-18",
+      "media_id": "18206272954330242"
     }
   ],
   "banque_sujets": [
-    "Les trapps de Sibérie : la « Grande Mort » du Permien (volcanisme géant)",
     "Mythe : la queue de la comète de Halley en 1910 (les pilules anti-comète)",
     "Le syndrome de Kessler (débris spatiaux en cascade)",
     "La mort thermique de l'univers (Big Freeze)",
