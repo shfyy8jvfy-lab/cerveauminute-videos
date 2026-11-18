@@ -238,10 +238,16 @@
       "fichier": "videos/ep34_grande_mort.mp4",
       "date": "2026-11-18",
       "media_id": "18206272954330242"
+    },
+    {
+      "numero": 35,
+      "sujet": "Mythe : la queue de la comète de Halley en 1910 (les pilules anti-comète)",
+      "fichier": "videos/ep35_comete_halley.mp4",
+      "date": "2026-11-18",
+      "media_id": "18121703173750683"
     }
   ],
   "banque_sujets": [
-    "Mythe : la queue de la comète de Halley en 1910 (les pilules anti-comète)",
     "Le syndrome de Kessler (débris spatiaux en cascade)",
     "La mort thermique de l'univers (Big Freeze)",
     "Le fusil à clathrates (le méthane des fonds marins)",
