@@ -53,12 +53,7 @@
   "La fosse des Mariannes : la pression à 11 km de fond",
   "La première image d'un trou noir (M87*, 2019)"
  ],
- "dernier_echec": {
-  "date": "2026-11-18",
-  "episode": 12,
-  "etape": "7. voix off (avant fabrication)",
-  "erreur": "Serveurs MCP ElevenLabs injoignables (erreur 400 à la connexion, CLIENT_HTTP_NOT_IMPLEMENTED) ; 3 tentatives à 2 min d'intervalle. Sujet « Le pied d'éléphant de Tchernobyl » laissé en tête de banque_sujets."
- },
+ "dernier_echec": null,
  "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
  "prets": [
   {
@@ -141,6 +136,14 @@
    "date": "2026-11-17",
    "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep11_oumuamua.mp4",
    "legende": "En 2017, un objet venu d'une autre étoile a traversé notre système solaire… et il a accéléré en repartant. 🌌\n\nSources : ESO (2017), Nature (2017, 2018, 2023), ESA/Hubble (2018), Nature Astronomy (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #oumuamua #espace #mystere #astronomie"
+  },
+  {
+   "n": 12,
+   "sujet": "Le « pied d'éléphant » de Tchernobyl",
+   "dossier": "episodes/ep12_pied_elephant",
+   "date": "2026-11-19",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep12_pied_elephant.mp4",
+   "legende": "Sous le réacteur de Tchernobyl dort une lave noire si radioactive qu'à côté d'elle, une dose mortelle s'accumulait en quelques minutes. ☢️\n\nSources : Mould, Chernobyl Record (2000), Vlasova et al. (2015), Progress in Nuclear Energy (2023), Science (2021), Nautilus (2013).\n🎙️ Voix générée par IA.\n\n#noxscience #tchernobyl #piedelephant #nucleaire #mystere"
   }
  ],
  "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"
