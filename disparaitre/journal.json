@@ -252,10 +252,16 @@
       "fichier": "videos/ep36_kessler.mp4",
       "date": "2026-11-19",
       "media_id": "18118961072017797"
+    },
+    {
+      "numero": 37,
+      "sujet": "La mort thermique de l'univers (Big Freeze)",
+      "fichier": "videos/ep37_big_freeze.mp4",
+      "date": "2026-11-19",
+      "media_id": "18249998674314251"
     }
   ],
   "banque_sujets": [
-    "La mort thermique de l'univers (Big Freeze)",
     "Le fusil à clathrates (le méthane des fonds marins)",
     "Mythe : le champignon zombie Cordyceps qui contamine les humains",
     "Mythe : l'astéroïde Apophis qui nous percute en 2029",
