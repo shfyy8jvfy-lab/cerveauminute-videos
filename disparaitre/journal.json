@@ -245,10 +245,16 @@
       "fichier": "videos/ep35_comete_halley.mp4",
       "date": "2026-11-18",
       "media_id": "18121703173750683"
+    },
+    {
+      "numero": 36,
+      "sujet": "Le syndrome de Kessler (débris spatiaux en cascade)",
+      "fichier": "videos/ep36_kessler.mp4",
+      "date": "2026-11-19",
+      "media_id": "18118961072017797"
     }
   ],
   "banque_sujets": [
-    "Le syndrome de Kessler (débris spatiaux en cascade)",
     "La mort thermique de l'univers (Big Freeze)",
     "Le fusil à clathrates (le méthane des fonds marins)",
     "Mythe : le champignon zombie Cordyceps qui contamine les humains",
