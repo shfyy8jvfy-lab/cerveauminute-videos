@@ -1,147 +1,147 @@
 {
-  "format": "Mystères — 3D fil de fer lumineux, voix grave, musique d'orgue originale",
-  "compte": "@nox.science (ex-@cerveauminute)",
-  "windsor": {
-    "connecteur": "instagram",
-    "compte_id": "17841472152672061",
-    "action": "create_video_post",
-    "note": "Plus utilisé pour publier en mode semi-automatique."
+ "format": "Mystères — 3D fil de fer lumineux, voix grave, musique d'orgue originale",
+ "compte": "@nox.science (ex-@cerveauminute)",
+ "windsor": {
+  "connecteur": "instagram",
+  "compte_id": "17841472152672061",
+  "action": "create_video_post",
+  "note": "Plus utilisé pour publier en mode semi-automatique."
+ },
+ "voix": {
+  "nom": "Zion Aquila - Deep, Aged, Warm",
+  "voice_id": "t2969wgUwHbBoVCZNHRU",
+  "modele": "eleven_v4",
+  "flow_id": "1etQVP5O9lEQcDAGVgzu",
+  "traitement": "moteur/voix.sh"
+ },
+ "debut": "2026-11-08",
+ "publiees": [
+  {
+   "n": 1,
+   "dossier": "episodes/ep01_grand_vide",
+   "fichier": "videos/ep01_grand_vide.mp4",
+   "sujet": "Le grand vide de la pyramide de Khéops",
+   "date": "2026-11-07",
+   "media_id": "18028466231878974",
+   "via": "windsor (manuel, à la demande d'Arno)"
+  }
+ ],
+ "sujets_traites": [
+  "Grande Pyramide : Big Void, outils en cuivre, journal de Merer, bras d'Ahramat",
+  "Mécanisme d'Anticythère",
+  "Le tombeau du premier empereur de Chine, jamais ouvert (et les rivières de mercure décrites par Sima Qian)",
+  "Göbekli Tepe : un temple plus vieux que l'agriculture",
+  "Le béton romain qui se répare tout seul (étude MIT 2023)",
+  "Le pilier de fer de Delhi qui ne rouille pas depuis 1 600 ans",
+  "Derinkuyu : ville souterraine de 18 niveaux découverte en 1963",
+  "Le forage de Kola : le trou le plus profond jamais creusé",
+  "Le lac Vostok, enfermé sous 4 km de glace",
+  "Le signal « Wow! » de 1977 (Big Ear, 72 secondes, jamais revu)",
+  "'Oumuamua, le premier objet interstellaire observé",
+  "Le « pied d'éléphant » de Tchernobyl"
+ ],
+ "banque_sujets": [
+  "Le tunnel sous le temple du Serpent à plumes de Teotihuacan (et son mercure liquide)",
+  "Stonehenge : la pierre d'autel venue d'Écosse (étude Nature 2024)",
+  "La Grande Muraille et son mortier au riz gluant",
+  "Le manuscrit de Voynich, indéchiffré depuis des siècles",
+  "Le feu grégeois, l'arme dont la recette a disparu",
+  "L'acier de Damas et ses nanotubes de carbone",
+  "L'événement de la Toungouska : 2 000 km² de forêt rasés",
+  "Les lignes de Nazca et les centaines de nouveaux géoglyphes trouvés par IA (2024)",
+  "Les statues de l'île de Pâques : comment elles ont « marché »",
+  "La fosse des Mariannes : la pression à 11 km de fond",
+  "La première image d'un trou noir (M87*, 2019)"
+ ],
+ "dernier_echec": {
+  "date": "2026-11-18",
+  "episode": 12,
+  "etape": "7. voix off (avant fabrication)",
+  "erreur": "Serveurs MCP ElevenLabs injoignables (erreur 400 à la connexion, CLIENT_HTTP_NOT_IMPLEMENTED) ; 3 tentatives à 2 min d'intervalle. Sujet « Le pied d'éléphant de Tchernobyl » laissé en tête de banque_sujets."
+ },
+ "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
+ "prets": [
+  {
+   "n": 2,
+   "sujet": "Le mécanisme d'Anticythère",
+   "dossier": "episodes/ep02_anticythere",
+   "date": "2026-11-07",
+   "legende": "Ils ont repêché un ordinateur de plus de 2 000 ans au fond de la mer. ⚙️\n\nSources : Nature (2008), Scientific Reports (2021), Musée national d'archéologie d'Athènes.\n🎙️ Voix générée par IA.\n\n#noxscience #anticythere #archeologie #mystere #science",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep02_anticythere_sans_musique.mp4"
   },
-  "voix": {
-    "nom": "Zion Aquila - Deep, Aged, Warm",
-    "voice_id": "t2969wgUwHbBoVCZNHRU",
-    "modele": "eleven_v4",
-    "flow_id": "1etQVP5O9lEQcDAGVgzu",
-    "traitement": "moteur/voix.sh"
+  {
+   "n": 3,
+   "sujet": "Le tombeau du premier empereur de Chine",
+   "dossier": "episodes/ep03_tombeau_qin",
+   "date": "2026-11-08",
+   "legende": "Personne n'a ouvert cette tombe depuis plus de 2 200 ans. Et le sol au-dessus est chargé de mercure. ⚱️\n\nIl y a plus de 2 000 ans, l'historien Sima Qian décrivait le tombeau du premier empereur de Chine : des rivières de mercure, un plafond d'étoiles, des arbalètes piégées. On a cru à une légende… jusqu'à ce que les analyses du sol révèlent des taux de mercure anormaux.\n\nAlors pourquoi ne pas l'ouvrir ? Parce qu'on risquerait de détruire ce qu'on cherche.\n\n👉 Tu l'ouvrirais, toi ? Dis-le en commentaire.\n\nSources : Scientific Reports (2020), Kaogu (1983), Sima Qian, Mémoires historiques (Ier s. av. J.-C.).\n🎙️ Voix générée par IA.\n\n#noxscience #qinshihuang #archeologie #mystere #histoire",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep03_tombeau_qin.mp4",
+   "video_musique": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep03_tombeau_qin_musique.mp4"
   },
-  "debut": "2026-11-08",
-  "publiees": [
-    {
-      "n": 1,
-      "dossier": "episodes/ep01_grand_vide",
-      "fichier": "videos/ep01_grand_vide.mp4",
-      "sujet": "Le grand vide de la pyramide de Khéops",
-      "date": "2026-11-07",
-      "media_id": "18028466231878974",
-      "via": "windsor (manuel, à la demande d'Arno)"
-    }
-  ],
-  "sujets_traites": [
-    "Grande Pyramide : Big Void, outils en cuivre, journal de Merer, bras d'Ahramat",
-    "Mécanisme d'Anticythère",
-    "Le tombeau du premier empereur de Chine, jamais ouvert (et les rivières de mercure décrites par Sima Qian)",
-    "Göbekli Tepe : un temple plus vieux que l'agriculture",
-    "Le béton romain qui se répare tout seul (étude MIT 2023)",
-    "Le pilier de fer de Delhi qui ne rouille pas depuis 1 600 ans",
-    "Derinkuyu : ville souterraine de 18 niveaux découverte en 1963",
-    "Le forage de Kola : le trou le plus profond jamais creusé",
-    "Le lac Vostok, enfermé sous 4 km de glace",
-    "Le signal « Wow! » de 1977 (Big Ear, 72 secondes, jamais revu)",
-    "'Oumuamua, le premier objet interstellaire observé"
-  ],
-  "banque_sujets": [
-    "Le « pied d'éléphant » de Tchernobyl",
-    "Le tunnel sous le temple du Serpent à plumes de Teotihuacan (et son mercure liquide)",
-    "Stonehenge : la pierre d'autel venue d'Écosse (étude Nature 2024)",
-    "La Grande Muraille et son mortier au riz gluant",
-    "Le manuscrit de Voynich, indéchiffré depuis des siècles",
-    "Le feu grégeois, l'arme dont la recette a disparu",
-    "L'acier de Damas et ses nanotubes de carbone",
-    "L'événement de la Toungouska : 2 000 km² de forêt rasés",
-    "Les lignes de Nazca et les centaines de nouveaux géoglyphes trouvés par IA (2024)",
-    "Les statues de l'île de Pâques : comment elles ont « marché »",
-    "La fosse des Mariannes : la pression à 11 km de fond",
-    "La première image d'un trou noir (M87*, 2019)"
-  ],
-  "dernier_echec": {
-    "date": "2026-11-18",
-    "episode": 12,
-    "etape": "7. voix off (avant fabrication)",
-    "erreur": "Serveurs MCP ElevenLabs injoignables (erreur 400 à la connexion, CLIENT_HTTP_NOT_IMPLEMENTED) ; 3 tentatives à 2 min d'intervalle. Sujet « Le pied d'éléphant de Tchernobyl » laissé en tête de banque_sujets."
+  {
+   "n": 4,
+   "sujet": "Göbekli Tepe : un sanctuaire plus vieux que l'agriculture",
+   "dossier": "episodes/ep04_gobekli_tepe",
+   "date": "2026-11-09",
+   "legende": "Ce sanctuaire de pierres géantes a plus de 11 000 ans. Avant la poterie, avant l'écriture… et personne n'y vivait. 🗿\n\nSources : Current World Archaeology (2012/2018), Institut archéologique allemand – Tepe Telegrams (2018), UNESCO.\n🎙️ Voix générée par IA.\n\n#noxscience #gobeklitepe #archeologie #mystere #histoire",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep04_gobekli_tepe.mp4"
   },
-  "mode": "semi-automatique : la tâche prépare la vidéo (sans musique + version orgue) et notifie Arno, qui publie lui-même avec un son Instagram",
-  "prets": [
-    {
-      "n": 2,
-      "sujet": "Le mécanisme d'Anticythère",
-      "dossier": "episodes/ep02_anticythere",
-      "date": "2026-11-07",
-      "legende": "Ils ont repêché un ordinateur de plus de 2 000 ans au fond de la mer. ⚙️\n\nSources : Nature (2008), Scientific Reports (2021), Musée national d'archéologie d'Athènes.\n🎙️ Voix générée par IA.\n\n#noxscience #anticythere #archeologie #mystere #science",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep02_anticythere_sans_musique.mp4"
-    },
-    {
-      "n": 3,
-      "sujet": "Le tombeau du premier empereur de Chine",
-      "dossier": "episodes/ep03_tombeau_qin",
-      "date": "2026-11-08",
-      "legende": "Personne n'a ouvert cette tombe depuis plus de 2 200 ans. Et le sol au-dessus est chargé de mercure. ⚱️\n\nIl y a plus de 2 000 ans, l'historien Sima Qian décrivait le tombeau du premier empereur de Chine : des rivières de mercure, un plafond d'étoiles, des arbalètes piégées. On a cru à une légende… jusqu'à ce que les analyses du sol révèlent des taux de mercure anormaux.\n\nAlors pourquoi ne pas l'ouvrir ? Parce qu'on risquerait de détruire ce qu'on cherche.\n\n👉 Tu l'ouvrirais, toi ? Dis-le en commentaire.\n\nSources : Scientific Reports (2020), Kaogu (1983), Sima Qian, Mémoires historiques (Ier s. av. J.-C.).\n🎙️ Voix générée par IA.\n\n#noxscience #qinshihuang #archeologie #mystere #histoire",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep03_tombeau_qin.mp4",
-      "video_musique": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep03_tombeau_qin_musique.mp4"
-    },
-    {
-      "n": 4,
-      "sujet": "Göbekli Tepe : un sanctuaire plus vieux que l'agriculture",
-      "dossier": "episodes/ep04_gobekli_tepe",
-      "date": "2026-11-09",
-      "legende": "Ce sanctuaire de pierres géantes a plus de 11 000 ans. Avant la poterie, avant l'écriture… et personne n'y vivait. 🗿\n\nSources : Current World Archaeology (2012/2018), Institut archéologique allemand – Tepe Telegrams (2018), UNESCO.\n🎙️ Voix générée par IA.\n\n#noxscience #gobeklitepe #archeologie #mystere #histoire",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep04_gobekli_tepe.mp4"
-    },
-    {
-      "n": 5,
-      "sujet": "Le béton romain qui se répare tout seul",
-      "dossier": "episodes/ep05_beton_romain",
-      "date": "2026-11-10",
-      "legende": "Ce béton romain répare ses propres fissures… depuis 2 000 ans. 🏛️\n\nSources : Science Advances – MIT (2023), American Mineralogist – Univ. of Utah (2017).\n🎙️ Voix générée par IA.\n\n#noxscience #rome #beton #mystere #histoire",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep05_beton_romain.mp4"
-    },
-    {
-      "n": 6,
-      "sujet": "Le pilier de fer de Delhi qui ne rouille pas",
-      "dossier": "episodes/ep06_pilier_delhi",
-      "date": "2026-11-12",
-      "legende": "Ce pilier de fer est exposé à la pluie depuis 1 600 ans… et il n'a presque pas rouillé. 🔩\n\nSources : Corrosion Science – R. Balasubramaniam, IIT Kanpur (2000), MRS Bulletin (2002), Down To Earth (2002), The Tribune (2009).\n🎙️ Voix générée par IA.\n\n#noxscience #inde #delhi #mystere #histoire",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep06_pilier_delhi.mp4"
-    },
-    {
-      "n": 7,
-      "sujet": "Derinkuyu : une ville souterraine pour des milliers de personnes",
-      "dossier": "episodes/ep07_derinkuyu",
-      "date": "2026-11-13",
-      "legende": "En 1963, un homme abat un mur de sa cave… et découvre une ville souterraine de 18 niveaux. 🕳️\n\nSources : History.com (2026), EarthDate – University of Texas at Austin (épisode 429).\n🎙️ Voix générée par IA.\n\n#noxscience #derinkuyu #cappadoce #mystere #histoire",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep07_derinkuyu.mp4"
-    },
-    {
-      "n": 8,
-      "sujet": "Le forage de Kola : le trou le plus profond jamais creusé",
-      "dossier": "episodes/ep08_forage_kola",
-      "date": "2026-11-14",
-      "legende": "Le trou le plus profond jamais creusé fait 23 cm de large… et plus de 12 km de profondeur. 🕳️\n\nSources : EarthDate – University of Texas at Austin (épisode 216, 2021), Scientific American, Nautilus (2026), IFLScience (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #kola #geologie #mystere #science",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep08_forage_kola.mp4"
-    },
-    {
-      "n": 9,
-      "sujet": "Le lac Vostok, enfermé sous 4 km de glace",
-      "dossier": "episodes/ep09_lac_vostok",
-      "date": "2026-11-15",
-      "legende": "Sous 4 km de glace, un lac est resté enfermé dans le noir depuis environ 15 millions d'années. 🧊\n\nSources : Nature (1996), Lamont-Doherty Earth Observatory – Columbia University (2012), PLoS ONE (2013), Live Science (2025).\n🎙️ Voix générée par IA.\n\n#noxscience #lacvostok #antarctique #mystere #science",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep09_lac_vostok.mp4"
-    },
-    {
-      "n": 10,
-      "sujet": "Le signal « Wow! » de 1977",
-      "dossier": "episodes/ep10_signal_wow",
-      "date": "2026-11-16",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep10_signal_wow.mp4",
-      "legende": "En 1977, un télescope a capté 72 secondes d'un signal venu du ciel… et on ne l'a plus jamais entendu. 📡\n\nSources : BBC Sky at Night Magazine, National Geographic (2026), Méndez et al., arXiv (2024), Universe Today (2024).\n🎙️ Voix générée par IA.\n\n#noxscience #signalwow #espace #mystere #astronomie"
-    },
-    {
-      "n": 11,
-      "sujet": "'Oumuamua, le premier objet interstellaire observé",
-      "dossier": "episodes/ep11_oumuamua",
-      "date": "2026-11-17",
-      "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep11_oumuamua.mp4",
-      "legende": "En 2017, un objet venu d'une autre étoile a traversé notre système solaire… et il a accéléré en repartant. 🌌\n\nSources : ESO (2017), Nature (2017, 2018, 2023), ESA/Hubble (2018), Nature Astronomy (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #oumuamua #espace #mystere #astronomie"
-    }
-  ],
-  "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"
+  {
+   "n": 5,
+   "sujet": "Le béton romain qui se répare tout seul",
+   "dossier": "episodes/ep05_beton_romain",
+   "date": "2026-11-10",
+   "legende": "Ce béton romain répare ses propres fissures… depuis 2 000 ans. 🏛️\n\nSources : Science Advances – MIT (2023), American Mineralogist – Univ. of Utah (2017).\n🎙️ Voix générée par IA.\n\n#noxscience #rome #beton #mystere #histoire",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep05_beton_romain.mp4"
+  },
+  {
+   "n": 6,
+   "sujet": "Le pilier de fer de Delhi qui ne rouille pas",
+   "dossier": "episodes/ep06_pilier_delhi",
+   "date": "2026-11-12",
+   "legende": "Ce pilier de fer est exposé à la pluie depuis 1 600 ans… et il n'a presque pas rouillé. 🔩\n\nSources : Corrosion Science – R. Balasubramaniam, IIT Kanpur (2000), MRS Bulletin (2002), Down To Earth (2002), The Tribune (2009).\n🎙️ Voix générée par IA.\n\n#noxscience #inde #delhi #mystere #histoire",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep06_pilier_delhi.mp4"
+  },
+  {
+   "n": 7,
+   "sujet": "Derinkuyu : une ville souterraine pour des milliers de personnes",
+   "dossier": "episodes/ep07_derinkuyu",
+   "date": "2026-11-13",
+   "legende": "En 1963, un homme abat un mur de sa cave… et découvre une ville souterraine de 18 niveaux. 🕳️\n\nSources : History.com (2026), EarthDate – University of Texas at Austin (épisode 429).\n🎙️ Voix générée par IA.\n\n#noxscience #derinkuyu #cappadoce #mystere #histoire",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep07_derinkuyu.mp4"
+  },
+  {
+   "n": 8,
+   "sujet": "Le forage de Kola : le trou le plus profond jamais creusé",
+   "dossier": "episodes/ep08_forage_kola",
+   "date": "2026-11-14",
+   "legende": "Le trou le plus profond jamais creusé fait 23 cm de large… et plus de 12 km de profondeur. 🕳️\n\nSources : EarthDate – University of Texas at Austin (épisode 216, 2021), Scientific American, Nautilus (2026), IFLScience (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #kola #geologie #mystere #science",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep08_forage_kola.mp4"
+  },
+  {
+   "n": 9,
+   "sujet": "Le lac Vostok, enfermé sous 4 km de glace",
+   "dossier": "episodes/ep09_lac_vostok",
+   "date": "2026-11-15",
+   "legende": "Sous 4 km de glace, un lac est resté enfermé dans le noir depuis environ 15 millions d'années. 🧊\n\nSources : Nature (1996), Lamont-Doherty Earth Observatory – Columbia University (2012), PLoS ONE (2013), Live Science (2025).\n🎙️ Voix générée par IA.\n\n#noxscience #lacvostok #antarctique #mystere #science",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep09_lac_vostok.mp4"
+  },
+  {
+   "n": 10,
+   "sujet": "Le signal « Wow! » de 1977",
+   "dossier": "episodes/ep10_signal_wow",
+   "date": "2026-11-16",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep10_signal_wow.mp4",
+   "legende": "En 1977, un télescope a capté 72 secondes d'un signal venu du ciel… et on ne l'a plus jamais entendu. 📡\n\nSources : BBC Sky at Night Magazine, National Geographic (2026), Méndez et al., arXiv (2024), Universe Today (2024).\n🎙️ Voix générée par IA.\n\n#noxscience #signalwow #espace #mystere #astronomie"
+  },
+  {
+   "n": 11,
+   "sujet": "'Oumuamua, le premier objet interstellaire observé",
+   "dossier": "episodes/ep11_oumuamua",
+   "date": "2026-11-17",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep11_oumuamua.mp4",
+   "legende": "En 2017, un objet venu d'une autre étoile a traversé notre système solaire… et il a accéléré en repartant. 🌌\n\nSources : ESO (2017), Nature (2017, 2018, 2023), ESA/Hubble (2018), Nature Astronomy (2018).\n🎙️ Voix générée par IA.\n\n#noxscience #oumuamua #espace #mystere #astronomie"
+  }
+ ],
+ "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"
 }
