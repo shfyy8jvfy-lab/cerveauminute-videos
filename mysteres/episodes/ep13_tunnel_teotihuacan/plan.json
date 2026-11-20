@@ -1,0 +1,228 @@
+{
+ "sentences": [
+  {
+   "text": "Sous une pyramide du Mexique, un tunnel est resté scellé pendant mille huit cents ans… et tout au fond, du mercure liquide.",
+   "shots": [
+    [
+     "hook_temple",
+     0.55
+    ],
+    [
+     "hook_mercury",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "SCELLÉ 1 800 ANS",
+     0.4
+    ],
+    [
+     "MERCURE LIQUIDE",
+     0.92
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Nous sommes à Teotihuacan, près de Mexico. En 2003, après de fortes pluies, un trou s'ouvre au pied du temple du Serpent à plumes.",
+   "shots": [
+    [
+     "city_map",
+     0.45
+    ],
+    [
+     "sinkhole",
+     0.55
+    ]
+   ],
+   "callouts": [
+    [
+     "TEOTIHUACAN",
+     0.2
+    ],
+    [
+     "2003",
+     0.45
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "L'archéologue Sergio Gómez s'y fait descendre à la corde, et découvre un passage creusé par l'homme, à plus de douze mètres de profondeur.",
+   "shots": [
+    [
+     "rope_descent",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "> 12 M DE PROFONDEUR",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Le tunnel file sur une centaine de mètres, jusque sous le cœur du temple. Vers l'an 250, on l'a comblé, puis bouché avec de gros blocs.",
+   "shots": [
+    [
+     "tunnel_cutaway",
+     0.55
+    ],
+    [
+     "sealing",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 100 MÈTRES",
+     0.25
+    ],
+    [
+     "VERS L'AN 250",
+     0.65
+    ]
+   ]
+  },
+  {
+   "text": "Il faudra des années pour le vider, à la pelle. Deux petits robots sont envoyés en éclaireurs.",
+   "shots": [
+    [
+     "dig",
+     0.5
+    ],
+    [
+     "robots",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "2 ROBOTS",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "Et à l'intérieur : environ soixante-quinze mille objets. Coquillages, os de jaguar, statues de jade, boules d'ambre.",
+   "shots": [
+    [
+     "offerings",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 75 000 OBJETS",
+     0.35
+    ]
+   ]
+  },
+  {
+   "text": "Dans la roche, des éclats de pyrite ont été incrustés à la main. Sous la lampe, ils scintillent comme un ciel étoilé.",
+   "shots": [
+    [
+     "pyrite_stars",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PYRITE",
+     0.3
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Plus loin, des centaines de mystérieuses sphères jaunes, au cœur d'argile.",
+   "shots": [
+    [
+     "spheres",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "DES CENTAINES",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "Puis, en 2015, au bout du tunnel, la surprise : de grandes quantités de mercure liquide.",
+   "shots": [
+    [
+     "mercury_reveal",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2015",
+     0.15
+    ],
+    [
+     "MERCURE LIQUIDE",
+     0.9
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Un métal rarissime sous cette forme. Il figurait peut-être les rivières et les lacs du monde souterrain.",
+   "shots": [
+    [
+     "underworld",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "LE MONDE SOUTERRAIN",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Certains y ont vu l'entrée d'un tombeau royal. Mais aucun souverain n'y a été trouvé.",
+   "shots": [
+    [
+     "tomb_question",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "TOMBEAU ROYAL ?",
+     0.45
+    ],
+    [
+     "AUCUN SOUVERAIN",
+     0.9
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Sous le Serpent à plumes, le tunnel garde son mercure… et le secret de ceux qui l'ont scellé, il y a mille huit cents ans.",
+   "shots": [
+    [
+     "final_temple",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  }
+ ],
+ "sources": [
+  "D. Stuart, « The Discovery of a Secret Tunnel Could Finally Solve the Mysteries of Teotihuacán », Smithsonian Magazine (2016) — gouffre ouvert par la pluie à l'automne 2003 au pied du temple du Serpent à plumes, descente de Sergio Gómez (INAH) à la corde, ≈ 40 pieds sous terre, tunnel d'environ 330 pieds jusqu'au centre du temple, scellé ≈ 1 800 ans, fouille à la pelle, robots Tlaloque et Tláloc II, ≈ 75 000 objets (coquillages, os de jaguar, boules d'ambre…), pyrite incrustée à la main évoquant les étoiles, pas de tombeau royal",
+  "Archaeology (AIA), « Liquid Mercury Discovered Beneath Teotihuacan Pyramid » (27 avril 2015) — « grandes quantités » de mercure liquide dans une chambre au bout du tunnel, statues de jade, symbole possible d'une rivière ou d'un lac du monde souterrain",
+  "Archaeology (AIA), « Top 10 Discoveries of 2015 : Mythological Mercury Pool » (2016) — mercure liquide rare (cinabre plus courant), représentation de la géographie du monde souterrain, jade du Guatemala, coquillages des Caraïbes",
+  "Archaeology (AIA), « Yellow Spheres Discovered in Untouched Tunnel Rooms » (1er mai 2013) — centaines de sphères jaunes à cœur d'argile",
+  "NPR / AP, « With Help Of Robot, Scientists Get A Peek At 2,000-Year-Old Mexican Ruins » (2010) — tunnel fermé entre 200 et 250 apr. J.-C., comblé de débris presque jusqu'au plafond"
+ ],
+ "legende": "Sous une pyramide du Mexique, un tunnel est resté scellé pendant 1 800 ans… et tout au fond, du mercure liquide. 🐍\n\nSources : Smithsonian Magazine (2016), Archaeology (2013, 2015, 2016), NPR/AP (2010).\n🎙️ Voix générée par IA.\n\n#noxscience #teotihuacan #archeologie #mexique #mystere"
+}
