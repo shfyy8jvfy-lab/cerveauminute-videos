@@ -266,10 +266,16 @@
       "fichier": "videos/ep38_clathrates.mp4",
       "date": "2026-11-20",
       "media_id": "17913163857574448"
+    },
+    {
+      "numero": 39,
+      "sujet": "Mythe : le champignon zombie Cordyceps qui contamine les humains",
+      "fichier": "videos/ep39_champignon_zombie.mp4",
+      "date": "2026-11-20",
+      "media_id": "18111495230220964"
     }
   ],
   "banque_sujets": [
-    "Mythe : le champignon zombie Cordyceps qui contamine les humains",
     "Mythe : l'astéroïde Apophis qui nous percute en 2029",
     "Mythe : le noyau de la Terre qui s'arrête",
     "Les océans sans oxygène (anoxie océanique et zones mortes)"
