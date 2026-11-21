@@ -39,10 +39,10 @@
   "Le signal « Wow! » de 1977 (Big Ear, 72 secondes, jamais revu)",
   "'Oumuamua, le premier objet interstellaire observé",
   "Le « pied d'éléphant » de Tchernobyl",
-  "Le tunnel sous le temple du Serpent à plumes de Teotihuacan (et son mercure liquide)"
+  "Le tunnel sous le temple du Serpent à plumes de Teotihuacan (et son mercure liquide)",
+  "Stonehenge : la pierre d'autel venue d'Écosse (étude Nature 2024)"
  ],
  "banque_sujets": [
-  "Stonehenge : la pierre d'autel venue d'Écosse (étude Nature 2024)",
   "La Grande Muraille et son mortier au riz gluant",
   "Le manuscrit de Voynich, indéchiffré depuis des siècles",
   "Le feu grégeois, l'arme dont la recette a disparu",
@@ -152,6 +152,14 @@
    "date": "2026-11-20",
    "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep13_tunnel_teotihuacan.mp4",
    "legende": "Sous une pyramide du Mexique, un tunnel est resté scellé pendant 1 800 ans… et tout au fond, du mercure liquide. 🐍\n\nSources : Smithsonian Magazine (2016), Archaeology (2013, 2015, 2016), NPR/AP (2010).\n🎙️ Voix générée par IA.\n\n#noxscience #teotihuacan #archeologie #mexique #mystere"
+  },
+  {
+   "n": 14,
+   "sujet": "La pierre d'autel de Stonehenge, venue d'Écosse",
+   "dossier": "episodes/ep14_pierre_autel",
+   "date": "2026-11-21",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep14_pierre_autel.mp4",
+   "legende": "Au centre de Stonehenge repose une pierre de 6 tonnes venue d'au moins 750 km… et personne ne sait d'où exactement. 🪨\n\nSources : Nature (2024), Journal of Archaeological Science: Reports (2020, 2024), Journal of the Geological Society (2026), NPR (2024), Eos (2024).\n🎙️ Voix générée par IA.\n\n#noxscience #stonehenge #archeologie #ecosse #mystere"
   }
  ],
  "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"
