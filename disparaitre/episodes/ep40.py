@@ -20,7 +20,7 @@ EPISODE = 40
 BOOM_SCENE = 7
 LEGENDE = """Épisode 40 : Apophis, l'astéroïde du vendredi 13 ☄️🌍
 
-Le 13 avril 2029, l'astéroïde Apophis (environ 350 m) passera à moins de 32 000 km de la Terre : plus près que certains satellites, et visible à l'œil nu depuis l'Europe. En 2004, on lui donnait 2,7 % de chances de nous toucher… mais les mesures ont tout écarté : aucun risque pendant au moins 100 ans (NASA, ESA).
+Le 13 avril 2029, l'astéroïde Apophis (environ 350 m) passera à moins de 32 000 km de la Terre : plus près que certains satellites, et visible à l'œil nu depuis une partie de l'Europe. En 2004, on lui donnait 2,7 % de chances de nous toucher… mais les mesures ont tout écarté : aucun risque pendant au moins 100 ans (NASA, ESA).
 
 On va tous disparaître… mais pas aujourd'hui.
 

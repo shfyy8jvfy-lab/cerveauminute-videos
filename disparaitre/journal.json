@@ -273,10 +273,16 @@
       "fichier": "videos/ep39_champignon_zombie.mp4",
       "date": "2026-11-20",
       "media_id": "18111495230220964"
+    },
+    {
+      "numero": 40,
+      "sujet": "Mythe : l'astéroïde Apophis qui nous percute en 2029",
+      "fichier": "videos/ep40_apophis.mp4",
+      "date": "2026-11-21",
+      "media_id": "17941662270401226"
     }
   ],
   "banque_sujets": [
-    "Mythe : l'astéroïde Apophis qui nous percute en 2029",
     "Mythe : le noyau de la Terre qui s'arrête",
     "Les océans sans oxygène (anoxie océanique et zones mortes)"
   ]
