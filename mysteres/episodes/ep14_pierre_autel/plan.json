@@ -1,0 +1,212 @@
+{
+ "sentences": [
+  {
+   "text": "Au cœur de Stonehenge repose une pierre de six tonnes, venue d'au moins sept cent cinquante kilomètres… et personne ne sait d'où, exactement.",
+   "shots": [
+    [
+     "hook_altar",
+     0.55
+    ],
+    [
+     "hook_map",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "6 TONNES",
+     0.3
+    ],
+    [
+     "≥ 750 KM",
+     0.62
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Nous sommes dans le sud de l'Angleterre, sur la plaine de Salisbury. On l'appelle la pierre d'autel : un bloc de grès vert de près de cinq mètres de long, couché au centre du monument.",
+   "shots": [
+    [
+     "circle_overview",
+     0.5
+    ],
+    [
+     "altar_close",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "PLAINE DE SALISBURY",
+     0.25
+    ],
+    [
+     "≈ 4,9 MÈTRES",
+     0.8
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Elle gît, brisée, sous deux énormes blocs du grand trilithe, effondrés sur elle.",
+   "shots": [
+    [
+     "trilithon_fall",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Pendant des décennies, on l'a crue galloise, comme les petites pierres bleues, venues de deux cent vingt kilomètres.",
+   "shots": [
+    [
+     "wales_map",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PAYS DE GALLES ?",
+     0.4
+    ],
+    [
+     "220 KM",
+     0.9
+    ]
+   ]
+  },
+  {
+   "text": "Mais en 2024, une équipe publie dans Nature une enquête au microscope.",
+   "shots": [
+    [
+     "microscope",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "NATURE, 2024",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Dans la pierre, des grains minuscules de zircon, d'apatite et de rutile servent d'horloges. Certains ont plus d'un milliard d'années, d'autres environ quatre cent cinquante millions.",
+   "shots": [
+    [
+     "grains",
+     0.5
+    ],
+    [
+     "grain_clock",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "> 1 MILLIARD D'ANNÉES",
+     0.68
+    ],
+    [
+     "≈ 450 MILLIONS",
+     0.95
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Leur signature mène très loin au nord : au bassin des Orcades, dans le nord-est de l'Écosse.",
+   "shots": [
+    [
+     "scotland_route",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "NORD-EST DE L'ÉCOSSE",
+     0.85
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Les glaciers ? Impossible : ils l'auraient poussée dans l'autre sens. Les chercheurs penchent pour un voyage par la mer, vers 2600 avant notre ère.",
+   "shots": [
+    [
+     "glacier",
+     0.45
+    ],
+    [
+     "sea_boat",
+     0.55
+    ]
+   ],
+   "callouts": [
+    [
+     "VERS 2600 AV. J.-C.",
+     0.9
+    ]
+   ]
+  },
+  {
+   "text": "Reste à trouver la carrière. Les Orcades ? Écartées. Le Caithness, tout proche ? Écarté lui aussi, en 2026.",
+   "shots": [
+    [
+     "search_orkney",
+     0.5
+    ],
+    [
+     "search_caithness",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "ORCADES : NON",
+     0.35
+    ],
+    [
+     "CAITHNESS : NON",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "Aucun des sites examinés ne correspond.",
+   "shots": [
+    [
+     "no_match",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "AUCUN SITE NE CORRESPOND",
+     0.6
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Une pierre de six tonnes, transportée sur sept cent cinquante kilomètres… et son berceau reste introuvable.",
+   "shots": [
+    [
+     "final_altar",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low, slow"
+  }
+ ],
+ "sources": [
+  "A. J. I. Clarke, C. L. Kirkland, R. E. Bevins, N. J. G. Pearce, S. Glorie, R. A. Ixer, « A Scottish provenance for the Altar Stone of Stonehenge », Nature 632, 570-575 (2024) — pierre 80, la plus grande des pierres bleues, 4,9 × 1,0 × 0,5 m, ≈ 6 t, grès micacé vert pâle ; âges U-Pb des zircons (pics 1 047 à 1 790 Ma), rutile et apatite dominés par une source ordovicienne (≈ 450-470 Ma) ; bassin des Orcades (nord-est de l'Écosse), au moins 750 km ; transport probable par mer",
+  "NPR, « Researchers say they've found the surprising source of a key piece of Stonehenge » (2024) — pierre brisée, en partie recouverte par deux pierres effondrées ; installée vers 2620-2480 av. J.-C. ; glaciers exclus (ils l'auraient déplacée dans l'autre sens) ; bateau = hypothèse la plus probable ; longtemps crue venue du pays de Galles",
+  "Eos (AGU), « From Sandstone Basin to Stonehenge Altar » (2024) — 750 km depuis le bassin des Orcades ; pierres bleues galloises à 220 km",
+  "Aberystwyth University / Journal of Archaeological Science: Reports (2024) — comparaison avec les pierres de Stenness et du Ring of Brodgar : pas d'origine sur l'île principale des Orcades",
+  "Sci.News, sur Pirrie et al., Journal of the Geological Society (2026) — sous le linteau et le montant effondrés du grand trilithe ; Caithness et Orcades exclus par la minéralogie des argiles ; « aucun des sites examinés » ne présente les mêmes caractéristiques",
+  "R. E. Bevins et al., Journal of Archaeological Science: Reports (2020) — l'origine galloise (Senni, bassin anglo-gallois) écartée"
+ ],
+ "legende": "Au centre de Stonehenge repose une pierre de 6 tonnes venue d'au moins 750 km… et personne ne sait d'où exactement. 🪨\n\nSources : Nature (2024), Journal of Archaeological Science: Reports (2020, 2024), Journal of the Geological Society (2026), NPR (2024), Eos (2024).\n🎙️ Voix générée par IA.\n\n#noxscience #stonehenge #archeologie #ecosse #mystere"
+}
