@@ -1,295 +1,311 @@
 {
- "compte": "on.va.tous.disparaitre",
- "publiees": [
-  {
-   "numero": 1,
-   "sujet": "Le faux vide (désintégration du vide)",
-   "fichier": "videos/ep01_faux_vide.mp4",
-   "date": "2026-11-05",
-   "media_id": "18079397210444794"
-  },
-  {
-   "numero": 2,
-   "sujet": "Les bactéries miroir",
-   "fichier": "videos/ep02_bacteries_miroir.mp4",
-   "date": "2026-11-05",
-   "media_id": "18109745198294042"
-  },
-  {
-   "numero": 3,
-   "sujet": "L'astéroïde tueur (et la mission DART qui a dévié un astéroïde en 2022)",
-   "fichier": "videos/ep03_asteroide.mp4",
-   "date": "2026-11-06",
-   "media_id": "18498427882109114"
-  },
-  {
-   "numero": 4,
-   "sujet": "Le super-volcan (Yellowstone, Toba il y a 74 000 ans)",
-   "fichier": "videos/ep04_super_volcan.mp4",
-   "date": "2026-11-06",
-   "media_id": "18112555580350022"
-  },
-  {
-   "numero": 5,
-   "sujet": "L'hiver nucléaire",
-   "fichier": "videos/ep05_hiver_nucleaire.mp4",
-   "date": "2026-11-06",
-   "media_id": "18121801129993144"
-  },
-  {
-   "numero": 6,
-   "sujet": "L'IA hors de contrôle (problème de l'alignement)",
-   "fichier": "videos/ep06_ia_hors_controle.mp4",
-   "date": "2026-11-06",
-   "media_id": "17915104737550987"
-  },
-  {
-   "numero": 7,
-   "sujet": "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
-   "fichier": "videos/ep07_sursaut_gamma.mp4",
-   "date": "2026-11-06",
-   "media_id": "17881092351558978"
-  },
-  {
-   "numero": 8,
-   "sujet": "Mythe : la planète Nibiru",
-   "fichier": "videos/ep08_nibiru.mp4",
-   "date": "2026-11-06",
-   "media_id": "18126186713484383"
-  },
-  {
-   "numero": 9,
-   "sujet": "La tempête solaire géante (événement de Carrington, 1859)",
-   "fichier": "videos/ep09_tempete_solaire.mp4",
-   "date": "2026-11-06",
-   "media_id": "17887501623625608"
-  },
-  {
-   "numero": 10,
-   "sujet": "La gelée grise (nanorobots auto-répliquants)",
-   "fichier": "videos/ep10_gelee_grise.mp4",
-   "date": "2026-11-06",
-   "media_id": "18114629912518877"
-  },
-  {
-   "numero": 11,
-   "sujet": "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
-   "fichier": "videos/ep11_geante_rouge.mp4",
-   "date": "2026-11-07",
-   "media_id": "17878595895651217"
-  },
-  {
-   "numero": 12,
-   "sujet": "Mythe : le LHC qui crée un trou noir",
-   "fichier": "videos/ep12_lhc_trou_noir.mp4",
-   "date": "2026-11-07",
-   "media_id": "18126308161715453"
-  },
-  {
-   "numero": 13,
-   "sujet": "La pandémie de laboratoire",
-   "fichier": "videos/ep13_pandemie_labo.mp4",
-   "date": "2026-11-07",
-   "media_id": "18155213752539394"
-  },
-  {
-   "numero": 14,
-   "sujet": "Le Big Rip (l'univers qui se déchire)",
-   "fichier": "videos/ep14_big_rip.mp4",
-   "date": "2026-11-08",
-   "media_id": "18115731239035344"
-  },
-  {
-   "numero": 15,
-   "sujet": "Une planète errante qui traverse le système solaire",
-   "fichier": "videos/ep15_planete_errante.mp4",
-   "date": "2026-11-08",
-   "media_id": "17972176296193947"
-  },
-  {
-   "numero": 16,
-   "sujet": "Mythe : l'inversion des pôles magnétiques qui nous tue",
-   "fichier": "videos/ep16_inversion_poles.mp4",
-   "date": "2026-11-09",
-   "media_id": "18121658167753834"
-  },
-  {
-   "numero": 17,
-   "sujet": "L'effet de serre emballé (devenir comme Vénus)",
-   "fichier": "videos/ep17_serre_emballee.mp4",
-   "date": "2026-11-09",
-   "media_id": "17956194102294641"
-  },
-  {
-   "numero": 18,
-   "sujet": "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
-   "fichier": "videos/ep18_grand_filtre.mp4",
-   "date": "2026-11-09",
-   "media_id": "18083264168344304"
-  },
-  {
-   "numero": 19,
-   "sujet": "La disparition des pollinisateurs",
-   "fichier": "videos/ep19_pollinisateurs.mp4",
-   "date": "2026-11-10",
-   "media_id": "18113331164615873"
-  },
-  {
-   "numero": 20,
-   "sujet": "La collision avec Andromède (spoiler : pas dangereuse)",
-   "fichier": "videos/ep20_andromede.mp4",
-   "date": "2026-11-10",
-   "media_id": "17995992726102710"
-  },
-  {
-   "numero": 21,
-   "sujet": "L'hypothèse de la simulation qu'on éteint",
-   "fichier": "videos/ep21_simulation.mp4",
-   "date": "2026-11-12",
-   "media_id": "18223993966350180"
-  },
-  {
-   "numero": 22,
-   "sujet": "Un trou noir errant qui passe près de nous",
-   "fichier": "videos/ep22_trou_noir_errant.mp4",
-   "date": "2026-11-12",
-   "media_id": "17914018293591230"
-  },
-  {
-   "numero": 23,
-   "sujet": "L'effondrement de la circulation océanique (AMOC)",
-   "fichier": "videos/ep23_amoc.mp4",
-   "date": "2026-11-13",
-   "media_id": "18126534574904976"
-  },
-  {
-   "numero": 24,
-   "sujet": "Mythe : la fin du monde maya de 2012",
-   "fichier": "videos/ep24_maya_2012.mp4",
-   "date": "2026-11-13",
-   "media_id": "18107345309570883"
-  },
-  {
-   "numero": 25,
-   "sujet": "Une supernova toute proche",
-   "fichier": "videos/ep25_supernova.mp4",
-   "date": "2026-11-14",
-   "media_id": "17943556791395643"
-  },
-  {
-   "numero": 26,
-   "sujet": "La chute de fertilité mondiale (et si on arrêtait de faire des bébés ?)",
-   "fichier": "videos/ep26_fertilite.mp4",
-   "date": "2026-11-14",
-   "media_id": "17981848578131011"
-  },
-  {
-   "numero": 27,
-   "sujet": "Les bactéries résistantes à tous les antibiotiques",
-   "fichier": "videos/ep27_superbacteries.mp4",
-   "date": "2026-11-15",
-   "media_id": "18118847519325489"
-  },
-  {
-   "numero": 28,
-   "sujet": "Mythe : l'alignement des planètes qui détruit la Terre",
-   "fichier": "videos/ep28_alignement_planetes.mp4",
-   "date": "2026-11-15",
-   "media_id": "17961294249257584"
-  },
-  {
-   "numero": 29,
-   "sujet": "Le dégel du pergélisol et ses virus géants endormis",
-   "fichier": "videos/ep29_pergelisol.mp4",
-   "date": "2026-11-15",
-   "media_id": "18654664792017790"
-  },
-  {
-   "numero": 30,
-   "sujet": "Les étrangelets (strangelets) qui transformeraient la Terre",
-   "fichier": "videos/ep30_etrangelets.mp4",
-   "date": "2026-11-16",
-   "media_id": "17953626162340580"
-  },
-  {
-   "numero": 31,
-   "sujet": "Une civilisation extraterrestre hostile (forêt sombre)",
-   "fichier": "videos/ep31_foret_sombre.mp4",
-   "date": "2026-11-16",
-   "media_id": "17882466339632148"
-  },
-  {
-   "numero": 32,
-   "sujet": "La fin de l'oxygène : le Soleil qui chauffe et tue les plantes dans un milliard d'années",
-   "fichier": "videos/ep32_fin_oxygene.mp4",
-   "date": "2026-11-17",
-   "media_id": "17977624812071236"
-  },
-  {
-   "numero": 33,
-   "sujet": "Mythe : la Terre qui arrête de tourner",
-   "fichier": "videos/ep33_terre_arret.mp4",
-   "date": "2026-11-17",
-   "media_id": "17919366855549320"
-  },
-  {
-   "numero": 34,
-   "sujet": "Les trapps de Sibérie : la « Grande Mort » du Permien (volcanisme géant)",
-   "fichier": "videos/ep34_grande_mort.mp4",
-   "date": "2026-11-18",
-   "media_id": "18206272954330242"
-  },
-  {
-   "numero": 35,
-   "sujet": "Mythe : la queue de la comète de Halley en 1910 (les pilules anti-comète)",
-   "fichier": "videos/ep35_comete_halley.mp4",
-   "date": "2026-11-18",
-   "media_id": "18121703173750683"
-  },
-  {
-   "numero": 36,
-   "sujet": "Le syndrome de Kessler (débris spatiaux en cascade)",
-   "fichier": "videos/ep36_kessler.mp4",
-   "date": "2026-11-19",
-   "media_id": "18118961072017797"
-  },
-  {
-   "numero": 37,
-   "sujet": "La mort thermique de l'univers (Big Freeze)",
-   "fichier": "videos/ep37_big_freeze.mp4",
-   "date": "2026-11-19",
-   "media_id": "18249998674314251"
-  },
-  {
-   "numero": 38,
-   "sujet": "Le fusil à clathrates (le méthane des fonds marins)",
-   "fichier": "videos/ep38_clathrates.mp4",
-   "date": "2026-11-20",
-   "media_id": "17913163857574448"
-  },
-  {
-   "numero": 39,
-   "sujet": "Mythe : le champignon zombie Cordyceps qui contamine les humains",
-   "fichier": "videos/ep39_champignon_zombie.mp4",
-   "date": "2026-11-20",
-   "media_id": "18111495230220964"
-  },
-  {
-   "numero": 40,
-   "sujet": "Mythe : l'astéroïde Apophis qui nous percute en 2029",
-   "fichier": "videos/ep40_apophis.mp4",
-   "date": "2026-11-21",
-   "media_id": "17941662270401226"
-  },
-  {
-   "numero": 41,
-   "sujet": "Mythe : le noyau de la Terre qui s'arrête",
-   "fichier": "videos/ep41_noyau_terre.mp4",
-   "date": "2026-11-21",
-   "media_id": "18120464341792170"
-  }
- ],
- "banque_sujets": [
-  "Les océans sans oxygène (anoxie océanique et zones mortes)"
- ]
+  "compte": "on.va.tous.disparaitre",
+  "publiees": [
+    {
+      "numero": 1,
+      "sujet": "Le faux vide (désintégration du vide)",
+      "fichier": "videos/ep01_faux_vide.mp4",
+      "date": "2026-11-05",
+      "media_id": "18079397210444794"
+    },
+    {
+      "numero": 2,
+      "sujet": "Les bactéries miroir",
+      "fichier": "videos/ep02_bacteries_miroir.mp4",
+      "date": "2026-11-05",
+      "media_id": "18109745198294042"
+    },
+    {
+      "numero": 3,
+      "sujet": "L'astéroïde tueur (et la mission DART qui a dévié un astéroïde en 2022)",
+      "fichier": "videos/ep03_asteroide.mp4",
+      "date": "2026-11-06",
+      "media_id": "18498427882109114"
+    },
+    {
+      "numero": 4,
+      "sujet": "Le super-volcan (Yellowstone, Toba il y a 74 000 ans)",
+      "fichier": "videos/ep04_super_volcan.mp4",
+      "date": "2026-11-06",
+      "media_id": "18112555580350022"
+    },
+    {
+      "numero": 5,
+      "sujet": "L'hiver nucléaire",
+      "fichier": "videos/ep05_hiver_nucleaire.mp4",
+      "date": "2026-11-06",
+      "media_id": "18121801129993144"
+    },
+    {
+      "numero": 6,
+      "sujet": "L'IA hors de contrôle (problème de l'alignement)",
+      "fichier": "videos/ep06_ia_hors_controle.mp4",
+      "date": "2026-11-06",
+      "media_id": "17915104737550987"
+    },
+    {
+      "numero": 7,
+      "sujet": "Le sursaut gamma (hypothèse de l'extinction de l'Ordovicien)",
+      "fichier": "videos/ep07_sursaut_gamma.mp4",
+      "date": "2026-11-06",
+      "media_id": "17881092351558978"
+    },
+    {
+      "numero": 8,
+      "sujet": "Mythe : la planète Nibiru",
+      "fichier": "videos/ep08_nibiru.mp4",
+      "date": "2026-11-06",
+      "media_id": "18126186713484383"
+    },
+    {
+      "numero": 9,
+      "sujet": "La tempête solaire géante (événement de Carrington, 1859)",
+      "fichier": "videos/ep09_tempete_solaire.mp4",
+      "date": "2026-11-06",
+      "media_id": "17887501623625608"
+    },
+    {
+      "numero": 10,
+      "sujet": "La gelée grise (nanorobots auto-répliquants)",
+      "fichier": "videos/ep10_gelee_grise.mp4",
+      "date": "2026-11-06",
+      "media_id": "18114629912518877"
+    },
+    {
+      "numero": 11,
+      "sujet": "Le Soleil qui devient une géante rouge (certain, dans ~5 milliards d'années)",
+      "fichier": "videos/ep11_geante_rouge.mp4",
+      "date": "2026-11-07",
+      "media_id": "17878595895651217"
+    },
+    {
+      "numero": 12,
+      "sujet": "Mythe : le LHC qui crée un trou noir",
+      "fichier": "videos/ep12_lhc_trou_noir.mp4",
+      "date": "2026-11-07",
+      "media_id": "18126308161715453"
+    },
+    {
+      "numero": 13,
+      "sujet": "La pandémie de laboratoire",
+      "fichier": "videos/ep13_pandemie_labo.mp4",
+      "date": "2026-11-07",
+      "media_id": "18155213752539394"
+    },
+    {
+      "numero": 14,
+      "sujet": "Le Big Rip (l'univers qui se déchire)",
+      "fichier": "videos/ep14_big_rip.mp4",
+      "date": "2026-11-08",
+      "media_id": "18115731239035344"
+    },
+    {
+      "numero": 15,
+      "sujet": "Une planète errante qui traverse le système solaire",
+      "fichier": "videos/ep15_planete_errante.mp4",
+      "date": "2026-11-08",
+      "media_id": "17972176296193947"
+    },
+    {
+      "numero": 16,
+      "sujet": "Mythe : l'inversion des pôles magnétiques qui nous tue",
+      "fichier": "videos/ep16_inversion_poles.mp4",
+      "date": "2026-11-09",
+      "media_id": "18121658167753834"
+    },
+    {
+      "numero": 17,
+      "sujet": "L'effet de serre emballé (devenir comme Vénus)",
+      "fichier": "videos/ep17_serre_emballee.mp4",
+      "date": "2026-11-09",
+      "media_id": "17956194102294641"
+    },
+    {
+      "numero": 18,
+      "sujet": "Le grand filtre de Fermi (pourquoi l'univers semble vide)",
+      "fichier": "videos/ep18_grand_filtre.mp4",
+      "date": "2026-11-09",
+      "media_id": "18083264168344304"
+    },
+    {
+      "numero": 19,
+      "sujet": "La disparition des pollinisateurs",
+      "fichier": "videos/ep19_pollinisateurs.mp4",
+      "date": "2026-11-10",
+      "media_id": "18113331164615873"
+    },
+    {
+      "numero": 20,
+      "sujet": "La collision avec Andromède (spoiler : pas dangereuse)",
+      "fichier": "videos/ep20_andromede.mp4",
+      "date": "2026-11-10",
+      "media_id": "17995992726102710"
+    },
+    {
+      "numero": 21,
+      "sujet": "L'hypothèse de la simulation qu'on éteint",
+      "fichier": "videos/ep21_simulation.mp4",
+      "date": "2026-11-12",
+      "media_id": "18223993966350180"
+    },
+    {
+      "numero": 22,
+      "sujet": "Un trou noir errant qui passe près de nous",
+      "fichier": "videos/ep22_trou_noir_errant.mp4",
+      "date": "2026-11-12",
+      "media_id": "17914018293591230"
+    },
+    {
+      "numero": 23,
+      "sujet": "L'effondrement de la circulation océanique (AMOC)",
+      "fichier": "videos/ep23_amoc.mp4",
+      "date": "2026-11-13",
+      "media_id": "18126534574904976"
+    },
+    {
+      "numero": 24,
+      "sujet": "Mythe : la fin du monde maya de 2012",
+      "fichier": "videos/ep24_maya_2012.mp4",
+      "date": "2026-11-13",
+      "media_id": "18107345309570883"
+    },
+    {
+      "numero": 25,
+      "sujet": "Une supernova toute proche",
+      "fichier": "videos/ep25_supernova.mp4",
+      "date": "2026-11-14",
+      "media_id": "17943556791395643"
+    },
+    {
+      "numero": 26,
+      "sujet": "La chute de fertilité mondiale (et si on arrêtait de faire des bébés ?)",
+      "fichier": "videos/ep26_fertilite.mp4",
+      "date": "2026-11-14",
+      "media_id": "17981848578131011"
+    },
+    {
+      "numero": 27,
+      "sujet": "Les bactéries résistantes à tous les antibiotiques",
+      "fichier": "videos/ep27_superbacteries.mp4",
+      "date": "2026-11-15",
+      "media_id": "18118847519325489"
+    },
+    {
+      "numero": 28,
+      "sujet": "Mythe : l'alignement des planètes qui détruit la Terre",
+      "fichier": "videos/ep28_alignement_planetes.mp4",
+      "date": "2026-11-15",
+      "media_id": "17961294249257584"
+    },
+    {
+      "numero": 29,
+      "sujet": "Le dégel du pergélisol et ses virus géants endormis",
+      "fichier": "videos/ep29_pergelisol.mp4",
+      "date": "2026-11-15",
+      "media_id": "18654664792017790"
+    },
+    {
+      "numero": 30,
+      "sujet": "Les étrangelets (strangelets) qui transformeraient la Terre",
+      "fichier": "videos/ep30_etrangelets.mp4",
+      "date": "2026-11-16",
+      "media_id": "17953626162340580"
+    },
+    {
+      "numero": 31,
+      "sujet": "Une civilisation extraterrestre hostile (forêt sombre)",
+      "fichier": "videos/ep31_foret_sombre.mp4",
+      "date": "2026-11-16",
+      "media_id": "17882466339632148"
+    },
+    {
+      "numero": 32,
+      "sujet": "La fin de l'oxygène : le Soleil qui chauffe et tue les plantes dans un milliard d'années",
+      "fichier": "videos/ep32_fin_oxygene.mp4",
+      "date": "2026-11-17",
+      "media_id": "17977624812071236"
+    },
+    {
+      "numero": 33,
+      "sujet": "Mythe : la Terre qui arrête de tourner",
+      "fichier": "videos/ep33_terre_arret.mp4",
+      "date": "2026-11-17",
+      "media_id": "17919366855549320"
+    },
+    {
+      "numero": 34,
+      "sujet": "Les trapps de Sibérie : la « Grande Mort » du Permien (volcanisme géant)",
+      "fichier": "videos/ep34_grande_mort.mp4",
+      "date": "2026-11-18",
+      "media_id": "18206272954330242"
+    },
+    {
+      "numero": 35,
+      "sujet": "Mythe : la queue de la comète de Halley en 1910 (les pilules anti-comète)",
+      "fichier": "videos/ep35_comete_halley.mp4",
+      "date": "2026-11-18",
+      "media_id": "18121703173750683"
+    },
+    {
+      "numero": 36,
+      "sujet": "Le syndrome de Kessler (débris spatiaux en cascade)",
+      "fichier": "videos/ep36_kessler.mp4",
+      "date": "2026-11-19",
+      "media_id": "18118961072017797"
+    },
+    {
+      "numero": 37,
+      "sujet": "La mort thermique de l'univers (Big Freeze)",
+      "fichier": "videos/ep37_big_freeze.mp4",
+      "date": "2026-11-19",
+      "media_id": "18249998674314251"
+    },
+    {
+      "numero": 38,
+      "sujet": "Le fusil à clathrates (le méthane des fonds marins)",
+      "fichier": "videos/ep38_clathrates.mp4",
+      "date": "2026-11-20",
+      "media_id": "17913163857574448"
+    },
+    {
+      "numero": 39,
+      "sujet": "Mythe : le champignon zombie Cordyceps qui contamine les humains",
+      "fichier": "videos/ep39_champignon_zombie.mp4",
+      "date": "2026-11-20",
+      "media_id": "18111495230220964"
+    },
+    {
+      "numero": 40,
+      "sujet": "Mythe : l'astéroïde Apophis qui nous percute en 2029",
+      "fichier": "videos/ep40_apophis.mp4",
+      "date": "2026-11-21",
+      "media_id": "17941662270401226"
+    },
+    {
+      "numero": 41,
+      "sujet": "Mythe : le noyau de la Terre qui s'arrête",
+      "fichier": "videos/ep41_noyau_terre.mp4",
+      "date": "2026-11-21",
+      "media_id": "18120464341792170"
+    },
+    {
+      "numero": 42,
+      "sujet": "Les océans sans oxygène (anoxie océanique et zones mortes)",
+      "fichier": "videos/ep42_oceans_sans_oxygene.mp4",
+      "date": "2026-11-22",
+      "media_id": "18145621831612400"
+    }
+  ],
+  "banque_sujets": [
+    "La couche d'ozone qui disparaît (et comment on l'a sauvée)",
+    "Mythe : Bételgeuse qui explose et nous grille",
+    "La grippe aviaire H5N1 qui s'adapte à l'humain",
+    "Mythe : le méga-tsunami de La Palma qui rase l'Atlantique",
+    "L'année sans été (Tambora, 1816) : quand un volcan éteint l'été",
+    "Mythe : le bug de l'an 2000",
+    "La fonte de l'Antarctique de l'Ouest (Thwaites, le « glacier de l'Apocalypse »)",
+    "Mythe : la Lune qui tombe sur la Terre (elle s'éloigne en fait)",
+    "Une comète géante venue du nuage d'Oort",
+    "Mythe : la fin du monde de l'an 1000"
+  ]
 }
