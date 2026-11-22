@@ -1,0 +1,251 @@
+{
+ "sentences": [
+  {
+   "text": "En Chine, des remparts vieux de six siècles tiennent debout grâce à un ingrédient de cuisine : le riz gluant.",
+   "shots": [
+    [
+     "hook_wall",
+     0.55
+    ],
+    [
+     "hook_rice",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "600 ANS",
+     0.3
+    ],
+    [
+     "RIZ GLUANT",
+     0.9
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Il y a environ mille cinq cents ans, des bâtisseurs chinois ont une idée étrange : verser une soupe de riz gluant dans leur mortier de chaux.",
+   "shots": [
+    [
+     "rice_pot",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 1 500 ANS",
+     0.2
+    ],
+    [
+     "RIZ + CHAUX",
+     0.85
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "La recette la plus courante : un volume de riz cru pour vingt volumes de chaux.",
+   "shots": [
+    [
+     "ratio",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1 POUR 20",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "C'est sans doute le premier mortier composite de l'histoire, à la fois organique et minéral.",
+   "shots": [
+    [
+     "composite",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1ER MORTIER COMPOSITE",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Sous les Ming, il sert à bâtir tombeaux, pagodes et remparts, comme ceux de Nankin.",
+   "shots": [
+    [
+     "pagoda",
+     0.5
+    ],
+    [
+     "nanjing",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "DYNASTIE MING",
+     0.12
+    ],
+    [
+     "NANKIN",
+     0.88
+    ]
+   ]
+  },
+  {
+   "text": "Un tombeau Ming s'est révélé si dur qu'un bulldozer n'a rien pu contre lui.",
+   "shots": [
+    [
+     "bulldozer",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "D'autres édifices ont résisté à de violents séismes.",
+   "shots": [
+    [
+     "quake",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Le secret n'est percé qu'en 2010, à l'université du Zhejiang : une molécule du riz, l'amylopectine.",
+   "shots": [
+    [
+     "molecule",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2010",
+     0.15
+    ],
+    [
+     "AMYLOPECTINE",
+     0.88
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Elle freine la croissance des cristaux de calcaire : ils restent minuscules et serrés, et le mortier devient plus solide et plus résistant à l'eau que la chaux seule.",
+   "shots": [
+    [
+     "crystals_big",
+     0.35
+    ],
+    [
+     "crystals_small",
+     0.65
+    ]
+   ],
+   "callouts": [
+    [
+     "PLUS SOLIDE",
+     0.72
+    ],
+    [
+     "RÉSISTE À L'EAU",
+     0.88
+    ]
+   ]
+  },
+  {
+   "text": "Pour le démasquer, une goutte d'iode suffit : avec du riz, le mortier vire au violet.",
+   "shots": [
+    [
+     "iodine",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "IODE",
+     0.35
+    ],
+    [
+     "→ VIOLET",
+     0.88
+    ]
+   ]
+  },
+  {
+   "text": "Aujourd'hui encore, on s'en sert pour restaurer des monuments, comme un pont de huit cents ans.",
+   "shots": [
+    [
+     "bridge",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PONT DE 800 ANS",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Et la Grande Muraille ? On répète partout qu'elle est collée au riz.",
+   "shots": [
+    [
+     "great_wall",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "GRANDE MURAILLE ?",
+     0.2
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Pourtant, en 2022, deux chercheurs notaient qu'aucune étude systématique des mortiers de la muraille Ming n'existait encore.",
+   "shots": [
+    [
+     "wall_scan",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2022",
+     0.12
+    ],
+    [
+     "PAS D'ÉTUDE SYSTÉMATIQUE",
+     0.6
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Des remparts tenus par du riz… et la plus célèbre muraille du monde garde encore son secret.",
+   "shots": [
+    [
+     "final_wall",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low, slow"
+  }
+ ],
+ "sources": [
+  "F. Yang, B. Zhang, Q. Ma, « Study of Sticky Rice−Lime Mortar Technology for the Restoration of Historical Masonry Construction », Accounts of Chemical Research 43(6), 936-944 (2010), Université du Zhejiang — mortier inventé il y a environ 1 500 ans ; amylopectine = inhibiteur qui contrôle la croissance des cristaux de carbonate de calcium et donne une microstructure compacte ; probablement le premier mortier composite (organique + inorganique) ; tombeaux, pagodes, remparts ; certains ont résisté aux bulldozers et à de puissants séismes ; plus solide et plus résistant à l'eau que la chaux pure ; reste le meilleur matériau de restauration (communiqué ACS / EurekAlert, 2010)",
+  "National Geographic, K. Ravilious, « Sticky Rice Holds Ancient Chinese Buildings Together » (2010) — rempart de Nankin vieux de 600 ans analysé (calcaire en poudre + soupe de riz gluant) ; tombeau Ming « si dur qu'un bulldozer n'a rien pu y faire » ; restauration du pont Shouchang, vieux de 800 ans",
+  "K. Zhang et al., « Effects of sticky rice addition on the properties of lime-tile dust mortars », Heritage Science 9, 4 (2021) — proportion la plus fréquente : riz gluant cru / chaux = 1:20 en volume",
+  "J. Otero, A. E. Charola, V. Starinieri, Journal of Materials Science 54, 10217-10234 (2019) — mortiers au riz gluant dans de nombreux édifices Ming (1368-1644) et Qing ; traces archéologiques dès les dynasties du Nord et du Sud (386-589)",
+  "Y.-B. Luo, Y.-J. Zhang, « Investigation of sticky-rice lime mortar of the Horse Stopped Wall in Jiange », Heritage Science 1, 26 (2013) — test iode-amidon : la solution vire au violet en présence d'amylopectine",
+  "T. Dettmering, S. Dai, « Types of lime binders in mortars used for the construction of the Ming Great Wall of China… », Built Heritage 6, 1 (2022) — « jusqu'ici, aucune étude systématique des liants à la chaux des mortiers de la Grande Muraille »"
+ ],
+ "legende": "Des remparts chinois tiennent depuis des siècles grâce à… du riz gluant. Et la Grande Muraille ? 🍚\n\nSources : Accounts of Chemical Research (2010), National Geographic (2010), Heritage Science (2013, 2021), Journal of Materials Science (2019), Built Heritage (2022).\n🎙️ Voix générée par IA.\n\n#noxscience #grandemuraille #chine #histoire #mystere"
+}
