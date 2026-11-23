@@ -308,10 +308,16 @@
       "fichier": "videos/ep44_betelgeuse.mp4",
       "date": "2026-11-23",
       "media_id": "17993874500865272"
+    },
+    {
+      "numero": 45,
+      "sujet": "La grippe aviaire H5N1 qui s'adapte à l'humain",
+      "fichier": "videos/ep45_grippe_aviaire.mp4",
+      "date": "2026-11-23",
+      "media_id": "18140289949642583"
     }
   ],
   "banque_sujets": [
-    "La grippe aviaire H5N1 qui s'adapte à l'humain",
     "Mythe : le méga-tsunami de La Palma qui rase l'Atlantique",
     "L'année sans été (Tambora, 1816) : quand un volcan éteint l'été",
     "Mythe : le bug de l'an 2000",
