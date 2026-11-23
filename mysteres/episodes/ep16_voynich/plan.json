@@ -1,0 +1,222 @@
+{
+ "sentences": [
+  {
+   "text": "Il existe un livre de plus de deux cents pages que personne au monde n'a jamais réussi à lire.",
+   "shots": [
+    [
+     "hook_book",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 240 PAGES",
+     0.4
+    ],
+    [
+     "ILLISIBLE",
+     0.9
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "C'est le manuscrit de Voynich, conservé à l'université Yale, aux États-Unis.",
+   "shots": [
+    [
+     "yale_vault",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "MS 408 · YALE",
+     0.6
+    ]
+   ],
+   "jeu": "calm, storytelling"
+  },
+  {
+   "text": "Son nom vient d'un libraire, Wilfrid Voynich, qui l'achète en 1912 à un collège jésuite près de Rome.",
+   "shots": [
+    [
+     "villa",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1912",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Le carbone quatorze a parlé : son parchemin date du début du quinzième siècle, entre 1404 et 1438.",
+   "shots": [
+    [
+     "carbon",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1404 – 1438",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Ses pages sont couvertes d'une écriture que l'on ne retrouve nulle part ailleurs.",
+   "shots": [
+    [
+     "glyphs",
+     1.0
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Et de plantes dessinées avec soin : plus d'une centaine, dont aucune n'a pu être identifiée avec certitude.",
+   "shots": [
+    [
+     "plant",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "0 IDENTIFIÉE",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Plus loin, des cartes du ciel, des signes du zodiaque… et des femmes nues qui se baignent dans d'étranges bassins.",
+   "shots": [
+    [
+     "zodiac",
+     0.5
+    ],
+    [
+     "baths",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Selon une lettre du dix-septième siècle, l'empereur Rodolphe Deux l'aurait payé six cents ducats d'or.",
+   "shots": [
+    [
+     "ducats",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "600 DUCATS D'OR",
+     0.7
+    ]
+   ]
+  },
+  {
+   "text": "Sur la première page, une signature effacée n'apparaît que sous ultraviolet : celle d'un pharmacien de Prague, Jacobus Horčický.",
+   "shots": [
+    [
+     "uv_sign",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ULTRAVIOLET",
+     0.4
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Les plus grands casseurs de codes des deux guerres mondiales s'y sont attaqués.",
+   "shots": [
+    [
+     "codebreak",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Tous ont échoué.",
+   "shots": [
+    [
+     "codebreak_fail",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ÉCHEC",
+     0.3
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  },
+  {
+   "text": "Pourtant, ce n'est pas du charabia : ses mots suivent la loi de Zipf, comme ceux d'une vraie langue.",
+   "shots": [
+    [
+     "zipf",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "LOI DE ZIPF",
+     0.7
+    ]
+   ]
+  },
+  {
+   "text": "Le mot le plus fréquent revient environ deux fois plus souvent que le deuxième.",
+   "shots": [
+    [
+     "zipf_bars",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "× 2",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Langue perdue, code de génie, ou canular vieux de six siècles ?",
+   "shots": [
+    [
+     "final_book",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Plus de deux cents pages… et toujours personne pour les lire.",
+   "shots": [
+    [
+     "final_close",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn, deep voice"
+  }
+ ],
+ "sources": [
+  "Beinecke Rare Book & Manuscript Library (Yale), « Voynich Manuscript » (page collection) — achat par Wilfrid M. Voynich en 1912 au collège jésuite de Frascati près de Rome ; Rodolphe II l'aurait acheté 600 ducats d'or ; pharmacien Jacobus Horčický de Tepenec (v. 1575-1622) ; sections plantes, astronomie/astrologie, bains, médaillons cosmologiques, pharmacie, texte (recettes ?)",
+  "B. Shailor, notice de Beinecke MS 408 (catalogue des manuscrits avant 1600, Yale) — parchemin, 102 folios, 225 × 160 mm ; 113 espèces de plantes non identifiées ; inscription « Jacobi de Tepenecz » effacée mais visible sous ultraviolet au f. 1r ; lettre de Marci (Prague, 19 août 1665 ou 1666) : 600 ducats ; don à Yale par H. P. Kraus en 1969",
+  "J. Welsh, « Mystery Book Gives Up a Secret », Live Science (2011) — datation au radiocarbone du parchemin par l'université d'Arizona (G. Hodgins) : 1404-1438",
+  "Wikipedia, « Voynich manuscript » (consulté 2026) — environ 240 pages ; aucune plante identifiable sans ambiguïté ; cryptologues des deux guerres mondiales (W. et E. Friedman, J. Tiltman, P. Currier) sans succès ; loi de Zipf : le mot le plus fréquent environ deux fois plus que le deuxième",
+  "D. Roos, « The Voynich Manuscript: why no one can decode it », History.com (2025) — datation au radiocarbone, échecs des Friedman"
+ ],
+ "legende": "Un livre de 600 ans que personne au monde n'a jamais réussi à lire. 📜\n\nSources : Beinecke Library, Yale (MS 408), Live Science (2011), History.com (2025).\n🎙️ Voix générée par IA.\n\n#noxscience #voynich #manuscrit #mystere #histoire"
+}
