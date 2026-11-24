@@ -315,10 +315,16 @@
       "fichier": "videos/ep45_grippe_aviaire.mp4",
       "date": "2026-11-23",
       "media_id": "18140289949642583"
+    },
+    {
+      "numero": 46,
+      "sujet": "Mythe : le méga-tsunami de La Palma qui rase l'Atlantique",
+      "fichier": "videos/ep46_la_palma.mp4",
+      "date": "2026-11-24",
+      "media_id": "18104062964412896"
     }
   ],
   "banque_sujets": [
-    "Mythe : le méga-tsunami de La Palma qui rase l'Atlantique",
     "L'année sans été (Tambora, 1816) : quand un volcan éteint l'été",
     "Mythe : le bug de l'an 2000",
     "La fonte de l'Antarctique de l'Ouest (Thwaites, le « glacier de l'Apocalypse »)",
