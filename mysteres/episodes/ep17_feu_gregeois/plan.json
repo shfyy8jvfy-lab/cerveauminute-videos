@@ -1,0 +1,264 @@
+{
+ "sentences": [
+  {
+   "text": "Il y a plus de mille trois cents ans, une arme brûlait à la surface de la mer… et plus personne ne sait la fabriquer.",
+   "shots": [
+    [
+     "hook_fire",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "BRÛLE SUR L'EAU",
+     0.55
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Nous sommes à Constantinople, capitale de l'Empire byzantin, vers l'an 672.",
+   "shots": [
+    [
+     "city",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "CONSTANTINOPLE · 672",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "Selon le chroniqueur Théophane, un architecte venu de Syrie, Kallinikos, met au point un feu liquide.",
+   "shots": [
+    [
+     "amphora",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "KALLINIKOS",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Les Byzantins l'appellent le feu de mer.",
+   "shots": [
+    [
+     "sea_fire",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "FEU DE MER",
+     0.7
+    ]
+   ]
+  },
+  {
+   "text": "Les croisés le baptiseront plus tard feu grégeois.",
+   "shots": [
+    [
+     "amphora",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "FEU GRÉGEOIS",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Il jaillit de tubes de bronze à la proue des navires, dans un bruit de tonnerre.",
+   "shots": [
+    [
+     "siphon",
+     0.6
+    ],
+    [
+     "siphon",
+     0.4
+    ]
+   ],
+   "callouts": [
+    [
+     "TUBE DE BRONZE",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "Il colle à tout, même à la surface de l'eau.",
+   "shots": [
+    [
+     "sea_fire",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Et l'eau ne l'éteint pas.",
+   "shots": [
+    [
+     "water_fail",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  },
+  {
+   "text": "Seuls le sable, un vinaigre fort, ou de la vieille urine en viennent à bout.",
+   "shots": [
+    [
+     "sand",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "SABLE · VINAIGRE · URINE",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Pendant les sièges arabes, il incendie les flottes ennemies.",
+   "shots": [
+    [
+     "fleet",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "En 941, une immense flotte de la Rus' attaque la ville.",
+   "shots": [
+    [
+     "fleet",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "941",
+     0.2
+    ]
+   ]
+  },
+  {
+   "text": "Selon un chroniqueur, les marins se jettent à l'eau en voyant les flammes.",
+   "shots": [
+    [
+     "fleet_burn",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Le secret est si bien gardé que chaque technicien n'en connaît qu'une partie.",
+   "shots": [
+    [
+     "secret",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "SECRET D'ÉTAT",
+     0.4
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Au dixième siècle, l'empereur Constantin Sept interdit à son fils de le livrer à un autre peuple.",
+   "shots": [
+    [
+     "codex",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "JAMAIS AUX ÉTRANGERS",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Car selon lui, la recette a été révélée par un ange.",
+   "shots": [
+    [
+     "angel",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "RÉVÉLÉE PAR UN ANGE",
+     0.8
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Pétrole brut de la mer Noire ? Résine de pin ? Les historiens n'ont que des pistes.",
+   "shots": [
+    [
+     "ingredients",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "PÉTROLE ?",
+     0.15
+    ],
+    [
+     "RÉSINE ?",
+     0.45
+    ]
+   ]
+  },
+  {
+   "text": "La formule exacte, elle, s'est perdue.",
+   "shots": [
+    [
+     "lost",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "RECETTE PERDUE",
+     0.7
+    ]
+   ],
+   "jeu": "slow, solemn"
+  },
+  {
+   "text": "Une arme qui brûlait sur la mer… et dont plus personne ne connaît le secret.",
+   "shots": [
+    [
+     "final",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn, deep voice"
+  }
+ ],
+ "sources": [
+  "Wikipedia, « Greek fire » (consulté 2026) — mis au point vers 672, attribué par Théophane le Confesseur à Kallinikos, architecte de Héliopolis (Syrie) ; utilisé lors des sièges arabes de Constantinople (674-678, 717-718) et contre les raids de la Rus' (941, 1043) ; siphōn à la proue des dromons ; « tonnerre » et « beaucoup de fumée » ; brûle sur l'eau, éteint seulement par le sable, le vinaigre fort ou la vieille urine ; savoir cloisonné entre techniciens ; Constantin VII : « montré et révélé par un ange », à ne jamais livrer à d'autres peuples ; noms byzantins « feu de mer », « feu liquide » ; nom « feu grégeois » depuis les croisades ; recette perdue, probablement à base de pétrole et de résines",
+  "M. B. Charles et E. Anagnostou-Laoutides, « Greek fire was the most devastating weapon in the Eastern Roman empire. But what was it? », The Conversation (2026) — Kallinikos selon Théophane ; tube de bronze à la proue ; adhère même à l'eau ; De administrando imperio, chap. 13 (révélé par un ange, jamais à une autre nation) ; pétrole brut de la région mer Noire–Caspienne, résine de pin",
+  "M. Cartwright, « Greek Fire », World History Encyclopedia (2017) — l'eau sans effet ; utilisé en 941 contre les flottes russes ; Liutprand de Crémone : les Rus' se jettent de leurs navires en voyant les flammes ; formule perdue, naphte probablement de Crimée"
+ ],
+ "legende": "Une arme qui brûlait sur la mer… et dont la recette a disparu. 🔥\n\nSources : Théophane le Confesseur & Constantin VII (via The Conversation, 2026), World History Encyclopedia (2017), Wikipedia « Greek fire ».\n🎙️ Voix générée par IA.\n\n#noxscience #feugregeois #byzance #histoire #mystere"
+}
