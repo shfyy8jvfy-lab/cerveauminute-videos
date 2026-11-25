@@ -1,0 +1,232 @@
+{
+ "sentences": [
+  {
+   "text": "Dans un sabre du dix-septième siècle, des chercheurs ont trouvé ce qu'on croyait réservé aux laboratoires modernes : des nanotubes de carbone.",
+   "shots": [
+    [
+     "hook_blade",
+     0.55
+    ],
+    [
+     "nanotube",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "NANOTUBES DE CARBONE",
+     0.8
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Il est en acier de Damas, le métal des lames légendaires affrontées par les croisés.",
+   "shots": [
+    [
+     "sabre",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ACIER DE DAMAS",
+     0.35
+    ]
+   ]
+  },
+  {
+   "text": "Pourtant, cet acier ne venait pas de Damas : il était fondu en Inde, dans des creusets fermés.",
+   "shots": [
+    [
+     "crucible",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "FONDU EN INDE",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Il en sortait des galettes d'environ deux kilos, appelées wootz.",
+   "shots": [
+    [
+     "cake",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 2,3 KG",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Un acier très riche en carbone : un virgule cinq pour cent.",
+   "shots": [
+    [
+     "carbon",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1,5 % DE CARBONE",
+     0.75
+    ]
+   ]
+  },
+  {
+   "text": "Forgées à Damas, ces galettes donnaient des lames couvertes de vagues, comme de l'eau figée.",
+   "shots": [
+    [
+     "forge",
+     0.45
+    ],
+    [
+     "bands",
+     0.55
+    ]
+   ]
+  },
+  {
+   "text": "La légende dit qu'elles tranchaient un foulard de soie qui tombait sur le fil.",
+   "shots": [
+    [
+     "silk",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Puis, vers 1750, les plus belles lames cessent d'apparaître.",
+   "shots": [
+    [
+     "lost",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "VERS 1750",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "Le secret s'est perdu.",
+   "shots": [
+    [
+     "lost",
+     1.0
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  },
+  {
+   "text": "En 2006, à Dresde, l'équipe de Peter Paufler dissout un fragment du sabre dans l'acide.",
+   "shots": [
+    [
+     "acid",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "DRESDE · 2006",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "Au microscope électronique, apparaissent des nanotubes de carbone, et des nanofils de cémentite.",
+   "shots": [
+    [
+     "microscope",
+     0.45
+    ],
+    [
+     "nanotube",
+     0.55
+    ]
+   ],
+   "callouts": [
+    [
+     "NATURE · 2006",
+     0.7
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Deux Américains, Verhoeven et Pendray, ont trouvé un autre indice : des traces de vanadium.",
+   "shots": [
+    [
+     "vanadium",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "VANADIUM",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Quarante millionièmes suffisent à faire naître les vagues.",
+   "shots": [
+    [
+     "vanadium",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "40 PPM",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "Leur hypothèse : le minerai indien qui en contenait s'est peut-être épuisé.",
+   "shots": [
+    [
+     "ore",
+     1.0
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Et certains experts doutent encore que ces nanotubes viennent de l'acier.",
+   "shots": [
+    [
+     "doubt",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Une lame forgée il y a des siècles… qui cache peut-être un secret à l'échelle du nanomètre.",
+   "shots": [
+    [
+     "final",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn, deep voice"
+  }
+ ],
+ "sources": [
+  "M. Reibold, P. Paufler et al., « Materials: Carbon nanotubes in an ancient Damascus sabre », Nature 444, 286 (2006), doi:10.1038/444286a — sabre en acier de Damas du XVIIe siècle ; microscopie électronique en transmission haute résolution ; nanotubes de carbone et nanofils de cémentite ; piste pour expliquer le motif en bandes d'une recette perdue",
+  "K. Sanderson, « Sharpest cut from nanotube sword », Nature News (15 nov. 2006) — Peter Paufler et ses collègues (Dresde) ; fragment dissous dans l'acide chlorhydrique ; croisés face aux lames de Damas ; secret perdu au XVIIIe siècle",
+  "J. D. Verhoeven, A. H. Pendray, W. E. Dauksch, « The Key Role of Impurities in Ancient Damascus Steel Blades », JOM 50 (9), 1998 — acier produit en Inde et non à Damas ; galettes (cakes) d'environ 2,3 kg solidifiées en creuset fermé ; 1,5 % de carbone ; galettes forgées à Damas ; dernières lames de haute qualité vers 1750 ; le vanadium dès 40 ppm forme le motif ; hypothèse d'un minerai du sud de l'Inde épuisé ou devenu inaccessible",
+  "A. Extance, « Raiders of the lost steel », Chemistry World — légende du foulard de soie ; reproduction des motifs par Pendray et Verhoeven ; scepticisme de certains spécialistes (A. Williams, M. Edge) sur la présence réelle des nanotubes"
+ ],
+ "legende": "Des nanotubes de carbone… dans un sabre du XVIIe siècle. ⚔️\n\nSources : Nature (Reibold et al., 2006), JOM (Verhoeven, Pendray & Dauksch, 1998), Chemistry World.\n🎙️ Voix générée par IA.\n\n#noxscience #acierdedamas #nanotechnologie #histoire #mystere"
+}

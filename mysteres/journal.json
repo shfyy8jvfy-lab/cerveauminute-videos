@@ -43,10 +43,10 @@
   "Stonehenge : la pierre d'autel venue d'Écosse (étude Nature 2024)",
   "La Grande Muraille et son mortier au riz gluant",
   "Le manuscrit de Voynich, indéchiffré depuis des siècles",
-  "Le feu grégeois, l'arme dont la recette a disparu"
+  "Le feu grégeois, l'arme dont la recette a disparu",
+  "L'acier de Damas et ses nanotubes de carbone"
  ],
  "banque_sujets": [
-  "L'acier de Damas et ses nanotubes de carbone",
   "L'événement de la Toungouska : 2 000 km² de forêt rasés",
   "Les lignes de Nazca et les centaines de nouveaux géoglyphes trouvés par IA (2024)",
   "Les statues de l'île de Pâques : comment elles ont « marché »",
@@ -184,6 +184,14 @@
    "date": "2026-11-24",
    "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep17_feu_gregeois.mp4",
    "legende": "Une arme qui brûlait sur la mer… et dont la recette a disparu. 🔥\n\nSources : Théophane le Confesseur & Constantin VII (via The Conversation, 2026), World History Encyclopedia (2017), Wikipedia « Greek fire ».\n🎙️ Voix générée par IA.\n\n#noxscience #feugregeois #byzance #histoire #mystere"
+  },
+  {
+   "n": 18,
+   "sujet": "L'acier de Damas et ses nanotubes de carbone",
+   "dossier": "episodes/ep18_acier_damas",
+   "date": "2026-11-25",
+   "video": "https://raw.githubusercontent.com/shfyy8jvfy-lab/cerveauminute-videos/main/mysteres/videos/ep18_acier_damas.mp4",
+   "legende": "Des nanotubes de carbone… dans un sabre du XVIIe siècle. ⚔️\n\nSources : Nature (Reibold et al., 2006), JOM (Verhoeven, Pendray & Dauksch, 1998), Chemistry World.\n🎙️ Voix générée par IA.\n\n#noxscience #acierdedamas #nanotechnologie #histoire #mystere"
   }
  ],
  "musique": "aucune musique de fond (demande d'Arno, 7 nov. 2026)"
