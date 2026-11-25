@@ -329,10 +329,16 @@
       "fichier": "videos/ep47_tambora.mp4",
       "date": "2026-11-24",
       "media_id": "17988769802907818"
+    },
+    {
+      "numero": 48,
+      "sujet": "Mythe : le bug de l'an 2000",
+      "fichier": "videos/ep48_bug_an_2000.mp4",
+      "date": "2026-11-25",
+      "media_id": "18139781488655159"
     }
   ],
   "banque_sujets": [
-    "Mythe : le bug de l'an 2000",
     "La fonte de l'Antarctique de l'Ouest (Thwaites, le « glacier de l'Apocalypse »)",
     "Mythe : la Lune qui tombe sur la Terre (elle s'éloigne en fait)",
     "Une comète géante venue du nuage d'Oort",
