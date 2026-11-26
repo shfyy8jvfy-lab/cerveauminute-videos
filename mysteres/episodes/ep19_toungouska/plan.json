@@ -1,0 +1,223 @@
+{
+ "sentences": [
+  {
+   "text": "Le trente juin 1908, une explosion rase plus de deux mille kilomètres carrés de forêt… et personne n'a jamais retrouvé ce qui l'a provoquée.",
+   "shots": [
+    [
+     "hook_blast",
+     0.55
+    ],
+    [
+     "hook_forest",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "2 000 KM² RASÉS",
+     0.45
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Nous sommes en Sibérie centrale, près de la rivière Toungouska, au cœur d'une taïga presque déserte.",
+   "shots": [
+    [
+     "siberia",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "SIBÉRIE, 1908",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "Ce matin-là, une boule de feu traverse le ciel.",
+   "shots": [
+    [
+     "fireball",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Puis elle explose en plein air, entre cinq et dix kilomètres d'altitude.",
+   "shots": [
+    [
+     "airburst",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "5 À 10 KM D'ALTITUDE",
+     0.7
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Environ quatre-vingts millions d'arbres sont couchés au sol, tous orientés à l'opposé du centre.",
+   "shots": [
+    [
+     "fallen",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "80 MILLIONS D'ARBRES",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "À soixante-cinq kilomètres de là, un fermier qui prend son petit déjeuner sent une vague de chaleur… et il est projeté de sa chaise.",
+   "shots": [
+    [
+     "farm",
+     0.5
+    ],
+    [
+     "heatwave",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "À 65 KM",
+     0.15
+    ]
+   ]
+  },
+  {
+   "text": "Les sismographes enregistrent la secousse jusqu'en Angleterre.",
+   "shots": [
+    [
+     "seismo",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Et pendant plusieurs nuits, le ciel d'Europe reste si lumineux qu'à Londres, on peut lire le journal à minuit, sans lampe.",
+   "shots": [
+    [
+     "night_city",
+     0.55
+    ],
+    [
+     "newspaper",
+     0.45
+    ]
+   ],
+   "callouts": [
+    [
+     "MINUIT, SANS LAMPE",
+     0.8
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "L'énergie libérée se compte en mégatonnes : des centaines de fois la bombe d'Hiroshima.",
+   "shots": [
+    [
+     "energy",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "DES MÉGATONNES",
+     0.35
+    ]
+   ]
+  },
+  {
+   "text": "Il faut attendre 1927 pour qu'un scientifique, Leonid Kulik, atteigne enfin la zone.",
+   "shots": [
+    [
+     "expedition",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1927",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "Il cherche une météorite de fer et un cratère.",
+   "shots": [
+    [
+     "crater_search",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Il ne trouve rien.",
+   "shots": [
+    [
+     "empty",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "AUCUN CRATÈRE",
+     0.4
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  },
+  {
+   "text": "Au centre, des arbres sont restés debout, mais dépouillés de leurs branches, comme des poteaux télégraphiques.",
+   "shots": [
+    [
+     "poles",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Aujourd'hui encore, on ignore si c'était un astéroïde ou une comète, et aucun fragment n'a été retrouvé.",
+   "shots": [
+    [
+     "rock_or_comet",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "ASTÉROÏDE OU COMÈTE ?",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Alors, qu'est-ce qui a vraiment rasé deux mille kilomètres carrés de forêt, ce matin de 1908 ?",
+   "shots": [
+    [
+     "final",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn"
+  }
+ ],
+ "sources": [
+  "Encyclopaedia Britannica, « Tunguska event » — 30 juin 1908, vers 7 h 40, près de la Podkamennaïa Toungouska (Sibérie centrale) ; explosion à 5–10 km d'altitude ; environ 2 000 km² de forêt rasés, arbres couchés en rayons à l'opposé de l'épicentre ; ~15 Mt ; aucun cratère, aucun fragment retrouvé ; ondes sismiques enregistrées en Europe de l'Ouest ; nuits anormalement claires ; première enquête de Kulik en 1927",
+  "J. Porto (trad.), « The Tunguska Mystery — 100 Years Later », Scientific American (juin 2008) — plus de 2 000 km² ; Semenov à ~65 km ; Londres : lire le journal à minuit sans lumière ; arbres « poteaux télégraphiques » au centre ; 10–15 Mt (Ben-Menahem 1975), révisé à 3–5 Mt (Boslough) ; aucun fragment ni cratère",
+  "APS News, « June 30, 1908: The Tunguska Event » (2018) — fermier Semenov au petit déjeuner, vague de chaleur, projeté de sa chaise à 40 miles ; sismographes du monde entier ; ciel nocturne lumineux sur l'Asie et l'Europe ; Kulik atteint le site en 1927, surpris de ne trouver aucun cratère ; ~185 bombes d'Hiroshima",
+  "Royal Museums Greenwich, « The Tunguska event » (2023) — 80 millions d'arbres abattus ; ondes sismiques enregistrées jusqu'en Angleterre ; ciel nocturne assez lumineux pour lire un journal après minuit (observatoire d'Armagh)"
+ ],
+ "legende": "En 1908, une explosion a rasé 80 millions d'arbres en Sibérie… sans laisser de cratère. ☄️\n\nSources : Encyclopaedia Britannica, Scientific American (2008), APS News (2018), Royal Museums Greenwich (2023).\n🎙️ Voix générée par IA.\n\n#noxscience #toungouska #tunguska #espace #mystere"
+}
