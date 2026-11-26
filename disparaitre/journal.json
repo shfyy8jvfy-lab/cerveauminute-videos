@@ -343,10 +343,16 @@
       "fichier": "videos/ep49_thwaites.mp4",
       "date": "2026-11-25",
       "media_id": "18094300376241573"
+    },
+    {
+      "numero": 50,
+      "sujet": "Mythe : la Lune qui tombe sur la Terre (elle s'éloigne en fait)",
+      "fichier": "videos/ep50_lune_qui_tombe.mp4",
+      "date": "2026-11-26",
+      "media_id": "18031434893874073"
     }
   ],
   "banque_sujets": [
-    "Mythe : la Lune qui tombe sur la Terre (elle s'éloigne en fait)",
     "Une comète géante venue du nuage d'Oort",
     "Mythe : la fin du monde de l'an 1000"
   ]
