@@ -21,7 +21,7 @@ EPISODE = 51
 BOOM_SCENE = 7
 LEGENDE = """Épisode 51 : la comète géante venue du bout du système solaire ☄️
 
-Très loin, le nuage d'Oort abrite peut-être des milliers de milliards de comètes. De temps en temps, l'une d'elles plonge vers nous à environ 65 km par seconde, et on ne la repère souvent que deux ans avant. La plus grosse jamais vue mesure ~130 km (NASA/Hubble)… mais elle restera loin, au-delà de Saturne. Et selon la NASA, un impact de comète est moins de 1 % aussi probable qu'un impact d'astéroïde.
+Très loin, le nuage d'Oort abrite peut-être des milliers de milliards de comètes. De temps en temps, l'une d'elles plonge vers le Soleil et peut atteindre environ 65 km par seconde. On ne la repère souvent que deux ans avant. La plus grosse jamais vue mesure ~130 km (NASA/Hubble)… mais elle restera loin, au-delà de Saturne. Et selon la NASA, un impact de comète est moins de 1 % aussi probable qu'un impact d'astéroïde.
 
 On va tous disparaître… mais pas aujourd'hui.
 

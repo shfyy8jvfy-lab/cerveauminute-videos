@@ -350,10 +350,16 @@
       "fichier": "videos/ep50_lune_qui_tombe.mp4",
       "date": "2026-11-26",
       "media_id": "18031434893874073"
+    },
+    {
+      "numero": 51,
+      "sujet": "Une comète géante venue du nuage d'Oort",
+      "fichier": "videos/ep51_comete_oort.mp4",
+      "date": "2026-11-26",
+      "media_id": "18124147714964946"
     }
   ],
   "banque_sujets": [
-    "Une comète géante venue du nuage d'Oort",
     "Mythe : la fin du monde de l'an 1000"
   ]
 }
