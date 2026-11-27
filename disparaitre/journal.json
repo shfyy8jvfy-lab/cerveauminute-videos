@@ -364,10 +364,16 @@
       "fichier": "videos/ep52_an_mil.mp4",
       "date": "2026-11-27",
       "media_id": "18132480154894873"
+    },
+    {
+      "numero": 53,
+      "sujet": "Le flash d'un magnétar (SGR 1806-20, 27 décembre 2004)",
+      "fichier": "videos/ep53_magnetar.mp4",
+      "date": "2026-11-27",
+      "media_id": "17918954106494166"
     }
   ],
   "banque_sujets": [
-    "Le flash d'un magnétar (SGR 1806-20, 27 décembre 2004)",
     "Mythe : le bug de 2038",
     "L'hypothèse Médée (et si la vie s'autodétruisait ?)",
     "Mythe : la fin du monde de Harold Camping (21 mai 2011)",
