@@ -357,9 +357,14 @@
       "fichier": "videos/ep51_comete_oort.mp4",
       "date": "2026-11-26",
       "media_id": "18124147714964946"
+    },
+    {
+      "numero": 52,
+      "sujet": "Mythe : la fin du monde de l'an 1000",
+      "fichier": "videos/ep52_an_mil.mp4",
+      "date": "2026-11-27",
+      "media_id": "18132480154894873"
     }
   ],
-  "banque_sujets": [
-    "Mythe : la fin du monde de l'an 1000"
-  ]
+  "banque_sujets": []
 }
