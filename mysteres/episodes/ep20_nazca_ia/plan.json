@@ -1,0 +1,229 @@
+{
+ "sentences": [
+  {
+   "text": "Pendant près d'un siècle, on a cherché des dessins géants dans le désert péruvien… puis une IA en a trouvé trois cent trois en six mois.",
+   "shots": [
+    [
+     "hook_desert",
+     0.5
+    ],
+    [
+     "hook_ai",
+     0.5
+    ]
+   ],
+   "callouts": [
+    [
+     "303 EN 6 MOIS",
+     0.8
+    ]
+   ],
+   "jeu": "slow, commanding, deep voice"
+  },
+  {
+   "text": "Nous sommes à Nazca, où un peuple disparu a tracé ces figures il y a plus de deux mille ans.",
+   "shots": [
+    [
+     "plateau",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "NAZCA, PÉROU",
+     0.2
+    ],
+    [
+     "+ DE 2 000 ANS",
+     0.85
+    ]
+   ]
+  },
+  {
+   "text": "Il suffisait de retirer les pierres rougeâtres pour faire apparaître le sol clair.",
+   "shots": [
+    [
+     "stones",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Le colibri mesure plus de quatre-vingt-dix mètres.",
+   "shots": [
+    [
+     "hummingbird",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "COLIBRI : 93 M",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "En un siècle, on avait recensé environ quatre cent trente figures.",
+   "shots": [
+    [
+     "count430",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 430 FIGURES",
+     0.7
+    ]
+   ]
+  },
+  {
+   "text": "En 2024, une équipe japonaise entraîne une IA sur des images aériennes.",
+   "shots": [
+    [
+     "neural",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "2024",
+     0.1
+    ]
+   ]
+  },
+  {
+   "text": "Les archéologues en retiennent mille trois cent neuf, et vont vérifier sur le terrain.",
+   "shots": [
+    [
+     "candidates",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "1 309 SITES",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "Résultat : trois cent trois figures inédites. Le nombre connu a presque doublé.",
+   "shots": [
+    [
+     "double",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "303 INÉDITES",
+     0.35
+    ]
+   ],
+   "jeu": "intense"
+  },
+  {
+   "text": "Elles sont petites : neuf mètres en moyenne, dix fois moins que les grandes.",
+   "shots": [
+    [
+     "small_big",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "9 M CONTRE 90 M",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "Elles longent d'anciens sentiers : humains, lamas, têtes humaines.",
+   "shots": [
+    [
+     "trail",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Comme des messages, faits pour ceux qui marchaient.",
+   "shots": [
+    [
+     "walker",
+     1.0
+    ]
+   ],
+   "jeu": "lower, mysterious"
+  },
+  {
+   "text": "Les grandes, elles, bordent les lignes droites : peut-être pour des rituels collectifs.",
+   "shots": [
+    [
+     "ritual",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Et parmi les nouvelles venues… une orque qui tient un couteau.",
+   "shots": [
+    [
+     "orca",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "UNE ORQUE ARMÉE",
+     0.75
+    ]
+   ],
+   "jeu": "dramatic pause, low"
+  },
+  {
+   "text": "Sur des poteries de Nazca, des orques armées tranchent des têtes humaines.",
+   "shots": [
+    [
+     "pottery",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Et l'IA a signalé des centaines d'autres sites, encore jamais vérifiés.",
+   "shots": [
+    [
+     "pending",
+     1.0
+    ]
+   ],
+   "callouts": [
+    [
+     "≈ 250 À VÉRIFIER",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Alors, après un siècle à regarder… combien de dessins ce désert cache-t-il encore ?",
+   "shots": [
+    [
+     "final",
+     1.0
+    ]
+   ],
+   "jeu": "slow, solemn"
+  }
+ ],
+ "sources": [
+  "M. Sakai et al., « AI-accelerated Nazca survey nearly doubles the number of known figurative geoglyphs and sheds light on their purpose », PNAS (septembre 2024) — 303 nouveaux géoglyphes figuratifs en 6 mois de prospection, contre ~430 en près d'un siècle ; types en relief (~9 m, près des sentiers, humains et animaux domestiques) et types linéaires (~90 m, animaux sauvages, près des réseaux de lignes, rituels collectifs)",
+  "Smithsonian Magazine, « See Newly Discovered Nazca Drawings That Depict Llamas, Human Sacrifices and More » (2024) — 303 géoglyphes en six mois, ~430 auparavant, faits il y a au moins 2 000 ans en retirant la roche rougeâtre de surface, colibri de 305 pieds (93 m), orques armées, ~250 autres candidats signalés par l'IA non encore vérifiés",
+  "National Geographic, « How hundreds of mysterious Nasca lines have been uncovered—with the help of AI » (2026) — 1 309 sites retenus par les archéologues parmi les suggestions de l'IA ; figures en relief ~30 pieds contre ~300 pieds ; près des sentiers, messages aux voyageurs ; têtes humaines ; poteries montrant des orques avec des couteaux coupant des têtes humaines",
+  "National Geographic, « Nazca lines » — à un peu plus de 200 miles (≈ 320 km) au sud-est de Lima ; moins d'un pouce de pluie par an, ce qui a préservé les tracés",
+  "The Debrief (2024), citant PNAS — reliefs de 9 m en moyenne près des sentiers, figures linéaires de 90 m en moyenne (64 % d'animaux sauvages) ; orque tenant un couteau ; Université de Yamagata"
+ ],
+ "legende": "Un siècle pour trouver 430 dessins à Nazca… une IA en a révélé 303 de plus en six mois. 🐋\n\nSources : PNAS (Sakai et al., 2024), Smithsonian Magazine (2024), National Geographic (2026).\n🎙️ Voix générée par IA.\n\n#noxscience #nazca #archeologie #intelligenceartificielle #mystere"
+}
