@@ -371,10 +371,16 @@
       "fichier": "videos/ep53_magnetar.mp4",
       "date": "2026-11-27",
       "media_id": "17918954106494166"
+    },
+    {
+      "numero": 54,
+      "sujet": "Mythe : le bug de 2038",
+      "fichier": "videos/ep54_bug_2038.mp4",
+      "date": "2026-11-28",
+      "media_id": "17917929726513187"
     }
   ],
   "banque_sujets": [
-    "Mythe : le bug de 2038",
     "L'hypothèse Médée (et si la vie s'autodétruisait ?)",
     "Mythe : la fin du monde de Harold Camping (21 mai 2011)",
     "La Terre boule de neige (quand la glace recouvrait presque tout)",
